@@ -1,0 +1,26 @@
+# Research Papers Directory
+
+This directory contains published research papers from Rankfor.AI.
+
+## Structure
+
+Each paper is in its own subdirectory:
+
+```
+research/papers/
+├── 2026-01-dice-roll-stability/
+│   ├── paper.md          # Main paper (markdown)
+│   ├── data/             # Processed, anonymized data
+│   ├── figures/          # Charts and visualizations
+│   └── README.md         # Paper-specific readme
+└── _template/            # Template for new papers
+```
+
+## License
+
+All research papers are licensed under CC BY 4.0.
+See https://creativecommons.org/licenses/by/4.0/
+
+## Contributing
+
+See CONTRIBUTING.md in the repository root for guidelines on contributing research.

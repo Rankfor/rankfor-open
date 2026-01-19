@@ -1,24 +1,71 @@
-# Nestjs specific
-/dist
-/node_modules
-/build
-/tmp
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables (NEVER commit API keys)
+.env
+.env.local
+.env.*.local
+*.env
 
 # Logs
-logs
+logs/
 *.log
 npm-debug.log*
-pnpm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-lerna-debug.log*
+pnpm-debug.log*
 
-# dotenv environment variable files
-.env
-.env.development
-.env.test
-.env.production
+# Test coverage
+coverage/
+.nyc_output/
 
-# temp directory
-.temp
-.tmp
+# Package manager locks (keep package-lock.json or pnpm-lock.yaml, not both)
+# Uncomment the one you DON'T use:
+# package-lock.json
+# pnpm-lock.yaml
+# yarn.lock
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+.temp/
+
+# Research data (raw datasets - publish only processed/anonymized data)
+research/papers/*/raw-data/
+research/papers/*/.working/
+
+# Draft papers (publish only when ready)
+research/drafts/
+
+# Local development notes
+TODO.md
+NOTES.md
+*.local.md
+
+# Editor configs (each contributor uses their own)
+.editorconfig
+
+# NPM publishing artifacts
+*.tgz
+.npmrc

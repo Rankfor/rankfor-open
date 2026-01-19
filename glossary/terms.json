@@ -1,0 +1,120 @@
+{
+  "$schema": "./terms.schema.json",
+  "version": "1.0.0",
+  "lastUpdated": "2026-01-19",
+  "terms": [
+    {
+      "term": "AI Visibility",
+      "definition": "The degree to which a brand, product, or concept is mentioned, recommended, or referenced by AI systems when users ask relevant questions.",
+      "relatedTerms": ["Share of Recommendation", "AI Brand Presence"],
+      "sources": ["Rankfor.AI Research"],
+      "category": "core"
+    },
+    {
+      "term": "Share of Recommendation",
+      "definition": "The percentage of times an AI system recommends a specific brand when asked about a product category or topic.",
+      "relatedTerms": ["AI Visibility", "Brand Mention Rate"],
+      "sources": ["Rankfor.AI Research"],
+      "category": "metrics"
+    },
+    {
+      "term": "Dice Roll Effect",
+      "definition": "The phenomenon where AI models give different recommendations each time the same question is asked, similar to rolling a die. This variability affects brand visibility consistency.",
+      "relatedTerms": ["Response Stability", "Consistency Score"],
+      "sources": ["Rankfor.AI Dice Roll Stability Research"],
+      "category": "phenomena"
+    },
+    {
+      "term": "Response Stability",
+      "definition": "A measure of how consistently an AI model responds to the same prompt across multiple queries. High stability means similar responses; low stability indicates high variance.",
+      "relatedTerms": ["Dice Roll Effect", "Consistency Score"],
+      "sources": ["Rankfor.AI Research"],
+      "category": "metrics"
+    },
+    {
+      "term": "Consistency Score",
+      "definition": "A percentage (0-100) indicating how stable AI responses are across multiple iterations of the same prompt. Higher scores mean more predictable AI behavior.",
+      "relatedTerms": ["Response Stability", "Semantic Overlap"],
+      "sources": ["Rankfor.AI Dice Roller"],
+      "category": "metrics"
+    },
+    {
+      "term": "Semantic Overlap",
+      "definition": "The degree to which multiple AI responses share the same meaning, concepts, and recommendations, regardless of exact wording.",
+      "relatedTerms": ["Consistency Score", "Core Stable Messages"],
+      "sources": ["Rankfor.AI Research"],
+      "category": "metrics"
+    },
+    {
+      "term": "Core Stable Messages",
+      "definition": "Brand messages or recommendations that appear consistently across multiple AI responses to the same prompt. These represent what AI 'always says' about a topic.",
+      "relatedTerms": ["Variable Messages", "Outliers"],
+      "sources": ["Rankfor.AI Dice Roller"],
+      "category": "analysis"
+    },
+    {
+      "term": "Variable Messages",
+      "definition": "Brand messages or recommendations that appear in some but not all AI responses. These represent what AI 'sometimes says' about a topic.",
+      "relatedTerms": ["Core Stable Messages", "Outliers"],
+      "sources": ["Rankfor.AI Dice Roller"],
+      "category": "analysis"
+    },
+    {
+      "term": "GEO",
+      "definition": "Generative Engine Optimization. The practice of optimizing content and brand presence to improve visibility in AI-generated responses and recommendations.",
+      "relatedTerms": ["AI Visibility", "SEO"],
+      "sources": ["Industry Term"],
+      "category": "practice"
+    },
+    {
+      "term": "Brand Territory",
+      "definition": "A conceptual space in AI's understanding where a brand has established strong association with specific topics, keywords, or user needs.",
+      "relatedTerms": ["Content Territory", "AI Visibility"],
+      "sources": ["Rankfor.AI Research"],
+      "category": "strategy"
+    },
+    {
+      "term": "Fortified Territory",
+      "definition": "A brand territory where you have significantly stronger AI visibility than competitors (30%+ advantage). A competitive moat.",
+      "relatedTerms": ["Vulnerable Territory", "Contested Territory"],
+      "sources": ["Rankfor.AI Competitive Intelligence"],
+      "category": "strategy"
+    },
+    {
+      "term": "Vulnerable Territory",
+      "definition": "A brand territory where competitors have significantly stronger AI visibility than you (30%+ disadvantage). A critical gap to address.",
+      "relatedTerms": ["Fortified Territory", "Contested Territory"],
+      "sources": ["Rankfor.AI Competitive Intelligence"],
+      "category": "strategy"
+    },
+    {
+      "term": "Contested Territory",
+      "definition": "A brand territory where you and competitors have similar AI visibility (within 30%). A battleground requiring active defense.",
+      "relatedTerms": ["Fortified Territory", "Vulnerable Territory"],
+      "sources": ["Rankfor.AI Competitive Intelligence"],
+      "category": "strategy"
+    },
+    {
+      "term": "AI Persona",
+      "definition": "A synthetic representation of a target audience segment that AI systems might recommend your brand to. Used to understand which audiences AI associates with your brand.",
+      "relatedTerms": ["Persona Coverage", "Target Audience"],
+      "sources": ["Rankfor.AI Persona Intelligence"],
+      "category": "analysis"
+    },
+    {
+      "term": "Persona Coverage",
+      "definition": "The percentage of target personas for which your brand has meaningful AI visibility and recommendation presence.",
+      "relatedTerms": ["AI Persona", "Coverage Gap"],
+      "sources": ["Rankfor.AI Persona Intelligence"],
+      "category": "metrics"
+    }
+  ],
+  "categories": {
+    "core": "Fundamental AI visibility concepts",
+    "metrics": "Quantitative measurements and scores",
+    "phenomena": "Observable AI behaviors and patterns",
+    "analysis": "Analysis outputs and classifications",
+    "practice": "Industry practices and methodologies",
+    "strategy": "Strategic concepts and competitive positioning"
+  }
+}

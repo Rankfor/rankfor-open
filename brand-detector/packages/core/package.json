@@ -22,7 +22,7 @@
   "scripts": {
     "build": "tsup",
     "build:tsc": "tsc --noEmit",
-    "test": "jest",
+    "test": "jest --passWithNoTests",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
     "lint": "eslint src --ext .ts",

@@ -32,7 +32,6 @@ import type { BrandDatabase, BrandDetectorOptions, DetectedBrand, BrandMention, 
  * ```
  */
 export class BrandDetector {
-  private brandsSet: Set<string>;
   private highConfidenceSet: Set<string>;
   private ignoredTermsSet: Set<string>;
   private normalizedMap: Map<string, string>; // lowercase -> original
@@ -41,7 +40,6 @@ export class BrandDetector {
     const db = brandsDb as BrandDatabase;
 
     // Create lookup sets for O(1) access
-    this.brandsSet = new Set(db.brands);
     this.highConfidenceSet = new Set(db.high_confidence);
     this.ignoredTermsSet = new Set(db.meta.ignored_terms);
 

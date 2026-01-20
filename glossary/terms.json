@@ -1,120 +1,985 @@
 {
   "$schema": "./terms.schema.json",
-  "version": "1.0.0",
-  "lastUpdated": "2026-01-19",
+  "version": "1.0.1",
+  "lastUpdated": "2026-01-20",
   "terms": [
     {
       "term": "AI Visibility",
-      "definition": "The degree to which a brand, product, or concept is mentioned, recommended, or referenced by AI systems when users ask relevant questions.",
-      "relatedTerms": ["Share of Recommendation", "AI Brand Presence"],
-      "sources": ["Rankfor.AI Research"],
-      "category": "core"
-    },
-    {
-      "term": "Share of Recommendation",
-      "definition": "The percentage of times an AI system recommends a specific brand when asked about a product category or topic.",
-      "relatedTerms": ["AI Visibility", "Brand Mention Rate"],
-      "sources": ["Rankfor.AI Research"],
-      "category": "metrics"
-    },
-    {
-      "term": "Dice Roll Effect",
-      "definition": "The phenomenon where AI models give different recommendations each time the same question is asked, similar to rolling a die. This variability affects brand visibility consistency.",
-      "relatedTerms": ["Response Stability", "Consistency Score"],
-      "sources": ["Rankfor.AI Dice Roll Stability Research"],
-      "category": "phenomena"
-    },
-    {
-      "term": "Response Stability",
-      "definition": "A measure of how consistently an AI model responds to the same prompt across multiple queries. High stability means similar responses; low stability indicates high variance.",
-      "relatedTerms": ["Dice Roll Effect", "Consistency Score"],
-      "sources": ["Rankfor.AI Research"],
-      "category": "metrics"
-    },
-    {
-      "term": "Consistency Score",
-      "definition": "A percentage (0-100) indicating how stable AI responses are across multiple iterations of the same prompt. Higher scores mean more predictable AI behavior.",
-      "relatedTerms": ["Response Stability", "Semantic Overlap"],
-      "sources": ["Rankfor.AI Dice Roller"],
-      "category": "metrics"
-    },
-    {
-      "term": "Semantic Overlap",
-      "definition": "The degree to which multiple AI responses share the same meaning, concepts, and recommendations, regardless of exact wording.",
-      "relatedTerms": ["Consistency Score", "Core Stable Messages"],
-      "sources": ["Rankfor.AI Research"],
-      "category": "metrics"
-    },
-    {
-      "term": "Core Stable Messages",
-      "definition": "Brand messages or recommendations that appear consistently across multiple AI responses to the same prompt. These represent what AI 'always says' about a topic.",
-      "relatedTerms": ["Variable Messages", "Outliers"],
-      "sources": ["Rankfor.AI Dice Roller"],
-      "category": "analysis"
-    },
-    {
-      "term": "Variable Messages",
-      "definition": "Brand messages or recommendations that appear in some but not all AI responses. These represent what AI 'sometimes says' about a topic.",
-      "relatedTerms": ["Core Stable Messages", "Outliers"],
-      "sources": ["Rankfor.AI Dice Roller"],
-      "category": "analysis"
+      "definition": "AI Visibility measures how often your brand is mentioned, recommended, or referenced when users ask AI models questions relevant to your products, services, or industry. Unlike traditional search visibility (which measures rankings), AI visibility measures inclusion in synthesized AI answers. A brand with 80% AI visibility appears in 8 out of 10 relevant AI conversations.",
+      "relatedTerms": [],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "core",
+      "aliases": [
+        "AI presence",
+        "LLM visibility"
+      ],
+      "example": "When someone asks ChatGPT \"What are the best project management tools?\", brands with high AI visibility will be mentioned in the response.",
+      "slug": "ai-visibility"
     },
     {
       "term": "GEO",
-      "definition": "Generative Engine Optimization. The practice of optimizing content and brand presence to improve visibility in AI-generated responses and recommendations.",
-      "relatedTerms": ["AI Visibility", "SEO"],
-      "sources": ["Industry Term"],
-      "category": "practice"
+      "definition": "GEO (Generative Engine Optimization) is the practice of optimizing digital content to be included and accurately represented in AI-generated responses. Unlike SEO (Search Engine Optimization) which focuses on ranking in search results, GEO focuses on being synthesized into AI answers. GEO involves structuring content so AI models can easily understand, trust, and recommend your brand.",
+      "relatedTerms": [
+        "ai-visibility",
+        "seo"
+      ],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "core",
+      "aliases": [
+        "Generative Engine Optimization",
+        "AI SEO"
+      ],
+      "slug": "geo"
     },
     {
-      "term": "Brand Territory",
-      "definition": "A conceptual space in AI's understanding where a brand has established strong association with specific topics, keywords, or user needs.",
-      "relatedTerms": ["Content Territory", "AI Visibility"],
-      "sources": ["Rankfor.AI Research"],
-      "category": "strategy"
+      "term": "Zero-Click Search",
+      "definition": "Zero-click searches occur when AI provides a complete answer within the interface, eliminating the need for users to visit external websites. With AI assistants like ChatGPT, Claude, and Perplexity, over 60% of searches now result in zero clicks. This represents a fundamental shift in how people discover information and brands - if you are not in the AI answer, you are invisible to these users.",
+      "relatedTerms": [
+        "ai-visibility",
+        "recommendation-share"
+      ],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "core",
+      "example": "A user asks \"What is the best laptop for video editing?\" and gets a complete recommendation without ever visiting a website.",
+      "slug": "zero-click"
+    },
+    {
+      "term": "Recommendation Share",
+      "definition": "Recommendation share measures your brand's portion of AI recommendations within a specific product category or topic area. If AI recommends 5 brands when asked about \"best CRM software\" and your brand is one of them, you have 20% recommendation share for that query. Increasing recommendation share is the primary goal of AI visibility optimization.",
+      "relatedTerms": [
+        "pis",
+        "ai-visibility"
+      ],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "core",
+      "aliases": [
+        "Share of recommendation",
+        "AI share of voice"
+      ],
+      "slug": "recommendation-share"
+    },
+    {
+      "term": "AI Hallucination",
+      "definition": "AI hallucinations occur when language models generate plausible-sounding but factually incorrect information. For brands, this can mean AI stating wrong prices, discontinued products, false claims, or incorrect company information. Hallucinations damage brand reputation and can mislead potential customers. Structured data and consistent messaging help reduce hallucinations.",
+      "relatedTerms": [
+        "brand-safety",
+        "content-alignment"
+      ],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "core",
+      "example": "An AI might state your product costs $99/month when it actually costs $49/month, or claim you offer a feature you discontinued years ago.",
+      "slug": "ai-hallucination"
+    },
+    {
+      "term": "PIS",
+      "definition": "PIS (Prompt Impression Score) is the primary AI visibility metric, measuring what percentage of relevant user prompts result in your brand being mentioned by AI. A PIS of 75% means your brand appears in 75 out of 100 relevant AI conversations. PIS is calculated across multiple AI models (ChatGPT, Claude, Perplexity, Gemini) to provide a comprehensive view.",
+      "relatedTerms": [
+        "ai-visibility",
+        "recommendation-share"
+      ],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "metrics",
+      "aliases": [
+        "Prompt Impression Score"
+      ],
+      "slug": "pis"
+    },
+    {
+      "term": "SMR",
+      "definition": "SMR (Semantic Match Rate) measures the alignment between your content and the underlying intent of user queries. High SMR indicates that AI understands your content correctly and matches it to appropriate questions. Low SMR may indicate your content uses different terminology than your audience, or covers topics tangentially related to what users actually ask.",
+      "relatedTerms": [
+        "content-alignment",
+        "territory"
+      ],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "metrics",
+      "aliases": [
+        "Semantic Match Rate"
+      ],
+      "slug": "smr"
+    },
+    {
+      "term": "ARD",
+      "definition": "ARD (AI Reasoning Depth) measures how thoroughly AI explains and justifies its recommendation of your brand. High ARD means AI provides detailed reasoning (\"Brand X is recommended because of their industry-leading customer support, competitive pricing, and extensive integration options\"). Low ARD indicates superficial mentions with little context (\"Brand X is an option\").",
+      "relatedTerms": [
+        "ai-visibility",
+        "trust-signals"
+      ],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "metrics",
+      "aliases": [
+        "AI Reasoning Depth"
+      ],
+      "slug": "ard"
+    },
+    {
+      "term": "PPMA",
+      "definition": "PPMA (Prompt-Page Mapping Accuracy) measures how comprehensively your content addresses the questions users are asking. It evaluates content coverage, structural clarity, and information completeness. High PPMA indicates your content thoroughly answers common questions in your space. Low PPMA suggests gaps in your content strategy.",
+      "relatedTerms": [
+        "content-gap",
+        "territory-coverage"
+      ],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "metrics",
+      "aliases": [
+        "Prompt-Page Mapping Accuracy"
+      ],
+      "slug": "ppma"
+    },
+    {
+      "term": "Context Resilience Score",
+      "definition": "Context Resilience Score (CRS) measures how stable your AI visibility is when prompts are modified with different contexts, constraints, or noise. A brand with high resilience appears consistently regardless of how questions are phrased. Low resilience indicates vulnerability - your visibility may drop when users ask questions in unexpected ways.",
+      "relatedTerms": [
+        "dice-roll",
+        "stability-analysis"
+      ],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "metrics",
+      "aliases": [
+        "CRS",
+        "Stability Score"
+      ],
+      "slug": "context-resilience"
+    },
+    {
+      "term": "Territory",
+      "definition": "In Rankfor.AI, a Territory represents a group of semantically related topics, keywords, and user intents. Think of it as a \"topic neighborhood\" in the AI knowledge space. Brands compete to own territories relevant to their business. Territories can be Fortified (you dominate), Contested (competitive), or Greenfield (unexplored opportunity).",
+      "relatedTerms": [
+        "fortified-territory",
+        "greenfield",
+        "contested-territory"
+      ],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "features",
+      "aliases": [
+        "Semantic territory",
+        "Topic cluster"
+      ],
+      "example": "For a CRM company, territories might include \"sales automation\", \"customer relationship management\", \"lead tracking\", etc.",
+      "slug": "territory"
+    },
+    {
+      "term": "AI Brand DNA Map",
+      "definition": "The AI Brand DNA Map is a Voronoi-style visualization showing how your brand's content is perceived by AI models. It displays your semantic territories, their relative strength, and competitive positioning. Colors indicate territory status: Green (Fortified), Yellow (Contested), Red (Vulnerable), Blue (Greenfield/Opportunity).",
+      "relatedTerms": [
+        "territory",
+        "fortified-territory",
+        "competitive-intelligence"
+      ],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "features",
+      "slug": "brand-dna-map"
+    },
+    {
+      "term": "Persona Discovery",
+      "definition": "Persona Discovery uses AI to reverse-engineer buyer personas from your existing content and how users search for products like yours. It identifies who is likely finding your brand through AI, their decision-making factors, and information needs. This helps align content strategy with actual buyer behavior.",
+      "relatedTerms": [
+        "territory",
+        "content-gap"
+      ],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "features",
+      "aliases": [
+        "AI Persona Analysis"
+      ],
+      "slug": "persona-discovery"
+    },
+    {
+      "term": "Dice Roll Solver",
+      "definition": "The Dice Roll Solver (officially \"Stability Analysis\") runs the same prompt 5-10 times across AI models to distinguish between stable, consistent messages and variable \"noise.\" It reveals what AI always says about your brand (core messages), what it sometimes says (variable content), and what's missing (opportunity gaps).",
+      "relatedTerms": [
+        "context-resilience",
+        "core-messages"
+      ],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "features",
+      "aliases": [
+        "Stability Analysis",
+        "Response Consistency Test"
+      ],
+      "slug": "dice-roll"
+    },
+    {
+      "term": "Battle Card",
+      "definition": "A Battle Card provides head-to-head AI visibility comparison between your brand and a specific competitor. It shows territory ownership, recommendation share differences, and strategic recommendations for winning contested areas. Battle Cards help prioritize competitive efforts and track progress.",
+      "relatedTerms": [
+        "competitive-intelligence",
+        "territory",
+        "recommendation-share"
+      ],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "features",
+      "aliases": [
+        "Competitive Battle Card"
+      ],
+      "slug": "battle-card"
     },
     {
       "term": "Fortified Territory",
-      "definition": "A brand territory where you have significantly stronger AI visibility than competitors (30%+ advantage). A competitive moat.",
-      "relatedTerms": ["Vulnerable Territory", "Contested Territory"],
-      "sources": ["Rankfor.AI Competitive Intelligence"],
-      "category": "strategy"
+      "definition": "A Fortified Territory is a semantic area where your brand has established strong dominance, with at least 30% higher AI visibility than the nearest competitor. These are your strongholds - areas to defend and leverage. AI consistently recommends you as a top choice for queries in these territories.",
+      "relatedTerms": [
+        "territory",
+        "vulnerable-territory",
+        "contested-territory"
+      ],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "competitive",
+      "slug": "fortified-territory"
     },
     {
       "term": "Vulnerable Territory",
-      "definition": "A brand territory where competitors have significantly stronger AI visibility than you (30%+ disadvantage). A critical gap to address.",
-      "relatedTerms": ["Fortified Territory", "Contested Territory"],
-      "sources": ["Rankfor.AI Competitive Intelligence"],
-      "category": "strategy"
+      "definition": "A Vulnerable Territory (also called a \"Critical Gap\") is an area where competitors significantly outperform your brand in AI visibility, with a 30%+ lead. These represent strategic weaknesses - topics where AI recommends competitors instead of you. Addressing vulnerable territories requires focused content and messaging improvements.",
+      "relatedTerms": [
+        "territory",
+        "fortified-territory",
+        "content-gap"
+      ],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "competitive",
+      "aliases": [
+        "Critical Gap"
+      ],
+      "slug": "vulnerable-territory"
     },
     {
       "term": "Contested Territory",
-      "definition": "A brand territory where you and competitors have similar AI visibility (within 30%). A battleground requiring active defense.",
-      "relatedTerms": ["Fortified Territory", "Vulnerable Territory"],
-      "sources": ["Rankfor.AI Competitive Intelligence"],
-      "category": "strategy"
+      "definition": "A Contested Territory is a competitive battleground where no brand has clear dominance. Both you and competitors appear in AI recommendations with similar frequency. These are opportunities for strategic investment - focused effort can tip the balance in your favor.",
+      "relatedTerms": [
+        "territory",
+        "fortified-territory",
+        "greenfield"
+      ],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "competitive",
+      "slug": "contested-territory"
     },
     {
-      "term": "AI Persona",
-      "definition": "A synthetic representation of a target audience segment that AI systems might recommend your brand to. Used to understand which audiences AI associates with your brand.",
-      "relatedTerms": ["Persona Coverage", "Target Audience"],
-      "sources": ["Rankfor.AI Persona Intelligence"],
-      "category": "analysis"
+      "term": "Greenfield Territory",
+      "definition": "A Greenfield Territory is an emerging or underserved topic area where AI has limited information to draw from. No brand has established strong presence yet. These represent first-mover opportunities - brands that create comprehensive, authoritative content can establish early dominance before competitors arrive.",
+      "relatedTerms": [
+        "territory",
+        "content-gap"
+      ],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "competitive",
+      "aliases": [
+        "Opportunity Territory",
+        "White space"
+      ],
+      "slug": "greenfield"
     },
     {
-      "term": "Persona Coverage",
-      "definition": "The percentage of target personas for which your brand has meaningful AI visibility and recommendation presence.",
-      "relatedTerms": ["AI Persona", "Coverage Gap"],
-      "sources": ["Rankfor.AI Persona Intelligence"],
-      "category": "metrics"
+      "term": "AI Narrative",
+      "definition": "Your AI Narrative is the combined story that AI models tell about your brand across different queries and contexts. It includes your positioning, key differentiators, strengths, and any misconceptions. Managing your AI narrative means ensuring AI tells an accurate, compelling story that aligns with your brand strategy.",
+      "relatedTerms": [
+        "ai-hallucination",
+        "brand-safety"
+      ],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "strategy",
+      "slug": "ai-narrative"
+    },
+    {
+      "term": "Content Gap",
+      "definition": "A Content Gap exists when users ask AI questions relevant to your business, but AI cannot find sufficient information in your content to recommend you. Identifying and filling content gaps is a core AI visibility optimization strategy. Gaps may exist because content is missing, poorly structured, or uses different terminology than users.",
+      "relatedTerms": [
+        "ppma",
+        "territory",
+        "greenfield"
+      ],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "strategy",
+      "slug": "content-gap"
+    },
+    {
+      "term": "Trust Signals",
+      "definition": "Trust Signals are content elements that help AI models evaluate your authority and reliability. These include author expertise credentials, citations and references, publication dates, factual accuracy, third-party reviews, and consistent information across sources. Strong trust signals increase the likelihood AI will confidently recommend your brand.",
+      "relatedTerms": [
+        "ard",
+        "ai-narrative"
+      ],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "strategy",
+      "slug": "trust-signals"
+    },
+    {
+      "term": "Semantic Optimization",
+      "definition": "Semantic optimization involves structuring content with clear relationships, entities, and context that AI models can understand and correctly interpret. It includes schema markup, entity disambiguation, relationship mapping, and terminology consistency. While technical in nature, the goal is ensuring AI accurately understands and represents your brand.",
+      "relatedTerms": [
+        "geo",
+        "smr"
+      ],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "technical",
+      "slug": "semantic-optimization"
+    },
+    {
+      "term": "Knowledge Graph",
+      "definition": "A Knowledge Graph is how AI models organize and connect information about entities (brands, products, concepts) and their relationships. When AI \"knows\" that \"Rankfor.AI provides AI visibility tools for marketers,\" this relationship is part of its knowledge graph. Optimizing for knowledge graphs means ensuring your key relationships are clearly communicated.",
+      "relatedTerms": [
+        "ai-narrative",
+        "semantic-optimization"
+      ],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "technical",
+      "slug": "knowledge-graph"
+    },
+    {
+      "term": "RAG",
+      "definition": "RAG (Retrieval-Augmented Generation) is a technique where AI models retrieve relevant documents or data before generating responses. Instead of relying solely on training data, RAG-enabled systems (like Perplexity, Google AI Overviews, and enterprise chatbots) fetch current information from indexed sources. For brands, this means your content can be \"retrieved\" and cited in real-time AI responses, even if it was published after the model was trained.",
+      "relatedTerms": [
+        "ai-visibility",
+        "citation",
+        "trust-signals"
+      ],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "technical",
+      "aliases": [
+        "Retrieval-Augmented Generation"
+      ],
+      "example": "When Perplexity answers a question about your product, it retrieves and cites your webpage content in real-time via RAG, even if that content was published yesterday.",
+      "slug": "rag"
+    },
+    {
+      "term": "AI Scraping",
+      "definition": "AI scraping is a methodology where tools automatically query AI models and collect responses to track brand mentions, sentiment, and positioning. While scraping shows what AI said at a moment in time, it has limitations: different phrasings yield different results, AI responses change frequently, and scraping cannot explain WHY a brand was or was not mentioned. When AI platforms launch advertising, scraped visibility metrics become indistinguishable from paid placements.",
+      "relatedTerms": [
+        "ai-visibility",
+        "pis"
+      ],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "technical",
+      "aliases": [
+        "Response scraping",
+        "AI monitoring"
+      ],
+      "slug": "ai-scraping"
+    },
+    {
+      "term": "Training Influence",
+      "definition": "Training influence refers to how well your content positions your brand to be included in future AI model training data. AI models periodically retrain on web content, and brands with authoritative, well-structured, widely-cited content are more likely to be accurately represented in future model updates. Unlike scraping-based visibility (which measures current output), training influence is about shaping what AI will believe long-term.",
+      "relatedTerms": [
+        "ai-narrative",
+        "trust-signals",
+        "knowledge-graph"
+      ],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "strategy",
+      "slug": "training-influence"
+    },
+    {
+      "term": "Model Consensus",
+      "definition": "Model consensus measures whether different AI models provide consistent information about your brand. High consensus means ChatGPT, Claude, Gemini, and Perplexity all recommend you for similar reasons and with similar positioning. Low consensus indicates your AI narrative varies across models, which can confuse buyers who use multiple AI assistants. Achieving model consensus requires authoritative, consistent content that all models can learn from.",
+      "relatedTerms": [
+        "ai-narrative",
+        "dice-roll",
+        "context-resilience"
+      ],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "metrics",
+      "aliases": [
+        "Cross-model consistency"
+      ],
+      "slug": "model-consensus"
+    },
+    {
+      "term": "Citation",
+      "definition": "In AI-generated responses, a citation occurs when the model explicitly references or links to your content as a source. Citations are especially important in RAG-based systems like Perplexity and Google AI Overviews, where AI retrieves and credits specific pages. Earning citations requires content that AI considers authoritative, factually accurate, and directly relevant to user queries.",
+      "relatedTerms": [
+        "rag",
+        "trust-signals",
+        "ai-visibility"
+      ],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "core",
+      "aliases": [
+        "Source attribution",
+        "AI reference"
+      ],
+      "example": "When Perplexity says \"According to [your brand], the best approach is...\" with a link to your article, that is a citation.",
+      "slug": "citation"
+    },
+    {
+      "term": "AI Overview",
+      "definition": "AI Overviews (formerly Search Generative Experience or SGE) are Google's AI-powered summaries that appear above traditional search results. They synthesize information from multiple sources to answer user queries directly. Appearing in AI Overviews requires content that Google's AI considers authoritative and relevant. As AI Overviews expand, they represent a critical new surface for brand visibility in the search journey.",
+      "relatedTerms": [
+        "zero-click",
+        "ai-visibility",
+        "geo"
+      ],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "core",
+      "aliases": [
+        "SGE",
+        "Search Generative Experience",
+        "Google AI Overviews"
+      ],
+      "slug": "ai-overview"
+    },
+    {
+      "term": "Answer Engine",
+      "definition": "Answer engines are AI systems designed to provide direct, synthesized answers to user questions rather than lists of links. Unlike traditional search engines (which point users to websites), answer engines like ChatGPT, Claude, Perplexity, and Gemini generate comprehensive responses. This shift fundamentally changes how brands need to think about visibility - from \"ranking for keywords\" to \"being recommended as the answer.\"",
+      "relatedTerms": [
+        "zero-click",
+        "ai-visibility",
+        "recommendation-share"
+      ],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "core",
+      "aliases": [
+        "AI assistant",
+        "Conversational AI"
+      ],
+      "slug": "answer-engine"
+    },
+    {
+      "term": "Prompt",
+      "definition": "A prompt is the input text a user provides to an AI model to get a response. In the context of AI visibility, understanding how users prompt AI about your category is crucial. Different prompt phrasings can yield different brand recommendations. Prompt analysis helps identify which questions your brand is well-positioned to answer and where gaps exist.",
+      "relatedTerms": [
+        "pis",
+        "ai-visibility",
+        "smr"
+      ],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "core",
+      "aliases": [
+        "Query",
+        "User question"
+      ],
+      "example": "\"What are the best project management tools for remote teams?\" is a prompt that might trigger AI to recommend various PM software brands.",
+      "slug": "prompt"
+    },
+    {
+      "term": "Sentiment",
+      "definition": "AI sentiment measures the tone and framing AI uses when discussing your brand. Positive sentiment means AI describes your brand favorably, highlights strengths, and recommends you confidently. Negative sentiment may include caveats, concerns, or unfavorable comparisons. Sentiment is influenced by the content AI has learned from - reviews, articles, documentation, and discussions about your brand all shape how AI perceives you.",
+      "relatedTerms": [
+        "ai-narrative",
+        "ard",
+        "trust-signals"
+      ],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "metrics",
+      "aliases": [
+        "AI tone",
+        "Brand perception"
+      ],
+      "slug": "sentiment"
+    },
+    {
+      "term": "AI Brand Equity",
+      "definition": "AI brand equity represents the organic value of how AI models perceive and recommend your brand. Unlike scraping-based visibility (which can be polluted by paid placements), AI brand equity measures the authentic understanding AI has of your brand based on training data, content authority, and semantic positioning. As AI platforms introduce advertising, distinguishing between paid visibility and organic AI brand equity becomes critical.",
+      "relatedTerms": [
+        "ai-narrative",
+        "training-influence",
+        "recommendation-share"
+      ],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "strategy",
+      "slug": "ai-brand-equity"
+    },
+    {
+      "term": "Invisible Brand",
+      "definition": "An invisible brand is one that AI models never mention in relevant queries - zero mentions across all prompts tested. This is the most severe AI visibility problem. When a brand is invisible, AI is actively recommending competitors by default. Invisible brands need foundational AI visibility work: structured data, authoritative content, and clear entity definition before they can compete for recommendations.",
+      "relatedTerms": [
+        "ai-visibility",
+        "pis",
+        "brand-dependent"
+      ],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "competitive",
+      "aliases": [
+        "AI-invisible",
+        "Zero visibility"
+      ],
+      "example": "In 15 AI queries about Polish energy markets, a major utility company appeared zero times while competitors were mentioned repeatedly.",
+      "slug": "invisible-brand"
+    },
+    {
+      "term": "Brand-Dependent Visibility",
+      "definition": "Brand-dependent visibility occurs when AI recognizes your brand when asked by name, but fails to recommend you in generic category queries. For example, \"Tell me about [Brand X]\" returns good information, but \"What are the best [category] solutions?\" does not mention you. This pattern means you win recognition but lose all discovery moments - you are invisible to buyers who do not already know you.",
+      "relatedTerms": [
+        "ai-visibility",
+        "invisible-brand",
+        "topic-locked"
+      ],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "competitive",
+      "aliases": [
+        "Recognition without discovery"
+      ],
+      "example": "A construction materials company appears in 508 AI mentions when asked by name, but 50% of generic industry queries return zero mentions.",
+      "slug": "brand-dependent"
+    },
+    {
+      "term": "Topic-Locked Visibility",
+      "definition": "Topic-locked visibility means AI has learned to associate your brand with a specific, narrow topic - and only that topic. You may dominate queries about \"Polish energy transformation\" but be completely invisible for \"sustainable fuels\" or \"automotive investment\" even though these are relevant to your business. Topic-locked brands need content expansion into adjacent territories.",
+      "relatedTerms": [
+        "territory",
+        "invisible-brand",
+        "brand-dependent"
+      ],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "competitive",
+      "aliases": [
+        "Narrow AI presence"
+      ],
+      "example": "An energy company dominates \"Polish energy transformation\" (103 mentions) but gets zero mentions for automotive investment, sustainable fuels, and cybersecurity queries.",
+      "slug": "topic-locked"
+    },
+    {
+      "term": "AI Visibility Matrix",
+      "definition": "The AI Visibility Matrix plots brands on two axes: Narrative Control (how well you control what AI says about you) and Persona Resonance (how well AI connects you to target buyer personas). The four quadrants are: Leaders (high/high), Challengers (high narrative, low persona), Niche Experts (low narrative, high persona), and Invisibles (low/low). Most brands start in the \"Invisibles\" quadrant.",
+      "relatedTerms": [
+        "territory",
+        "persona-discovery",
+        "pis"
+      ],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "features",
+      "aliases": [
+        "Visibility quadrant",
+        "Brand positioning matrix"
+      ],
+      "slug": "ai-visibility-matrix"
+    },
+    {
+      "term": "Gender Bias in AI",
+      "definition": "Gender bias in AI refers to the documented phenomenon where AI models recommend different brands depending on how a query is gender-framed. Research shows AI platforms recommend 41% fewer brands for \"wife\" queries vs \"husband\" queries, and some brands are completely gender-locked (e.g., appearing 100% for wife queries, 0% for husband queries). This affects brands targeting diverse audiences.",
+      "relatedTerms": [
+        "ai-visibility",
+        "recommendation-share"
+      ],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "technical",
+      "aliases": [
+        "Gender-locked brands",
+        "AI gender categorization"
+      ],
+      "example": "Kindle appears in 100% of \"gift for wife\" queries but 0% of \"gift for husband\" queries on Gemini - same product, completely different AI treatment.",
+      "slug": "gender-bias"
+    },
+    {
+      "term": "Cross-Model Agreement",
+      "definition": "Cross-model agreement measures how often different AI models (ChatGPT, Claude, Gemini, Perplexity) recommend the same brands for the same query. Research shows AI platforms agree on brand recommendations only 14% of the time. Low cross-model agreement means your brand might dominate on one platform while being invisible on another - requiring multi-platform AI visibility strategy.",
+      "relatedTerms": [
+        "model-consensus",
+        "ai-visibility",
+        "context-resilience"
+      ],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "metrics",
+      "aliases": [
+        "Platform agreement",
+        "AI consensus"
+      ],
+      "example": "GPT and Gemini agree on only 10% of brands for neutral gift queries - same question yields wildly different brand recommendations.",
+      "slug": "cross-model-agreement"
+    },
+    {
+      "term": "Temporal Instability",
+      "definition": "Temporal instability refers to variance in AI recommendations over time. Some platforms (like Gemini) can change from recommending 14 brands to 3.7 brands within 2 hours for the same query. High temporal instability makes it difficult to trust single-point AI visibility measurements and requires stability analysis (multiple measurements over time) to understand true brand position.",
+      "relatedTerms": [
+        "dice-roll",
+        "context-resilience",
+        "model-consensus"
+      ],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "metrics",
+      "aliases": [
+        "AI response variance",
+        "Recommendation volatility"
+      ],
+      "slug": "temporal-instability"
+    },
+    {
+      "term": "Ontology Cluster",
+      "definition": "An ontology cluster is a collection of semantically related topics, keywords, and concepts that AI models group together when understanding your brand. Rankfor.AI identifies these clusters through deep content analysis. More clusters does not necessarily mean better AI visibility - a brand with 4 well-defined clusters can match one with 13 scattered clusters. The key is cluster authority, not quantity.",
+      "relatedTerms": [
+        "territory",
+        "semantic-optimization",
+        "brand-dna-map"
+      ],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "technical",
+      "example": "Monday.com has 13 ontology clusters but the same AI visibility score (30/100) as ClickUp with only 4 clusters - showing that territory count does not equal AI visibility.",
+      "slug": "ontology-cluster"
+    },
+    {
+      "term": "PASOR",
+      "definition": "PASOR (Platform-Adjusted Stability of Recommendations) is a research metric that measures how consistently an AI platform recommends brands across multiple queries. It accounts for platform-specific behavior (like GPT's brand abstinence vs Gemini's brand generosity) to provide a normalized stability score. Grok shows 77% PASOR (most reliable), while GPT-5.2 shows only 30% PASOR.",
+      "relatedTerms": [
+        "context-resilience",
+        "dice-roll",
+        "cross-model-agreement"
+      ],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "metrics",
+      "aliases": [
+        "Platform stability score"
+      ],
+      "slug": "pasor"
+    },
+    {
+      "term": "Competitive Vacuum",
+      "definition": "A competitive vacuum occurs when all major players in a category have similarly low AI visibility, resulting in zero fortified territories and 100% open opportunities. Research found three $50B+ work management platforms (Monday.com, Asana, ClickUp) all scored identically (30/100) with zero competitive differentiation detected by AI. This represents a massive first-mover advantage for whoever invests in AI visibility first.",
+      "relatedTerms": [
+        "fortified-territory",
+        "greenfield",
+        "ai-visibility-matrix"
+      ],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "competitive",
+      "aliases": [
+        "AI white space",
+        "Visibility stalemate"
+      ],
+      "example": "In the work management category, 48 total territories remain completely unclaimed by any major brand - a statistical stalemate where the first mover wins.",
+      "slug": "competitive-vacuum"
+    },
+    {
+      "term": "Citation Share",
+      "definition": "Citation share measures how often AI platforms explicitly reference and link to your content when generating answers. Unlike recommendation share (which counts mentions), citation share specifically tracks when AI credits you as a source with a link. High citation share indicates AI considers your content authoritative enough to cite directly. This is especially important for RAG-based systems like Perplexity and Google AI Overviews.",
+      "relatedTerms": [
+        "citation",
+        "rag",
+        "recommendation-share",
+        "ai-visibility"
+      ],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "metrics",
+      "aliases": [
+        "Source share",
+        "Citation rate"
+      ],
+      "example": "If AI answers 100 questions about your industry and cites your website 15 times, your citation share is 15%.",
+      "slug": "citation-share"
+    },
+    {
+      "term": "Answer Share",
+      "definition": "Answer share measures your brand's presence in AI-generated answer text, regardless of whether you are cited as a source. A brand can have high answer share (frequently mentioned) but low citation share (rarely linked). Optimizing for answer share requires ensuring AI models understand your brand well enough to naturally include you in relevant responses.",
+      "relatedTerms": [
+        "recommendation-share",
+        "pis",
+        "ai-visibility"
+      ],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "metrics",
+      "aliases": [
+        "Response share",
+        "Mention share"
+      ],
+      "slug": "answer-share"
+    },
+    {
+      "term": "Visibility Velocity",
+      "definition": "Visibility velocity measures the change in your AI visibility metrics over time. Positive velocity means your brand is appearing in more AI responses week-over-week. Negative velocity indicates declining visibility. Tracking velocity helps identify the impact of content changes, competitive actions, or AI model updates on your brand presence.",
+      "relatedTerms": [
+        "ai-visibility",
+        "pis",
+        "temporal-instability"
+      ],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "metrics",
+      "aliases": [
+        "Visibility trend",
+        "Growth rate"
+      ],
+      "example": "A brand with +15% visibility velocity is gaining AI presence, while -10% velocity indicates competitors are winning share.",
+      "slug": "visibility-velocity"
+    },
+    {
+      "term": "Entity Authority",
+      "definition": "Entity authority measures the weight AI assigns to your brand when deciding what to recommend. Brands with high entity authority are more likely to be cited, recommended, and described accurately. Authority is built through consistent, accurate information across multiple sources, third-party validation, and clear entity definition in structured data.",
+      "relatedTerms": [
+        "trust-signals",
+        "citation",
+        "training-influence"
+      ],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "strategy",
+      "aliases": [
+        "Brand authority",
+        "AI trust score"
+      ],
+      "slug": "entity-authority"
+    },
+    {
+      "term": "Answer Engine Optimization",
+      "definition": "Answer Engine Optimization (AEO) is the practice of structuring content to be selected and synthesized by AI answer engines like ChatGPT, Claude, Perplexity, and Google AI Overviews. Unlike SEO (which targets search rankings), AEO targets inclusion in direct AI answers. Key tactics include leading with clear definitions, using FAQ structures, providing evidence-backed claims, and implementing proper schema markup.",
+      "relatedTerms": [
+        "geo",
+        "answer-engine",
+        "ai-visibility"
+      ],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "strategy",
+      "aliases": [
+        "AEO"
+      ],
+      "slug": "aeo"
+    },
+    {
+      "term": "LLM SEO",
+      "definition": "LLM SEO refers to optimization strategies specifically targeting large language models like GPT-4, Claude, and Gemini. Unlike traditional SEO (which targets search algorithms), LLM SEO focuses on entity clarity, factual consistency, and content that models can confidently cite. Success depends on being the most credible, clear, and corroborated source for your topics.",
+      "relatedTerms": [
+        "geo",
+        "aeo",
+        "semantic-optimization"
+      ],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "strategy",
+      "aliases": [
+        "Large Language Model SEO",
+        "AI-first SEO"
+      ],
+      "slug": "llm-seo"
+    },
+    {
+      "term": "AI Search Optimization",
+      "definition": "AI Search Optimization encompasses all tactics for improving brand presence in AI-powered search, including Google AI Overviews, Bing Copilot, Perplexity, and conversational AI assistants. It combines traditional SEO fundamentals with AI-specific optimizations like structured data, entity definition, and content designed for AI extraction and citation.",
+      "relatedTerms": [
+        "geo",
+        "aeo",
+        "ai-visibility",
+        "ai-overview"
+      ],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "strategy",
+      "aliases": [
+        "AI search marketing",
+        "AI discovery optimization"
+      ],
+      "slug": "ai-search-optimization"
+    },
+    {
+      "term": "Recommendation Momentum",
+      "definition": "Recommendation momentum tracks whether AI is recommending your brand more or less frequently over time. Positive momentum indicates AI is learning to prefer your brand - possibly due to improved content, more citations, or better entity clarity. Negative momentum suggests competitors are gaining ground or your content relevance is declining.",
+      "relatedTerms": [
+        "recommendation-share",
+        "visibility-velocity",
+        "pis"
+      ],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "metrics",
+      "aliases": [
+        "AI preference trend"
+      ],
+      "slug": "recommendation-momentum"
+    },
+    {
+      "term": "AI Brand Safety",
+      "definition": "AI brand safety encompasses monitoring and correcting how AI discusses your brand. It includes detecting hallucinations (false claims), negative sentiment, outdated information, and inappropriate associations. Proactive AI brand safety involves creating authoritative content that pre-empts misinformation and establishing clear, consistent brand facts that AI models can reliably learn.",
+      "relatedTerms": [
+        "ai-hallucination",
+        "ai-narrative",
+        "entity-authority"
+      ],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "strategy",
+      "aliases": [
+        "AI reputation management",
+        "LLM brand protection"
+      ],
+      "slug": "ai-brand-safety"
+    },
+    {
+      "term": "Territory Expansion",
+      "definition": "Territory expansion is the strategic process of increasing the range of topics where AI recommends your brand. Rather than focusing only on core territories, expansion targets adjacent topics where your expertise applies but AI does not yet associate you. This often involves creating content that explicitly connects your brand to new topic areas.",
+      "relatedTerms": [
+        "territory",
+        "greenfield",
+        "topic-locked"
+      ],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "strategy",
+      "aliases": [
+        "Topic expansion",
+        "Coverage growth"
+      ],
+      "example": "A CRM company expanding from \"sales automation\" territory into \"customer success\" and \"revenue operations\" territories.",
+      "slug": "territory-expansion"
+    },
+    {
+      "term": "Persona-AI Alignment",
+      "definition": "Persona-AI alignment measures whether AI recommends your brand to the right audiences. High alignment means when your ideal customer asks AI for recommendations, your brand appears. Low alignment indicates AI is either not recommending you, or recommending you to the wrong audiences. Improving alignment requires content that explicitly addresses your target persona's needs and terminology.",
+      "relatedTerms": [
+        "persona-discovery",
+        "ppma",
+        "recommendation-share"
+      ],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "metrics",
+      "aliases": [
+        "Audience alignment",
+        "ICP-AI fit"
+      ],
+      "slug": "persona-ai-alignment"
+    },
+    {
+      "term": "Platform Preference Patterns",
+      "definition": "Platform preference patterns describe how different AI platforms have distinct biases in how they recommend brands. Research shows GPT tends to be brand-averse (0.1-3.0 brands per response), while Gemini is brand-generous (3.7-11.9 brands per response). Grok has the highest brand density per character. Understanding these patterns helps optimize content for each platform's behavior.",
+      "relatedTerms": [
+        "cross-model-agreement",
+        "pasor",
+        "model-consensus"
+      ],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "technical",
+      "aliases": [
+        "AI platform behavior",
+        "Model bias patterns"
+      ],
+      "example": "GPT mentions very few brands (brand-averse), while Gemini mentions many brands in each response (brand-generous).",
+      "slug": "platform-preference"
+    },
+    {
+      "term": "Category Gatekeeping",
+      "definition": "Category gatekeeping occurs when AI has learned to associate brands only with specific categories, excluding them from adjacent or broader categories. Research found this manifests as gender-based exclusion (AI excluding brands from \"husband\" vs \"wife\" queries) and industry-based exclusion (brands invisible in related but not core topics). Chi-square testing confirmed systematic category assignment with p<0.001.",
+      "relatedTerms": [
+        "gender-bias",
+        "topic-locked",
+        "invisible-brand"
+      ],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "technical",
+      "aliases": [
+        "AI category bias",
+        "Systematic exclusion"
+      ],
+      "example": "AI systematically recommends different brands for \"gift for husband\" vs \"gift for wife\" - not because of stereotypes, but because it has learned category boundaries.",
+      "slug": "category-gatekeeping"
+    },
+    {
+      "term": "Brand Generosity Score",
+      "definition": "Brand generosity score measures how many brands an AI platform typically includes when answering recommendation queries. High generosity (like Gemini at 3.7-11.9 brands per response) means more opportunities to be included. Low generosity (like GPT at 0.1-3.0 brands) means fiercer competition for limited mention slots. Understanding generosity helps set realistic visibility targets per platform.",
+      "relatedTerms": [
+        "platform-preference",
+        "cross-model-agreement",
+        "recommendation-share"
+      ],
+      "sources": [
+        "Rankfor.AI Research"
+      ],
+      "category": "metrics",
+      "aliases": [
+        "Platform brand density",
+        "Mention capacity"
+      ],
+      "slug": "brand-generosity"
     }
-  ],
-  "categories": {
-    "core": "Fundamental AI visibility concepts",
-    "metrics": "Quantitative measurements and scores",
-    "phenomena": "Observable AI behaviors and patterns",
-    "analysis": "Analysis outputs and classifications",
-    "practice": "Industry practices and methodologies",
-    "strategy": "Strategic concepts and competitive positioning"
-  }
+  ]
 }

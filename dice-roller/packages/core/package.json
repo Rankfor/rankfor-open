@@ -1,6 +1,6 @@
 {
   "name": "@rankfor/dice-roller",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "AI response stability analyzer - measure how consistently LLMs recommend your brand across Gemini, OpenAI, and Grok",
   "main": "dist/index.js",
   "module": "dist/index.mjs",

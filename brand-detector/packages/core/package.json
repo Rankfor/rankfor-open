@@ -1,6 +1,6 @@
 {
   "name": "@rankfor/brand-detector",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Detect and analyze brand mentions in LLM/AI responses with 10k+ brand database from Simple Icons and Wikidata",
   "main": "dist/index.js",
   "module": "dist/index.mjs",

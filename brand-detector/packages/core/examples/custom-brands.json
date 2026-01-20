@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "generated_at": "2026-01-20T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "Custom Brands Example",
+        "url": "https://example.com",
+        "count": 10,
+        "license": "CC0"
+      }
+    ],
+    "total_raw": 10,
+    "total_filtered": 10,
+    "ignored_terms": ["the", "it"]
+  },
+  "brands": [
+    "CustomCRM",
+    "OurBrand",
+    "CompetitorX",
+    "NicheTool",
+    "StartupY",
+    "RegionalBrand",
+    "InternalProduct",
+    "PartnerCompany",
+    "ClientCorp",
+    "VendorZ"
+  ],
+  "high_confidence": [
+    "CustomCRM",
+    "OurBrand",
+    "NicheTool",
+    "StartupY"
+  ]
+}

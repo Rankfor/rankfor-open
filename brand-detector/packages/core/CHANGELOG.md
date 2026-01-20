@@ -39,6 +39,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - CC0 licensed (public domain)
 - Smart filtering for dictionary words
 
+## [1.1.0] - 2026-01-20
+
+### Added
+
+- **Custom brand database support** via constructor parameter
+- Ability to provide your own JSON brand database
+- Documentation for extending/merging bundled database with custom brands
+- TypeScript examples for custom database usage
+
+### Changed
+
+- `BrandDetector` constructor now accepts optional `customBrandsDb` parameter
+- Updated JSDoc with custom database examples
+- Enhanced README with custom database section
+
 ## [Unreleased]
 
 ### Planned
@@ -46,7 +61,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Web API endpoint for cloud-based detection
 - Real-time streaming support
 - Batch processing API
-- Custom brand database support
 - Locale-specific brand detection
 - Brand alias management
 - Performance optimizations for large texts

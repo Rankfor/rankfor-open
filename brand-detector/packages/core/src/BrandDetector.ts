@@ -16,7 +16,7 @@ import type { BrandDatabase, BrandDetectorOptions, DetectedBrand, BrandMention, 
  * Detects brand mentions in text using a comprehensive database of 10,000+ brands
  * from Simple Icons (curated tech/SaaS) and Wikidata (global brands).
  *
- * @example
+ * @example Basic usage (bundled database):
  * ```typescript
  * import { BrandDetector } from '@rankfor/brand-detector';
  *
@@ -30,14 +30,46 @@ import type { BrandDatabase, BrandDetectorOptions, DetectedBrand, BrandMention, 
  * console.log(result.totalBrands);    // 3
  * console.log(result.topBrand);       // 'Salesforce'
  * ```
+ *
+ * @example Custom database:
+ * ```typescript
+ * import { BrandDetector } from '@rankfor/brand-detector';
+ * import myBrands from './my-brands.json';
+ *
+ * const detector = new BrandDetector(myBrands);
+ *
+ * const result = detector.analyzeLLMResponse(
+ *   "We use CustomCRM and OurBrand products."
+ * );
+ * ```
  */
 export class BrandDetector {
   private highConfidenceSet: Set<string>;
   private ignoredTermsSet: Set<string>;
   private normalizedMap: Map<string, string>; // lowercase -> original
+  private metadata: BrandDatabase['meta'];
 
-  constructor() {
-    const db = brandsDb as BrandDatabase;
+  /**
+   * Create a new BrandDetector instance
+   *
+   * @param customBrandsDb - Optional custom brand database. If not provided, uses bundled database.
+   *
+   * @example Using bundled database:
+   * ```typescript
+   * const detector = new BrandDetector();
+   * ```
+   *
+   * @example Using custom database:
+   * ```typescript
+   * import myBrands from './my-brands.json';
+   * const detector = new BrandDetector(myBrands);
+   * ```
+   */
+  constructor(customBrandsDb?: BrandDatabase) {
+    const db = customBrandsDb || (brandsDb as BrandDatabase);
+
+    // Store metadata
+    this.metadata = db.meta;
 
     // Create lookup sets for O(1) access
     this.highConfidenceSet = new Set(db.high_confidence);
@@ -304,7 +336,7 @@ export class BrandDetector {
    * Get database metadata
    */
   getMetadata(): BrandDatabase['meta'] {
-    return (brandsDb as BrandDatabase).meta;
+    return this.metadata;
   }
 
   /**
@@ -337,15 +369,25 @@ export class BrandDetector {
   private tokenize(text: string): Array<{ text: string; startIndex: number; endIndex: number }> {
     const tokens: Array<{ text: string; startIndex: number; endIndex: number }> = [];
 
-    // Match words (including hyphenated words and dots)
+    // Match words (including hyphenated words and dots for domains/abbreviations)
     const regex = /[\w.-]+/g;
     let match: RegExpExecArray | null;
 
     while ((match = regex.exec(text)) !== null) {
+      let tokenText = match[0];
+      let endIndex = match.index + tokenText.length;
+
+      // Strip trailing punctuation (except for internal dots like "Co." or "Inc.")
+      // but keep internal hyphens and dots (e.g., "Salesforce-Cloud", "Inc.")
+      if (tokenText.endsWith('.') || tokenText.endsWith(',') || tokenText.endsWith(';')) {
+        tokenText = tokenText.slice(0, -1);
+        endIndex--;
+      }
+
       tokens.push({
-        text: match[0],
+        text: tokenText,
         startIndex: match.index,
-        endIndex: match.index + match[0].length,
+        endIndex,
       });
     }
 

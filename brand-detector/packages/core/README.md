@@ -23,11 +23,15 @@ npm install @rankfor/brand-detector
 
 ## Quick Start
 
+### Using Bundled Database (10,000+ brands)
+
 ```typescript
-import { brandDetector } from '@rankfor/brand-detector';
+import { BrandDetector } from '@rankfor/brand-detector';
+
+const detector = new BrandDetector();
 
 // Analyze LLM response
-const result = brandDetector.analyzeLLMResponse(
+const result = detector.analyzeLLMResponse(
   "For CRM, I recommend Salesforce, HubSpot, or Pipedrive. Salesforce is best for enterprise."
 );
 
@@ -42,6 +46,44 @@ console.log(result);
 //     { brand: 'Pipedrive', count: 1, confidence: 'high' }
 //   ]
 // }
+```
+
+### Using Custom Brand Database
+
+```typescript
+import { BrandDetector } from '@rankfor/brand-detector';
+import myBrands from './my-brands.json';
+
+const detector = new BrandDetector(myBrands);
+
+// Now detects your custom brands
+const result = detector.analyzeLLMResponse(
+  "We use CustomCRM and OurBrand products."
+);
+```
+
+**Custom Database Format:**
+
+```json
+{
+  "meta": {
+    "version": "1.0.0",
+    "generated_at": "2025-01-20T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "My Brands",
+        "url": "https://example.com",
+        "count": 100,
+        "license": "CC0"
+      }
+    ],
+    "total_raw": 100,
+    "total_filtered": 100,
+    "ignored_terms": ["apple", "orange"]
+  },
+  "brands": ["CustomCRM", "OurBrand", "CompetitorX"],
+  "high_confidence": ["CustomCRM", "OurBrand"]
+}
 ```
 
 ## API Reference
@@ -265,6 +307,59 @@ The package includes a pre-generated database of 10,847 brands from:
 - **Wikidata** (8,732 brands): Global brands with verified logos
 
 Both sources are **CC0 licensed** (public domain), making them safe for commercial use.
+
+### Custom Brand Databases
+
+You can provide your own brand database to detect custom or niche brands:
+
+```typescript
+import { BrandDetector } from '@rankfor/brand-detector';
+import type { BrandDatabase } from '@rankfor/brand-detector';
+
+// Your custom brands
+const myBrands: BrandDatabase = {
+  meta: {
+    version: '1.0.0',
+    generated_at: new Date().toISOString(),
+    sources: [{ name: 'My Brands', url: '', count: 3, license: 'CC0' }],
+    total_raw: 3,
+    total_filtered: 3,
+    ignored_terms: []
+  },
+  brands: ['CustomCRM', 'OurBrand', 'CompetitorX'],
+  high_confidence: ['CustomCRM', 'OurBrand']
+};
+
+const detector = new BrandDetector(myBrands);
+```
+
+#### Extending the Bundled Database
+
+To add your brands to the bundled database:
+
+```typescript
+import { BrandDetector } from '@rankfor/brand-detector';
+import brandsDb from '@rankfor/brand-detector/data/brands.json';
+import type { BrandDatabase } from '@rankfor/brand-detector';
+
+// Merge bundled + custom brands
+const extendedDb: BrandDatabase = {
+  ...brandsDb,
+  brands: [
+    ...brandsDb.brands,
+    'CustomCRM',
+    'OurBrand',
+    'CompetitorX'
+  ],
+  high_confidence: [
+    ...brandsDb.high_confidence,
+    'CustomCRM',
+    'OurBrand'
+  ]
+};
+
+const detector = new BrandDetector(extendedDb);
+```
 
 ### Regenerating the Database
 

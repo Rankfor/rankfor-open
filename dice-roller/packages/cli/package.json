@@ -1,0 +1,43 @@
+{
+  "name": "@rankfor/dice-roller-cli",
+  "version": "0.1.0",
+  "description": "CLI for AI response stability analysis",
+  "bin": {
+    "dice-roller": "./dist/cli.js"
+  },
+  "main": "dist/cli.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "ai",
+    "llm",
+    "cli",
+    "stability",
+    "gemini"
+  ],
+  "author": "Rankfor.AI <opensource@rankfor.ai>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rankfor/rankfor-open.git",
+    "directory": "dice-roller/packages/cli"
+  },
+  "dependencies": {
+    "@rankfor/dice-roller": "^0.1.0",
+    "commander": "^12.0.0",
+    "chalk": "^5.3.0",
+    "ora": "^8.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

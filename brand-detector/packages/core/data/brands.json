@@ -1,0 +1,13 @@
+{
+  "meta": {
+    "version": "0.0.0",
+    "generated_at": "2026-01-20T00:00:00Z",
+    "sources": [],
+    "total_raw": 0,
+    "total_filtered": 0,
+    "ignored_terms": []
+  },
+  "brands": [],
+  "high_confidence": [],
+  "_comment": "This is a placeholder. Run 'python scripts/fetch-brands.py' to generate the real database."
+}

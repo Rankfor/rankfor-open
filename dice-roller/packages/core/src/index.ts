@@ -45,6 +45,15 @@ export interface AnalysisConfig {
   customStopWords?: string[];
 
   /**
+   * Language code for stop word filtering (ISO 639-1).
+   * Defaults to 'en' (English).
+   * Supported: en, pl, de, fr, es, it, nl, pt, ru, uk
+   *
+   * @example 'pl' for Polish, 'de' for German
+   */
+  language?: string;
+
+  /**
    * Custom synonym groups for semantic matching.
    * Each group is an array of words considered semantically equivalent.
    * Useful for industry-specific terminology.
@@ -502,6 +511,61 @@ const STOP_WORDS = new Set([
   'until', 'while',
 ]);
 
+/**
+ * Business jargon and marketing fluff terms to ignore in brand extraction.
+ * These are generic terms that appear capitalized but are not brands.
+ */
+const IGNORED_TERMS = new Set([
+  // Generic marketing terms
+  'top', 'best', 'leading', 'premier', 'expert', 'professional', 'enterprise',
+  'solution', 'solutions', 'platform', 'platforms', 'service', 'services',
+  'product', 'products', 'software', 'technology', 'system', 'systems',
+  'tool', 'tools', 'app', 'apps', 'application', 'applications',
+  'features', 'pros', 'cons', 'summary', 'conclusion', 'introduction',
+  'example', 'note', 'overview', 'mode', 'list',
+
+  // Business entity types
+  'company', 'companies', 'corporation', 'incorporated', 'limited',
+  'group', 'team', 'teams', 'organization', 'organizations',
+  'target', 'audience', 'market', 'share', 'growth',
+  'brand', 'business', 'startup', 'agency',
+
+  // Generic roles/departments
+  'marketing', 'sales', 'support', 'customer', 'client', 'user',
+  'industry', 'sector', 'digital',
+
+  // Report/Analysis terms
+  'report', 'analysis', 'data', 'review', 'rating', 'score',
+  'compare', 'comparison', 'alternative', 'competitor', 'benefit',
+  'integration', 'update', 'status',
+
+  // AI/Tech jargon
+  'ai', 'artificial', 'intelligence', 'model', 'language', 'large',
+  'generative', 'search', 'engine', 'optimization', 'geo', 'seo',
+  'results', 'response', 'answer', 'question', 'query', 'prompt',
+  'chat', 'bot', 'assistant',
+
+  // Pricing/Plans
+  'pricing', 'cost', 'plan', 'free', 'pro', 'basic', 'standard',
+  'premium', 'monthly', 'yearly', 'annual',
+
+  // Common sentence starters (capitalized but not brands)
+  'when', 'where', 'what', 'which', 'while', 'with', 'without',
+  'here', 'there', 'these', 'those', 'this', 'that',
+  'many', 'most', 'some', 'several', 'few', 'vs', 'versus',
+
+  // Generic descriptors
+  'new', 'old', 'modern', 'traditional', 'advanced', 'basic',
+  'large', 'small', 'major', 'minor', 'global', 'local',
+
+  // Website UI elements
+  'api', 'sdk', 'help', 'contact', 'login', 'signup', 'register',
+  'privacy', 'terms', 'policy', 'cookie', 'copyright', 'rights',
+  'reserved', 'blog', 'news', 'press', 'media', 'about', 'career',
+  'job', 'partners', 'investors', 'legal', 'security', 'sitemap',
+  'accessibility', 'home', 'dashboard', 'settings', 'profile', 'logout',
+]);
+
 /** Domain-specific synonym groups for semantic matching */
 const SYNONYM_GROUPS = [
   ['product', 'service', 'solution', 'offering', 'platform'],
@@ -536,6 +600,56 @@ const NEGATIVE_INDICATORS = [
   'disappointing', 'issue', 'complaint', 'alternative to', 'avoid',
   'outdated', 'slow', 'unreliable', 'buggy', 'confusing', 'frustrating',
 ];
+
+// ============================================================================
+// Multilingual Stop Words
+// ============================================================================
+
+/**
+ * Generates a unified Set of stop words for brand extraction.
+ * Always includes English (since LLMs use English tech terms globally),
+ * plus the target language if different.
+ *
+ * @param langCode - ISO 639-1 language code (e.g., 'en', 'pl', 'de')
+ * @param userCustomWords - Optional user-provided stop words
+ * @returns Set of stop words in lowercase
+ */
+function getStopWords(langCode: string = 'en', userCustomWords: string[] = []): Set<string> {
+  // Dynamic import - library will be loaded at runtime
+  // eslint-disable-next-line @typescript-eslint/no-var-requires
+  const stopword = require('stopword');
+
+  // Map ISO 639-1 codes to stopword library exports
+  const LANGUAGE_MAP: Record<string, string[]> = {
+    'en': stopword.eng,
+    'pl': stopword.pol,
+    'de': stopword.deu,
+    'fr': stopword.fra,
+    'es': stopword.spa,
+    'it': stopword.ita,
+    'nl': stopword.nld,
+    'pt': stopword.por,
+    'ru': stopword.rus,
+    'uk': stopword.ukr,
+  };
+
+  // 1. Always include English (LLMs use English tech terms globally)
+  let combined = [...stopword.eng];
+
+  // 2. Add target language if different from English
+  const targetLang = LANGUAGE_MAP[langCode];
+  if (targetLang && langCode !== 'en') {
+    combined = combined.concat(targetLang);
+  }
+
+  // 3. Add user custom words
+  if (userCustomWords.length > 0) {
+    combined = combined.concat(userCustomWords);
+  }
+
+  // Return as Set for O(1) lookup, normalized to lowercase
+  return new Set(combined.map((w) => w.toLowerCase()));
+}
 
 // ============================================================================
 // LLM Client Functions
@@ -1599,49 +1713,83 @@ export function calculateGiniCoefficient(values: number[]): number {
 }
 
 /**
- * Extract all brand names from responses using NER-like pattern matching
+ * Extract all brand names from responses using NER-like pattern matching.
+ * Uses multilingual stop words to filter out common sentence starters and prepositions.
+ *
+ * @param responses - Array of LLM responses to analyze
+ * @param langCode - ISO 639-1 language code (default: 'en')
+ * @param userConfig - Optional user configuration for custom stop words
+ * @returns Map of brand names to their mention counts
  */
-function extractBrandsFromResponses(responses: ResponseData[]): Map<string, number> {
+function extractBrandsFromResponses(
+  responses: ResponseData[],
+  langCode: string = 'en',
+  userConfig?: AnalysisConfig,
+): Map<string, number> {
   const brandCounts = new Map<string, number>();
 
-  // Common brand patterns (capitalized words, often with TM indicators)
-  const brandPatterns = [
-    // Technology brands
-    /\b(Google|Microsoft|Apple|Amazon|Meta|Facebook|Tesla|Netflix|Spotify|Adobe|Salesforce|Oracle|IBM|Intel|AMD|Nvidia|Samsung|Sony|LG|Huawei|Xiaomi)\b/gi,
-    // E-commerce
-    /\b(Shopify|WooCommerce|Magento|BigCommerce|Etsy|eBay|Alibaba|Walmart|Target|Best Buy)\b/gi,
-    // CRM/Marketing
-    /\b(HubSpot|Mailchimp|Marketo|Pardot|ActiveCampaign|Klaviyo|Braze|Intercom|Zendesk|Freshdesk)\b/gi,
-    // Analytics
-    /\b(Tableau|Power BI|Looker|Mixpanel|Amplitude|Heap|Segment|Snowflake|Databricks)\b/gi,
-    // Cloud
-    /\b(AWS|Azure|GCP|Google Cloud|Cloudflare|DigitalOcean|Heroku|Vercel|Netlify)\b/gi,
-    // Finance
-    /\b(Stripe|PayPal|Square|Adyen|Braintree|Plaid|Wise|Revolut)\b/gi,
-    // HR/Productivity
-    /\b(Slack|Teams|Zoom|Notion|Asana|Monday|Trello|Jira|Confluence|Figma|Miro)\b/gi,
-    // General capitalized brand-like patterns
-    /\b([A-Z][a-z]+(?:\s+[A-Z][a-z]+)?(?:\s+(?:Inc|Corp|Ltd|LLC|Co)\.?)?)\b/g,
-  ];
+  // 1. Build dynamic stop word list (English + Target Language + User Custom)
+  const customWords = userConfig?.customStopWords || [];
+  const DYNAMIC_STOP_WORDS = getStopWords(langCode, customWords);
+
+  // High-confidence pattern: Known brands (specific, hand-curated list)
+  const knownBrandsPattern = /\b(Google|Microsoft|Apple|Amazon|Meta|Facebook|Tesla|Netflix|Spotify|Adobe|Salesforce|Oracle|IBM|Intel|AMD|Nvidia|Samsung|Sony|LG|Huawei|Xiaomi|Shopify|WooCommerce|Magento|BigCommerce|Etsy|eBay|Alibaba|Walmart|Best Buy|HubSpot|Mailchimp|Marketo|Pardot|ActiveCampaign|Klaviyo|Braze|Intercom|Zendesk|Freshdesk|Tableau|Power BI|Looker|Mixpanel|Amplitude|Heap|Segment|Snowflake|Databricks|AWS|Azure|GCP|Cloudflare|DigitalOcean|Heroku|Vercel|Netlify|Stripe|PayPal|Square|Adyen|Braintree|Plaid|Wise|Revolut|Slack|Zoom|Notion|Asana|Monday|Trello|Jira|Confluence|Figma|Miro|Rankfor\.?ai|Semrush|Ahrefs|Moz|Surfer|Jasper|Copy\.?ai|Writesonic|Rytr)\b/gi;
+
+  // General capitalized pattern (greedy, requires aggressive filtering)
+  const generalPattern = /\b([A-Z][a-z]+(?:\s+[A-Z][a-z]+)?(?:\s+(?:Inc|Corp|Ltd|LLC|Co)\.?)?)\b/g;
 
   for (const response of responses) {
     const content = response.content;
     const foundBrands = new Set<string>();
 
-    for (const pattern of brandPatterns) {
-      const matches = content.matchAll(pattern);
-      for (const match of matches) {
-        const brand = match[1] || match[0];
-        // Normalize brand name
-        const normalized = brand.trim().replace(/\s+(Inc|Corp|Ltd|LLC|Co)\.?$/i, '');
-        if (normalized.length >= 2 && !STOP_WORDS.has(normalized.toLowerCase())) {
-          foundBrands.add(normalized);
+    // PASS 1: Known Brands (High Confidence)
+    const knownMatches = content.matchAll(knownBrandsPattern);
+    for (const match of knownMatches) {
+      const brand = match[0]; // Keep original casing
+      foundBrands.add(brand);
+    }
+
+    // PASS 2: General Pattern with Strict Filtering
+    const generalMatches = content.matchAll(generalPattern);
+    for (const match of generalMatches) {
+      const candidate = match[1] || match[0];
+      const normalized = candidate.trim().replace(/\s+(Inc|Corp|Ltd|LLC|Co)\.?$/i, '');
+      const lowerCandidate = normalized.toLowerCase();
+
+      // STRICT FILTERING RULES
+      // Defense against capitalized sentence starters (German "Die", Polish "O", "W", etc.)
+      if (
+        normalized.length >= 3 && // Ignore 2-letter abbreviations to be safe
+        !DYNAMIC_STOP_WORDS.has(lowerCandidate) &&
+        !IGNORED_TERMS.has(lowerCandidate) &&
+        !foundBrands.has(normalized)
+      ) {
+        // Special case: "Teams" alone is noise (unless "Microsoft Teams")
+        if (lowerCandidate === 'teams') {
+          continue;
         }
+        // Special case: "Target" is usually a noun in B2B contexts
+        if (lowerCandidate === 'target') {
+          continue;
+        }
+
+        foundBrands.add(normalized);
       }
     }
 
+    // Add unique brands from this response to the global counter
     for (const brand of foundBrands) {
-      brandCounts.set(brand, (brandCounts.get(brand) || 0) + 1);
+      // Normalize for counting (e.g., "Google" and "google" count as same)
+      // But prefer the capitalized version for display
+      const existingKey = Array.from(brandCounts.keys()).find(
+        (k) => k.toLowerCase() === brand.toLowerCase(),
+      );
+
+      if (existingKey) {
+        brandCounts.set(existingKey, (brandCounts.get(existingKey) || 0) + 1);
+      } else {
+        brandCounts.set(brand, 1);
+      }
     }
   }
 
@@ -1905,6 +2053,7 @@ export async function runExperiment(
     iterationDelayMs = 1000,
     searchMode = 'memory',
     onProgress,
+    analysisConfig,
   } = options;
 
   const startTime = Date.now();
@@ -1944,8 +2093,9 @@ export async function runExperiment(
           : undefined,
       });
 
-      // Extract brands from responses
-      const brandCounts = extractBrandsFromResponses(result.responses);
+      // Extract brands from responses with language awareness
+      const langCode = analysisConfig?.language || 'en';
+      const brandCounts = extractBrandsFromResponses(result.responses, langCode, analysisConfig);
       const uniqueBrands = Array.from(brandCounts.keys());
 
       // Calculate brand frequencies

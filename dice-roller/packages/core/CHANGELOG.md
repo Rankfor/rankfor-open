@@ -5,6 +5,45 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.3.0] - 2026-01-20
+
+### Added
+
+- **Multilingual Stop Word Filtering**: Dynamic language-aware brand extraction
+  - `stopword` package integration supporting 50+ languages
+  - `AnalysisConfig.language` - ISO 639-1 language code (en, pl, de, fr, es, it, nl, pt, ru, uk)
+  - `getStopWords()` - Dynamic stop word generation (English + Target Language + User Custom)
+  - Automatic filtering of capitalized sentence starters (German "Die", Polish "O", "W", etc.)
+  - Zero-config multilingual support - just set the language code
+- **Enhanced Business Jargon Filtering**: 80+ ignore terms
+  - Expanded `IGNORED_TERMS` set for marketing/tech/AI jargon
+  - Website UI terms (login, signup, dashboard, etc.)
+  - Pricing/plan terminology (free, pro, enterprise, etc.)
+  - Generic descriptors and sentence starters
+- **Improved Brand Extraction**: Two-pass pattern matching
+  - **Pass 1**: High-confidence known brands (Salesforce, HubSpot, etc.)
+  - **Pass 2**: General capitalized patterns with strict filtering
+  - Special case handling (e.g., "Teams" alone vs "Microsoft Teams")
+  - Brand name normalization with case-insensitive deduplication
+- **Language-Aware Cross-Model Experiments**: `runExperiment()` now respects language settings
+  - Passes `AnalysisConfig.language` to brand extraction
+  - Consistent multilingual filtering across all models
+
+### Changed
+
+- Brand extraction now requires minimum 3-character length (was 2) for safety
+- `extractBrandsFromResponses()` signature updated to accept language and config
+- Known brands pattern expanded with Rankfor.ai, SEO tools (Semrush, Ahrefs, Moz, etc.)
+
+### Fixed
+
+- Brand extraction no longer falsely detects German/Polish prepositions as brands
+- Polish "W" (In), "Z" (With), "O" (About) properly filtered
+- German "Die" (The), "Der" (The), "Das" (The) properly filtered
+- Single-letter capitalized words no longer detected as brands
+
+---
+
 ## [1.2.0] - 2026-01-20
 
 ### Added

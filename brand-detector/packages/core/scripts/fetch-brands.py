@@ -51,7 +51,7 @@ def fetch_simple_icons() -> Set[str]:
     print("🎯 Fetching brands from Simple Icons...")
 
     try:
-        url = 'https://raw.githubusercontent.com/simple-icons/simple-icons/develop/_data/simple-icons.json'
+        url = 'https://raw.githubusercontent.com/simple-icons/simple-icons/refs/heads/develop/data/simple-icons.json'
         headers = {'User-Agent': 'RankforBot/1.0'}
 
         r = requests.get(url, headers=headers, timeout=30)
@@ -61,7 +61,7 @@ def fetch_simple_icons() -> Set[str]:
         brands: Set[str] = set()
 
         # Extract brand titles
-        for icon in data.get('icons', []):
+        for icon in data:
             title = icon.get('title', '').strip()
             if title:
                 brands.add(title)

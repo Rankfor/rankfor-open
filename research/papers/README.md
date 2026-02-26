@@ -11,9 +11,9 @@ Published and submitted research from the Rankfor.AI team. All papers are open-a
 **Status:** Submitted (15.02.2026), under review
 **Preprint:** ResearchSquare.com
 
-148,636 AI-generated buyer personas across 122 industries (normalizing to 23 primary verticals), constructed through a multi-stage pipeline combining four publicly available persona corpora (~40M raw descriptions), GPU-accelerated MinHash LSH and semantic deduplication, and structured enrichment via xAI Grok. Each persona includes demographics, typical search queries (744K+), information needs (741K+), goals (450K+), and pain points (449K+).
+The submitted paper describes the original 148,636-persona dataset (PersonaGen-149K). The full dataset has since been expanded to **PersonaGen-593K** (593,181 personas across 339 industries, normalizing to ~25 primary verticals), constructed through the same multi-stage pipeline combining four publicly available persona corpora (~40M raw descriptions), GPU-accelerated MinHash LSH and semantic deduplication, and structured enrichment via xAI Grok. The expanded dataset includes ~3M search queries, ~3M information needs, ~1.8M goals, ~1.8M pain points, plus 3 new behavioral dimensions: top uncovered needs (~1.7M), search triggers (~2.2M), and preferred sources (~2.5M) -- totaling ~15.9M behavioral attributes.
 
-**Dataset (10% research sample):** [rankfor/PersonaGen-15K on HuggingFace](https://huggingface.co/datasets/rankfor/PersonaGen-15K) (CC BY 4.0, 14,955 personas)
+**Dataset (10% research sample):** [rankfor/PersonaGen-15K on HuggingFace](https://huggingface.co/datasets/rankfor/PersonaGen-15K) (CC BY 4.0, 14,955 personas -- sampled from original 149K)
 
 **Key findings:**
 - Distinct industry-specific patterns in information-seeking behavior
@@ -40,6 +40,30 @@ Three-study analysis of how LLMs (GPT-4o, Gemini 2.5 Flash, Grok 3) exhibit gend
 
 ---
 
+### 3. The Dice Roll Method: A Standardized Protocol for Measuring Stochastic Bias in Large Language Model Outputs
+
+**Author:** Dmitrij Zatuchin (EUAS, Rankfor.AI)
+**Journal:** International Journal of Data Science and Analytics (Springer)
+**Status:** Submitted (February 2026), under review
+
+A meta-methodology study formalizing the *Dice Roll Method* as a reusable audit protocol
+for measuring stochastic bias in LLM outputs. Combines reanalysis of five empirical studies
+(approximately 190,000 observations across three to five LLMs, 270+ brands, six languages,
+and iteration counts from 5 to 40) with Monte Carlo power simulation (10,000 replications
+per condition).
+
+**Key findings:**
+
+- $n = 5$ iterations achieves adequate statistical power ($>0.80$) only for very large effects ($d > 1.2$); large effects ($d \approx 0.8$) require $n \geq 15$
+- Metric convergence follows a logarithmic trajectory: 80% of asymptotic precision is achieved at $n = 7$, 90% at $n = 10$
+- Test-retest reliability (ICC) crosses the 0.70 acceptability threshold at $n \geq 8$
+- Count-based metrics (CV, Gini) and embedding-based metrics (cosine similarity) capture partially orthogonal information, supporting complementary metric batteries
+- Cost-efficiency knee point at $n = 7$; a 250-query study at $n = 10$ costs approximately $37.50 in API fees
+
+**Code and data:** [`research/dice-roll-method/`](../dice-roll-method/)
+
+---
+
 ## Dataset
 
 The PersonaGen-15K research sample is publicly available:
@@ -48,8 +72,8 @@ The PersonaGen-15K research sample is publicly available:
 |---|---|
 | **HuggingFace** | [rankfor/PersonaGen-15K](https://huggingface.co/datasets/rankfor/PersonaGen-15K) |
 | **License** | CC BY 4.0 |
-| **Personas** | 14,955 (stratified 10% of 148,636) |
-| **Industries** | 23 primary verticals |
+| **Personas** | 14,955 (stratified 10% of original 148,636; full dataset now 593,181) |
+| **Industries** | ~25 primary verticals (339 raw in full dataset) |
 | **Market Contexts** | B2C, B2B, B2B2C, B2G |
 | **Format** | Parquet (ZSTD compressed) |
 
@@ -77,6 +101,16 @@ Analysis pipelines and notebooks: [github.com/Rankfor/rankfor-open](https://gith
   journal={Human-Centric Intelligent Systems},
   year={2026},
   publisher={Springer Nature}
+}
+
+@article{zatuchin2026diceroll,
+  title={The Dice Roll Method: A Standardized Protocol for Measuring
+         Stochastic Bias in Large Language Model Outputs},
+  author={\.{Z}atuchin, Dmitrij},
+  journal={International Journal of Data Science and Analytics},
+  year={2026},
+  publisher={Springer Nature},
+  note={Submitted}
 }
 ```
 

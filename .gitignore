@@ -55,6 +55,17 @@ temp/
 research/papers/*/raw-data/
 research/papers/*/.working/
 
+# Dice Roll Method: raw study data (not committed; see DATA_SCHEMA.md)
+research/dice-roll-method/data/s1_gender_bias/*.json
+research/dice-roll-method/data/s2_reputation/*.csv
+research/dice-roll-method/data/s4_cross_language/*.json
+research/dice-roll-method/data/s4_cross_language/*.npy
+research/dice-roll-method/data/s5_category_ownership/*.json
+research/dice-roll-method/data/s5_category_ownership/*.npy
+
+# Dice Roll Method: generated results (reproducible from notebook)
+research/dice-roll-method/results/
+
 # Draft papers (publish only when ready)
 research/drafts/
 

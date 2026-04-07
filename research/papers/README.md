@@ -64,6 +64,24 @@ per condition).
 
 ---
 
+### 4. From Organizational Knowledge to AI Agent Memory: Empirical Validation of the SECI Model on the LongMemEval Benchmark
+
+**Author:** Dmitrij Zatuchin (EUAS, Rankfor.AI)
+**Journal:** Knowledge and Information Systems (Springer)
+**Status:** In preparation
+
+Adapts Nonaka & Takeuchi's SECI knowledge management model (1995) to AI agent memory systems and benchmarks it on LongMemEval (Wu et al., ICLR 2025). Tests structured extraction against raw verbatim storage across 500 questions and six memory task types.
+
+**Key findings:**
+- SECI hybrid extraction: 93.9% R@5 vs raw user-only (MemPalace method): 92.1%
+- Embedding truncation at 256 tokens is the dominant factor; raw storage loses 90% of 10K-char sessions
+- Extraction leads on 4/6 task types; raw wins on knowledge-update questions
+- User-only indexing (stripping assistant turns) adds +6.2pp for free
+
+**Code and data:** [`research/ai-memory-benchmark/`](../ai-memory-benchmark/)
+
+---
+
 ## Dataset
 
 The PersonaGen-15K research sample is publicly available:

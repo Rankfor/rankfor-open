@@ -1,21 +1,18 @@
-# rankfor-open
-Open-source tools for AI Visibility. Measure brand stability, detect hallucinations, and quantify how LLMs reason about your brand.
-Take control of how AI sees your brand.
-
 # Rankfor Open
 
-> Open-source algorithms and research for AI visibility intelligence.
+> Code and data for measuring what AI models say about a brand: whether they name
+> it, which sources they ground the answer in, and how much of the answer is noise.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![npm version](https://img.shields.io/npm/v/@rankfor/dice-roller.svg)](https://www.npmjs.com/package/@rankfor/dice-roller)
 
 ## What is Rankfor Open?
 
-Rankfor Open is the open-source arm of [Rankfor.AI](https://rankfor.ai), providing:
+Rankfor Open is the public half of [Rankfor.AI](https://rankfor.ai). It holds:
 
-- **Dice Roller Algorithm** - Analyze AI response stability and consistency
-- **Research Papers** - Peer-reviewed studies on AI visibility and brand recommendations
-- **AI Visibility Glossary** - Standardized terminology for the emerging GEO field
+- **Dice Roller**: measures whether a model says the same thing when asked again
+- **Research**: five arXiv preprints and seven open datasets, listed below with their identifiers
+- **Glossary**: the terms this field uses, defined once so they can be argued with
 
 ## Quick Start
 
@@ -125,12 +122,12 @@ button, which reads [CITATION.cff](./CITATION.cff).
 
 ### Dice Roller Algorithm
 
-The Dice Roller analyzes AI response consistency by:
+Ask a model the same question once and you learn what it said that time. The Dice
+Roller asks five or more times and reports what held.
 
-1. **Running Multiple Iterations** - Sends the same prompt 5+ times to an LLM
-2. **Extracting Key Messages** - Identifies brand mentions, recommendations, and key points
-3. **Calculating Semantic Overlap** - Measures consistency across responses
-4. **Classifying Messages** - Separates stable vs. variable content
+It sends the prompt repeatedly, pulls the brands and claims out of each answer,
+measures how much the answers overlap, and splits what it finds into the part that
+appeared every time and the part that came and went.
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -161,10 +158,10 @@ The Dice Roller analyzes AI response consistency by:
 
 ## Use Cases
 
-- **Brand Monitoring** - Track how often AI recommends your brand
-- **Competitive Intelligence** - Compare your AI visibility vs. competitors
-- **Content Strategy** - Identify which messages are consistently associated with your brand
-- **Research** - Academic study of LLM recommendation patterns
+- **Brand monitoring**: how often a model recommends you, and how steadily
+- **Competitive comparison**: the same measurement run against the brands you lose to
+- **Content strategy**: which of your claims survive repeated asking, and which do not
+- **Research**: the datasets and code behind the preprints
 
 ## API Reference
 
@@ -199,7 +196,7 @@ interface StabilityResult {
 
 ## Contributing
 
-We welcome contributions. See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+Pull requests are welcome. [CONTRIBUTING.md](CONTRIBUTING.MD) has the details.
 
 ### Development Setup
 
@@ -219,11 +216,11 @@ npm test
 
 ## Links
 
-- [Rankfor.AI](https://rankfor.ai) - Full AI visibility platform
-- [open.rankfor.ai](https://open.rankfor.ai) - Free tools and research
+- [Rankfor.AI](https://rankfor.ai): the commercial platform
+- [open.rankfor.ai](https://open.rankfor.ai): free tools, studies and the publications index
 - [Documentation](https://open.rankfor.ai/resources)
 - [Report Issues](https://github.com/Rankfor/rankfor-open/issues)
 
 ---
 
-Built with care by the [Rankfor.AI](https://rankfor.ai) team.
+Maintained by [Rankfor.AI](https://rankfor.ai), Tallinn and Wrocław.

@@ -59,7 +59,6 @@ rankfor-open/
 │   └── README.md
 ├── research/                 # Published research (CC BY 4.0)
 │   └── papers/
-│       └── 2026-01-dice-roll-stability/
 ├── glossary/                 # AI visibility terminology
 │   └── terms.json
 ├── LICENSE                   # MIT
@@ -75,13 +74,52 @@ rankfor-open/
 
 ## Research
 
-All research is available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+Everything below is public and citable. Preprints are on arXiv, datasets are on
+Zenodo under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), and each
+DOI resolves to the archived files, not to this repository.
 
-| Paper | Date | Status |
-|-------|------|--------|
-| [Dice Roll Stability Analysis](./research/papers/2026-01-dice-roll-stability) | Jan 2026 | Published |
+### Preprints
 
-Browse all research at [open.rankfor.ai/resources](https://open.rankfor.ai/resources).
+| Paper | arXiv | Date |
+|---|---|---|
+| Who Owns the AI Recommendation? A Multi-Industry Empirical Map of Brand Category Ownership Across Large Language Models | [2606.23057](https://arxiv.org/abs/2606.23057) | Jun 2026 |
+| The Language Blind Spot: How Query Language and Brand Recognition Tier Shape AI-Constructed Brand Reputation Across Twelve European Languages | [2606.23165](https://arxiv.org/abs/2606.23165) | Jun 2026 |
+| How Large Language Models Source Brand Reputation Across Languages and Markets | [2606.25787](https://arxiv.org/abs/2606.25787) | Jun 2026 |
+| Where Does the Noise Come From? A Variance-Components Decomposition of Non-Determinism in LLM Brand Answers | [2607.13304](https://arxiv.org/abs/2607.13304) | Jul 2026 |
+| Who Gets Named: Citation Type Predicts Individual Naming by Grounded Language Models, and a Roster Instrument Captures 0.5% of It | [2607.23893](https://arxiv.org/abs/2607.23893) | Jul 2026 |
+
+### Datasets
+
+| Dataset | DOI | Date |
+|---|---|---|
+| Does an AI describe your company, or your company's name? 9,600 model answers about invented and real companies | [10.5281/zenodo.21904654](https://doi.org/10.5281/zenodo.21904654) | Aug 2026 |
+| Supplementary Materials: Measuring Corporate Reputation in the Age of AI | [10.5281/zenodo.19225834](https://doi.org/10.5281/zenodo.19225834) | Aug 2026 |
+| Individual Professional Visibility in Grounded LLM Answers: 2,400 buyer-intent responses across four European markets | [10.5281/zenodo.21612690](https://doi.org/10.5281/zenodo.21612690) | Jul 2026 |
+| How LLMs Source Brand Reputation Across Languages and Markets: a cross-market citation dataset | [10.5281/zenodo.20829524](https://doi.org/10.5281/zenodo.20829524) | Jun 2026 |
+| Cross-Language AI Brand Reputation: a 66-brand, 12-language dataset | [10.5281/zenodo.20794390](https://doi.org/10.5281/zenodo.20794390) | Jun 2026 |
+| Category Ownership Map (COI/CVI/DS): a multi-industry dataset of brand recommendations | [10.5281/zenodo.20788142](https://doi.org/10.5281/zenodo.20788142) | Jun 2026 |
+| Supplementary Materials: How LLMs Source Brand Reputation Knowledge, cross-industry | [10.5281/zenodo.19225835](https://doi.org/10.5281/zenodo.19225835) | Mar 2026 |
+
+[PersonaGen-15K](https://huggingface.co/datasets/rankfor/PersonaGen-15K) is on
+Hugging Face: 14,955 AI-generated buyer personas, a stratified 10% of the
+149K set, Parquet, CC BY 4.0.
+
+### Studies in this repository
+
+Code and the small tables needed to check a number. Large data stays on Zenodo,
+which is the archive of record.
+
+| Study | What it measures |
+|---|---|
+| [brand-name-valence](./research/brand-name-valence) | Whether a model judges the company or only the sound of its name: 9,600 answers, 264 real companies and 150 invented ones, 21 markets, 3 models |
+| [dice-roll-method](./research/dice-roll-method) | Stability of LLM brand answers under repeated identical prompts |
+| [ai-memory-benchmark](./research/ai-memory-benchmark) | SECI-structured extraction against raw storage on LongMemEval |
+
+Papers under peer review, with abstracts and current venue, are listed in
+[research/papers](./research/papers).
+
+To cite the repository or any of the work above, use the "Cite this repository"
+button, which reads [CITATION.cff](./CITATION.cff).
 
 ## How It Works
 

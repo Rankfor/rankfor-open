@@ -1,0 +1,778 @@
+[
+{
+"brand": "Die Genusswelt",
+"name_valence": 1.67,
+"dv": 6.459557142857142,
+"known": 0.03333333333333333,
+"hedge": 0.0,
+"market": "Germany"
+},
+{
+"brand": "Tsunami Axis",
+"name_valence": 3.2600000000000002,
+"dv": 5.7094876984126985,
+"known": 0.6333333333333333,
+"hedge": 0.3333333333333333,
+"market": "UK"
+},
+{
+"brand": "Kempower Corporation",
+"name_valence": 3.82,
+"dv": 6.2153293650793655,
+"known": 0.5,
+"hedge": 0.0,
+"market": "Finland"
+},
+{
+"brand": "Grupa Dealer",
+"name_valence": 4.18,
+"dv": 5.593208333333333,
+"known": 0.3333333333333333,
+"hedge": 0.1,
+"market": "Poland"
+},
+{
+"brand": "Epidemic Sound",
+"name_valence": 4.25,
+"dv": 6.354207936507936,
+"known": 1.0,
+"hedge": 0.0,
+"market": "Sweden"
+},
+{
+"brand": "Coffi Lab",
+"name_valence": 4.57,
+"dv": 6.656373148148148,
+"known": 0.06666666666666667,
+"hedge": 0.0,
+"market": "UK"
+},
+{
+"brand": "Buster",
+"name_valence": 4.59,
+"dv": 6.113070767195767,
+"known": 0.06666666666666667,
+"hedge": 0.06666666666666667,
+"market": "France"
+},
+{
+"brand": "Automated Analytics",
+"name_valence": 4.74,
+"dv": 6.055775396825396,
+"known": 0.9666666666666667,
+"hedge": 0.1,
+"market": "UK"
+},
+{
+"brand": "Refinery89",
+"name_valence": 4.76,
+"dv": 5.626351984126984,
+"known": 0.7666666666666667,
+"hedge": 0.23333333333333334,
+"market": "Netherlands"
+},
+{
+"brand": "Exceed",
+"name_valence": 4.79,
+"dv": 6.06982037037037,
+"known": 0.0,
+"hedge": 0.06666666666666667,
+"market": "UK"
+},
+{
+"brand": "Masthaven Finance",
+"name_valence": 4.81,
+"dv": 5.925688095238096,
+"known": 1.0,
+"hedge": 0.0,
+"market": "UK"
+},
+{
+"brand": "Gambling.com Group",
+"name_valence": 4.81,
+"dv": 5.4193765873015876,
+"known": 0.9666666666666667,
+"hedge": 0.0,
+"market": "Ireland"
+},
+{
+"brand": "B2Digit",
+"name_valence": 4.84,
+"dv": 6.1202109788359795,
+"known": 0.9666666666666667,
+"hedge": 0.13333333333333333,
+"market": "France"
+},
+{
+"brand": "Seven Portage",
+"name_valence": 4.9,
+"dv": 5.627274206349207,
+"known": 0.4,
+"hedge": 0.3333333333333333,
+"market": "France"
+},
+{
+"brand": "Noah Maritime",
+"name_valence": 4.9,
+"dv": 5.797978571428572,
+"known": 0.9666666666666667,
+"hedge": 0.1,
+"market": "Germany"
+},
+{
+"brand": "Wianco OTT Robotics",
+"name_valence": 4.95,
+"dv": 5.7113657407407405,
+"known": 0.8666666666666667,
+"hedge": 0.23333333333333334,
+"market": "Germany"
+},
+{
+"brand": "Delville Management",
+"name_valence": 4.95,
+"dv": 5.196841137566137,
+"known": 0.6666666666666666,
+"hedge": 0.3333333333333333,
+"market": "France"
+},
+{
+"brand": "Flavia IT-Management",
+"name_valence": 4.95,
+"dv": 6.233942195767196,
+"known": 1.0,
+"hedge": 0.16666666666666666,
+"market": "Germany"
+},
+{
+"brand": "Explicit Selection",
+"name_valence": 4.96,
+"dv": 5.408627513227513,
+"known": 0.0,
+"hedge": 0.3333333333333333,
+"market": "Netherlands"
+},
+{
+"brand": "Latitude Investment Management",
+"name_valence": 4.97,
+"dv": 5.9096034391534396,
+"known": 0.4666666666666667,
+"hedge": 0.03333333333333333,
+"market": "UK"
+},
+{
+"brand": "Mevas Auto",
+"name_valence": 5.0,
+"dv": 5.816417592592592,
+"known": 0.4,
+"hedge": 0.23333333333333334,
+"market": "Romania"
+},
+{
+"brand": "VFX Financial",
+"name_valence": 5.0,
+"dv": 5.924056878306879,
+"known": 1.0,
+"hedge": 0.03333333333333333,
+"market": "UK"
+},
+{
+"brand": "NRG MED",
+"name_valence": 5.0,
+"dv": 5.739191666666667,
+"known": 0.5333333333333333,
+"hedge": 0.13333333333333333,
+"market": "Italy"
+},
+{
+"brand": "Grid Finance",
+"name_valence": 5.005,
+"dv": 5.841462301587302,
+"known": 1.0,
+"hedge": 0.0,
+"market": "Ireland"
+},
+{
+"brand": "Penisola Gas & Power",
+"name_valence": 5.015,
+"dv": 5.377193783068782,
+"known": 1.0,
+"hedge": 0.23333333333333334,
+"market": "Italy"
+},
+{
+"brand": "Yorkshire Gas and Power",
+"name_valence": 5.015,
+"dv": 5.57765873015873,
+"known": 1.0,
+"hedge": 0.2,
+"market": "UK"
+},
+{
+"brand": "System Loco",
+"name_valence": 5.015000000000001,
+"dv": 5.929632407407408,
+"known": 1.0,
+"hedge": 0.1,
+"market": "UK"
+},
+{
+"brand": "Iron Media",
+"name_valence": 5.03,
+"dv": 6.124277116402116,
+"known": 1.0,
+"hedge": 0.13333333333333333,
+"market": "Germany"
+},
+{
+"brand": "Hydrogen-Refueling-Solutions (HRS)",
+"name_valence": 5.04,
+"dv": 5.761667857142857,
+"known": 0.3333333333333333,
+"hedge": 0.0,
+"market": "France"
+},
+{
+"brand": "500 Logistics",
+"name_valence": 5.05,
+"dv": 6.200846693121693,
+"known": 1.0,
+"hedge": 0.16666666666666666,
+"market": "UK"
+},
+{
+"brand": "Groupe Work4You",
+"name_valence": 5.05,
+"dv": 5.601134126984126,
+"known": 0.9,
+"hedge": 0.13333333333333333,
+"market": "France"
+},
+{
+"brand": "DASH",
+"name_valence": 5.05,
+"dv": 6.121976058201058,
+"known": 0.6,
+"hedge": 0.0,
+"market": "UK"
+},
+{
+"brand": "Vizion Network",
+"name_valence": 5.05,
+"dv": 5.767073015873016,
+"known": 0.9666666666666667,
+"hedge": 0.0,
+"market": "UK"
+},
+{
+"brand": "Lomana Logistics",
+"name_valence": 5.05,
+"dv": 6.354786111111111,
+"known": 1.0,
+"hedge": 0.16666666666666666,
+"market": "Spain"
+},
+{
+"brand": "Knights Pharmacy",
+"name_valence": 5.05,
+"dv": 6.10043783068783,
+"known": 0.9333333333333333,
+"hedge": 0.0,
+"market": "UK"
+},
+{
+"brand": "Magnitude",
+"name_valence": 5.1,
+"dv": 5.985777645502646,
+"known": 0.03333333333333333,
+"hedge": 0.0,
+"market": "France"
+},
+{
+"brand": "Cabinet TLC",
+"name_valence": 5.1,
+"dv": 6.462010185185185,
+"known": 0.8666666666666667,
+"hedge": 0.06666666666666667,
+"market": "France"
+},
+{
+"brand": "Interim Search",
+"name_valence": 5.119999999999999,
+"dv": 5.686742857142858,
+"known": 0.9666666666666667,
+"hedge": 0.0,
+"market": "Sweden"
+},
+{
+"brand": "Infrastructure Services",
+"name_valence": 5.14,
+"dv": 6.366593386243386,
+"known": 0.9666666666666667,
+"hedge": 0.0,
+"market": "France"
+},
+{
+"brand": "IQM Quantum Computers",
+"name_valence": 5.15,
+"dv": 5.681910317460318,
+"known": 0.3,
+"hedge": 0.0,
+"market": "Finland"
+},
+{
+"brand": "Rev\u00f9 Clinic",
+"name_valence": 5.155,
+"dv": 5.628241402116402,
+"known": 0.7666666666666667,
+"hedge": 0.2,
+"market": "Lithuania"
+},
+{
+"brand": "Rail Unit",
+"name_valence": 5.195,
+"dv": 5.671856084656085,
+"known": 0.9333333333333333,
+"hedge": 0.13333333333333333,
+"market": "Germany"
+},
+{
+"brand": "Grid & Co.",
+"name_valence": 5.2,
+"dv": 6.209355158730159,
+"known": 1.0,
+"hedge": 0.03333333333333333,
+"market": "Germany"
+},
+{
+"brand": "Bio&Me",
+"name_valence": 5.2,
+"dv": 6.677591666666667,
+"known": 0.43333333333333335,
+"hedge": 0.0,
+"market": "UK"
+},
+{
+"brand": "So Fast So Good",
+"name_valence": 7.89,
+"dv": 6.6684292328042325,
+"known": 0.6333333333333333,
+"hedge": 0.0,
+"market": "France"
+},
+{
+"brand": "Ison Travel",
+"name_valence": 7.89,
+"dv": 6.239441005291005,
+"known": 1.0,
+"hedge": 0.06666666666666667,
+"market": "UK"
+},
+{
+"brand": "Brightsun Travel",
+"name_valence": 7.89,
+"dv": 6.418526587301587,
+"known": 1.0,
+"hedge": 0.0,
+"market": "UK"
+},
+{
+"brand": "Smart Partners",
+"name_valence": 7.73,
+"dv": 6.426063492063492,
+"known": 0.0,
+"hedge": 0.16666666666666666,
+"market": "France"
+},
+{
+"brand": "Climax Deutschland",
+"name_valence": 7.53,
+"dv": 5.89920634920635,
+"known": 0.7666666666666667,
+"hedge": 0.03333333333333333,
+"market": "Germany"
+},
+{
+"brand": "Intermoma Food",
+"name_valence": 7.52,
+"dv": 5.77256164021164,
+"known": 1.0,
+"hedge": 0.23333333333333334,
+"market": "Italy"
+},
+{
+"brand": "Genius And Co",
+"name_valence": 7.52,
+"dv": 6.128370370370371,
+"known": 0.8666666666666667,
+"hedge": 0.16666666666666666,
+"market": "France"
+},
+{
+"brand": "Oxford Summer Courses",
+"name_valence": 7.5,
+"dv": 6.203836904761904,
+"known": 1.0,
+"hedge": 0.0,
+"market": "UK"
+},
+{
+"brand": "Zen Educate",
+"name_valence": 7.48,
+"dv": 6.244202777777777,
+"known": 0.36666666666666664,
+"hedge": 0.0,
+"market": "UK"
+},
+{
+"brand": "Baroni Home",
+"name_valence": 7.48,
+"dv": 6.46836574074074,
+"known": 0.3,
+"hedge": 0.0,
+"market": "Italy"
+},
+{
+"brand": "Fermeture Econ'Home",
+"name_valence": 7.48,
+"dv": 6.048098677248677,
+"known": 0.0,
+"hedge": 0.0,
+"market": "France"
+},
+{
+"brand": "Clever",
+"name_valence": 7.36,
+"dv": 6.660873809523809,
+"known": 0.0,
+"hedge": 0.0,
+"market": "Denmark"
+},
+{
+"brand": "unique projects",
+"name_valence": 7.32,
+"dv": 6.0045222222222225,
+"known": 0.5,
+"hedge": 0.0,
+"market": "Germany"
+},
+{
+"brand": "Kid-A",
+"name_valence": 7.23,
+"dv": 6.036706613756613,
+"known": 0.3333333333333333,
+"hedge": 0.16666666666666666,
+"market": "UK"
+},
+{
+"brand": "Sensational",
+"name_valence": 7.21,
+"dv": 5.9964031746031745,
+"known": 0.5666666666666667,
+"hedge": 0.3333333333333333,
+"market": "Germany"
+},
+{
+"brand": "SC Media House",
+"name_valence": 7.19,
+"dv": 6.09717208994709,
+"known": 1.0,
+"hedge": 0.23333333333333334,
+"market": "Germany"
+},
+{
+"brand": "Magic AI",
+"name_valence": 7.17,
+"dv": 6.126604761904762,
+"known": 1.0,
+"hedge": 0.0,
+"market": "UK"
+},
+{
+"brand": "Teach Up",
+"name_valence": 7.06,
+"dv": 6.175519047619048,
+"known": 0.9333333333333333,
+"hedge": 0.23333333333333334,
+"market": "France"
+},
+{
+"brand": "Dog Heroes",
+"name_valence": 7.0,
+"dv": 6.694398677248677,
+"known": 0.16666666666666666,
+"hedge": 0.03333333333333333,
+"market": "Italy"
+},
+{
+"brand": "Jurassic Fruit",
+"name_valence": 7.0,
+"dv": 6.340571428571428,
+"known": 0.23333333333333334,
+"hedge": 0.06666666666666667,
+"market": "Germany"
+},
+{
+"brand": "ECOnnect Energy",
+"name_valence": 6.9,
+"dv": 6.137692857142857,
+"known": 1.0,
+"hedge": 0.0,
+"market": "Norway"
+},
+{
+"brand": "4 Energy",
+"name_valence": 6.9,
+"dv": 6.372502513227514,
+"known": 1.0,
+"hedge": 0.13333333333333333,
+"market": "Italy"
+},
+{
+"brand": "Adopt Parfums",
+"name_valence": 6.9,
+"dv": 6.452521693121693,
+"known": 0.26666666666666666,
+"hedge": 0.0,
+"market": "France"
+},
+{
+"brand": "Principia Energy",
+"name_valence": 6.9,
+"dv": 5.820045634920635,
+"known": 1.0,
+"hedge": 0.3,
+"market": "Greece"
+},
+{
+"brand": "Think Hire",
+"name_valence": 6.885,
+"dv": 6.144923412698413,
+"known": 0.4,
+"hedge": 0.1,
+"market": "UK"
+},
+{
+"brand": "Indigo Independent Governance",
+"name_valence": 6.86,
+"dv": 5.550345634920634,
+"known": 0.7333333333333333,
+"hedge": 0.3,
+"market": "UK"
+},
+{
+"brand": "Milk the Sun",
+"name_valence": 6.83,
+"dv": 5.970910978835978,
+"known": 1.0,
+"hedge": 0.0,
+"market": "Germany"
+},
+{
+"brand": "Thrive",
+"name_valence": 6.79,
+"dv": 6.31381970899471,
+"known": 0.9,
+"hedge": 0.0,
+"market": "UK"
+},
+{
+"brand": "Blue energy",
+"name_valence": 6.715,
+"dv": 6.198633994708995,
+"known": 0.4,
+"hedge": 0.0,
+"market": "Poland"
+},
+{
+"brand": "H2Air",
+"name_valence": 6.71,
+"dv": 6.231513888888888,
+"known": 0.9666666666666667,
+"hedge": 0.03333333333333333,
+"market": "France"
+},
+{
+"brand": "On Ze Air",
+"name_valence": 6.71,
+"dv": 6.0566367724867725,
+"known": 0.6333333333333333,
+"hedge": 0.06666666666666667,
+"market": "France"
+},
+{
+"brand": "Billion Dollar Boy",
+"name_valence": 6.676666666666667,
+"dv": 6.145308201058201,
+"known": 1.0,
+"hedge": 0.0,
+"market": "UK"
+},
+{
+"brand": "Green Creative",
+"name_valence": 6.675,
+"dv": 6.256875661375661,
+"known": 1.0,
+"hedge": 0.0,
+"market": "France"
+},
+{
+"brand": "Beratung Wink",
+"name_valence": 6.62,
+"dv": 5.94478835978836,
+"known": 0.0,
+"hedge": 0.3333333333333333,
+"market": "Germany"
+},
+{
+"brand": "ElastIQ-Connect",
+"name_valence": 6.61,
+"dv": 6.6092884920634924,
+"known": 0.9,
+"hedge": 0.0,
+"market": "Netherlands"
+},
+{
+"brand": "Dynamicom Education",
+"name_valence": 6.58,
+"dv": 6.044206746031746,
+"known": 1.0,
+"hedge": 0.1,
+"market": "Italy"
+},
+{
+"brand": "Camping-Car Park",
+"name_valence": 6.573333333333333,
+"dv": 6.2739658730158725,
+"known": 0.5333333333333333,
+"hedge": 0.0,
+"market": "France"
+},
+{
+"brand": "Rocksteady Music School",
+"name_valence": 6.54,
+"dv": 7.0518269841269845,
+"known": 1.0,
+"hedge": 0.0,
+"market": "UK"
+},
+{
+"brand": "Golden Voice Academy",
+"name_valence": 6.536666666666666,
+"dv": 6.499626455026455,
+"known": 0.9666666666666667,
+"hedge": 0.06666666666666667,
+"market": "Germany"
+},
+{
+"brand": "Software Mind",
+"name_valence": 6.535,
+"dv": 6.108117063492063,
+"known": 1.0,
+"hedge": 0.0,
+"market": "Poland"
+},
+{
+"brand": "The Orange Studio",
+"name_valence": 6.525,
+"dv": 6.4328564814814815,
+"known": 1.0,
+"hedge": 0.03333333333333333,
+"market": "Netherlands"
+},
+{
+"brand": "Equal Education",
+"name_valence": 6.525,
+"dv": 6.268228571428571,
+"known": 1.0,
+"hedge": 0.0,
+"market": "UK"
+},
+{
+"brand": "Fair Collection",
+"name_valence": 6.52,
+"dv": 5.5975034391534395,
+"known": 0.4,
+"hedge": 0.3333333333333333,
+"market": "Norway"
+},
+{
+"brand": "Sparklers Club",
+"name_valence": 6.5,
+"dv": 6.810329894179895,
+"known": 0.5,
+"hedge": 0.06666666666666667,
+"market": "France"
+},
+{
+"brand": "MSS Electronics",
+"name_valence": 6.5,
+"dv": 6.095194312169312,
+"known": 0.1,
+"hedge": 0.0,
+"market": "Greece"
+},
+{
+"brand": "Comfort Click",
+"name_valence": 6.470000000000001,
+"dv": 6.382585582010582,
+"known": 0.3,
+"hedge": 0.03333333333333333,
+"market": "UK"
+},
+{
+"brand": "Zebra BI",
+"name_valence": 6.47,
+"dv": 5.987716137566138,
+"known": 0.9333333333333333,
+"hedge": 0.0,
+"market": "Slovenia"
+},
+{
+"brand": "My Pension Expert",
+"name_valence": 6.465,
+"dv": 5.968692857142857,
+"known": 0.7333333333333333,
+"hedge": 0.0,
+"market": "UK"
+},
+{
+"brand": "K\u00f6nig Fitness und Gesundheitszentrum",
+"name_valence": 6.45,
+"dv": 6.376106878306879,
+"known": 0.8666666666666667,
+"hedge": 0.03333333333333333,
+"market": "Germany"
+},
+{
+"brand": "Golf Travel Group",
+"name_valence": 6.446666666666666,
+"dv": 6.732675396825397,
+"known": 1.0,
+"hedge": 0.0,
+"market": "UK"
+},
+{
+"brand": "Etienne Coffee & Shop",
+"name_valence": 6.445,
+"dv": 6.589755555555556,
+"known": 0.9666666666666667,
+"hedge": 0.1,
+"market": "France"
+},
+{
+"brand": "Alfa Fish",
+"name_valence": 6.42,
+"dv": 6.0763,
+"known": 0.1,
+"hedge": 0.0,
+"market": "Belgium"
+},
+{
+"brand": "P3 Security",
+"name_valence": 6.41,
+"dv": 6.013319312169313,
+"known": 0.7666666666666667,
+"hedge": 0.13333333333333333,
+"market": "Germany"
+}
+]

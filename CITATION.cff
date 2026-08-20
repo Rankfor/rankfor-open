@@ -1,0 +1,121 @@
+cff-version: 1.2.0
+message: "If you use this software or the research behind it, please cite the relevant preprint or dataset below."
+title: "Rankfor Open"
+abstract: >-
+  Open-science tools and datasets for measuring AI visibility: whether large
+  language models name a brand, which sources they ground that answer in, and
+  how much of the answer is noise.
+type: software
+authors:
+  - family-names: "Żatuchin"
+    given-names: "Dmitrij"
+    affiliation: "Rankfor.AI"
+repository-code: "https://github.com/Rankfor/rankfor-open"
+url: "https://open.rankfor.ai"
+license: CC-BY-4.0
+keywords:
+  - ai-visibility
+  - answer-engine-optimization
+  - generative-engine-optimization
+  - brand-monitoring
+  - large-language-models
+
+# Preferred citation: the methodology paper behind the Dice Roll stability work.
+preferred-citation:
+  type: article
+  title: "Where Does the Noise Come From? A Variance-Components Decomposition of Non-Determinism in LLM Brand Answers"
+  authors:
+    - family-names: "Żatuchin"
+      given-names: "Dmitrij"
+  year: 2026
+  month: 7
+  identifiers:
+    - type: other
+      value: "arXiv:2607.13304"
+      description: arXiv preprint
+  url: "https://arxiv.org/abs/2607.13304"
+
+references:
+  - type: article
+    title: "Who Owns the AI Recommendation? A Multi-Industry Empirical Map of Brand Category Ownership Across Large Language Models"
+    authors:
+      - family-names: "Żatuchin"
+        given-names: "Dmitrij"
+    year: 2026
+    month: 6
+    url: "https://arxiv.org/abs/2606.23057"
+    identifiers:
+      - type: other
+        value: "arXiv:2606.23057"
+        description: arXiv preprint
+  - type: article
+    title: "The Language Blind Spot: How Query Language and Brand Recognition Tier Shape AI-Constructed Brand Reputation Across Twelve European Languages"
+    authors:
+      - family-names: "Żatuchin"
+        given-names: "Dmitrij"
+    year: 2026
+    month: 6
+    url: "https://arxiv.org/abs/2606.23165"
+    identifiers:
+      - type: other
+        value: "arXiv:2606.23165"
+        description: arXiv preprint
+  - type: article
+    title: "How Large Language Models Source Brand Reputation Across Languages and Markets"
+    authors:
+      - family-names: "Żatuchin"
+        given-names: "Dmitrij"
+    year: 2026
+    month: 6
+    url: "https://arxiv.org/abs/2606.25787"
+    identifiers:
+      - type: other
+        value: "arXiv:2606.25787"
+        description: arXiv preprint
+  - type: article
+    title: "Who Gets Named: Citation Type Predicts Individual Naming by Grounded Language Models, and a Roster Instrument Captures 0.5% of It"
+    authors:
+      - family-names: "Żatuchin"
+        given-names: "Dmitrij"
+    year: 2026
+    month: 7
+    url: "https://arxiv.org/abs/2607.23893"
+    identifiers:
+      - type: other
+        value: "arXiv:2607.23893"
+        description: arXiv preprint
+  - type: data
+    title: "Does an AI describe your company, or your company's name? 9,600 model answers about invented and real companies"
+    authors:
+      - family-names: "Żatuchin"
+        given-names: "Dmitrij"
+    year: 2026
+    doi: "10.5281/zenodo.21904654"
+  - type: data
+    title: "Individual Professional Visibility in Grounded LLM Answers: 2,400 Buyer-Intent Responses Across Four European Markets"
+    authors:
+      - family-names: "Żatuchin"
+        given-names: "Dmitrij"
+    year: 2026
+    doi: "10.5281/zenodo.21612690"
+  - type: data
+    title: "Cross-Language AI Brand Reputation: A 66-Brand, 12-Language Dataset of LLM-Constructed Reputation"
+    authors:
+      - family-names: "Żatuchin"
+        given-names: "Dmitrij"
+    year: 2026
+    doi: "10.5281/zenodo.20794390"
+  - type: data
+    title: "How LLMs Source Brand Reputation Across Languages and Markets: A Cross-Market Citation Dataset"
+    authors:
+      - family-names: "Żatuchin"
+        given-names: "Dmitrij"
+    year: 2026
+    doi: "10.5281/zenodo.20829524"
+  - type: data
+    title: "Category Ownership Map (COI/CVI/DS): A Multi-Industry Dataset of Brand Recommendations"
+    authors:
+      - family-names: "Żatuchin"
+        given-names: "Dmitrij"
+    year: 2026
+    doi: "10.5281/zenodo.20788142"

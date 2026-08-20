@@ -1,0 +1,128 @@
+{
+ "answers_total": 9600,
+ "answers_fiction": 1350,
+ "answers_real": 8250,
+ "failures": 0,
+ "companies_real": 264,
+ "markets": 21,
+ "effects": {
+  "gemini": {
+   "en": [
+    3.62,
+    6.72,
+    3.1
+   ],
+   "ps": [
+    5.23,
+    6.17,
+    0.95
+   ],
+   "pl": [
+    3.77,
+    6.7,
+    2.93
+   ]
+  },
+  "claude": {
+   "en": [
+    4.75,
+    6.56,
+    1.81
+   ],
+   "ps": [
+    5.73,
+    6.14,
+    0.42
+   ],
+   "pl": [
+    5.42,
+    6.15,
+    0.73
+   ]
+  },
+  "gpt": {
+   "en": [
+    5.35,
+    6.25,
+    0.89
+   ],
+   "ps": [
+    6.39,
+    6.39,
+    -0.0
+   ],
+   "pl": [
+    6.31,
+    6.26,
+    -0.04
+   ]
+  }
+ },
+ "hedge": {
+  "gemini": 0.0,
+  "claude": 19.0,
+  "gpt": 0.0
+ },
+ "noise": 0.28,
+ "sector_high": 49,
+ "sector_mid": 24,
+ "sector_low": 27,
+ "n_scored": 175,
+ "sector": {
+  "gemini": 75.1,
+  "claude": 67.4,
+  "gpt": 67.9
+ },
+ "sector_it": {
+  "n": 52,
+  "mean": 86.1,
+  "lo_share": 10
+ },
+ "sector_rest": {
+  "n": 123,
+  "mean": 64.2,
+  "lo_share": 34
+ },
+ "spread": [
+  {
+   "brand": "Fermeture Econ'Home",
+   "market": "France",
+   "pct": 0.0
+  },
+  {
+   "brand": "Dog Heroes",
+   "market": "Italy",
+   "pct": 16.7
+  },
+  {
+   "brand": "Comfort Click",
+   "market": "UK",
+   "pct": 30.0
+  },
+  {
+   "brand": "Latitude Investment Management",
+   "market": "UK",
+   "pct": 46.7
+  },
+  {
+   "brand": "Draivi",
+   "market": "Finland",
+   "pct": 60.0
+  },
+  {
+   "brand": "Indigo Independent Governance",
+   "market": "UK",
+   "pct": 73.3
+  },
+  {
+   "brand": "ElastIQ-Connect",
+   "market": "Netherlands",
+   "pct": 90.0
+  },
+  {
+   "brand": "Rocksteady Music School",
+   "market": "UK",
+   "pct": 100.0
+  }
+ ]
+}

@@ -1,0 +1,176 @@
+brand,market,ft_sector,answers,right_pct,band
+81 klima,Czech Republic,Electrical Manufacturing,30,0.0,right <50%
+Beratung Wink,Germany,Energy & Utilities,30,0.0,right <50%
+Clever,Denmark,Energy & Utilities,60,0.0,right <50%
+Exceed,UK,Energy & Utilities,30,0.0,right <50%
+Explicit Selection,Netherlands,"Fintech, Financial Services & Insurance",30,0.0,right <50%
+Fermeture Econ'Home,France,Retail,30,0.0,right <50%
+Jeff,Latvia,"Fintech, Financial Services & Insurance",30,0.0,right <50%
+Roaring,Sweden,"Fintech, Financial Services & Insurance",30,0.0,right <50%
+Smart Partners,France,"Fintech, Financial Services & Insurance",30,0.0,right <50%
+Tepsivo,Finland,Health Care & Life Sciences,30,0.0,right <50%
+alerabat.com,Poland,Advertising & Marketing,30,0.0,right <50%
+8Wines,Czech Republic,Food & Beverages,30,3.3,right <50%
+Die Genusswelt,Germany,Hospitality & Travel,30,3.3,right <50%
+Imchex,Poland,Wholesale,30,3.3,right <50%
+Magnitude,France,Advertising & Marketing,30,3.3,right <50%
+Buster,France,Advertising & Marketing,30,6.7,right <50%
+Coffi Lab,UK,Hospitality & Travel,30,6.7,right <50%
+Alfa Fish,Belgium,Food & Beverages,30,10.0,right <50%
+Arrive (former EasyPark Group),Sweden,"Professional, Scientific & Technical Ser",30,10.0,right <50%
+MSS Electronics,Greece,Wholesale,30,10.0,right <50%
+Shapen,Slovakia,Ecommerce,30,10.0,right <50%
+Dog Heroes,Italy,Food & Beverages,30,16.7,right <50%
+Jurassic Fruit,Germany,Ecommerce,30,23.3,right <50%
+Requtech,Sweden,Media & Telecommunications,30,23.3,right <50%
+Adopt Parfums,France,Retail,30,26.7,right <50%
+Bredbandsval.se,Sweden,Media & Telecommunications,30,26.7,right <50%
+Baroni Home,Italy,Ecommerce,30,30.0,right <50%
+Comfort Click,UK,Ecommerce,30,30.0,right <50%
+DiscoverCars,Latvia,Hospitality & Travel,30,30.0,right <50%
+Grupa Dealer,Poland,IT & Software,60,33.3,right <50%
+Hydrogen-Refueling-Solutions (HRS),France,Energy & Utilities,30,33.3,right <50%
+Kid-A,UK,Media & Telecommunications,30,33.3,right <50%
+Fair Collection,Norway,"Fintech, Financial Services & Insurance",60,35.0,right <50%
+Blue energy,Poland,IT & Software,60,36.7,right <50%
+Surfshark,Lithuania,IT & Software,30,36.7,right <50%
+Zen Educate,UK,Education & Social Services,30,36.7,right <50%
+IQM Quantum Computers,Finland,IT & Software,60,38.3,right <50%
+Energynat,Poland,Wholesale,30,40.0,right <50%
+Gritera,Norway,"Professional, Scientific & Technical Ser",30,40.0,right <50%
+Insuvia,Lithuania,"Professional, Scientific & Technical Ser",30,40.0,right <50%
+Mevas Auto,Romania,Automotive,30,40.0,right <50%
+Seven Portage,France,IT & Software,30,40.0,right <50%
+Think Hire,UK,Energy & Utilities,30,40.0,right <50%
+Bio&Me,UK,Food & Beverages,30,43.3,right <50%
+Kempower Corporation,Finland,Electrical Manufacturing,60,43.3,right <50%
+Latitude Investment Management,UK,"Fintech, Financial Services & Insurance",30,46.7,right <50%
+smeGo,Lithuania,"Fintech, Financial Services & Insurance",30,46.7,right <50%
+Fluentbe,Poland,Education & Social Services,30,50.0,right 50-89%
+Proxi.cloud,Poland,Advertising & Marketing,30,50.0,right 50-89%
+Sparklers Club,France,Ecommerce,30,50.0,right 50-89%
+unique projects,Germany,IT & Software,30,50.0,right 50-89%
+Camping-Car Park,France,Hospitality & Travel,30,53.3,right 50-89%
+NRG MED,Italy,Energy & Utilities,30,53.3,right 50-89%
+Bryntum,Sweden,IT & Software,30,56.7,right 50-89%
+Sensational,Germany,Advertising & Marketing,30,56.7,right 50-89%
+DASH,UK,Food & Beverages,30,60.0,right 50-89%
+Draivi,Finland,"Fintech, Financial Services & Insurance",30,60.0,right 50-89%
+Rebil,Norway,Automotive,30,60.0,right 50-89%
+Diller,Norway,IT & Software,30,63.3,right 50-89%
+On Ze Air,France,Advertising & Marketing,30,63.3,right 50-89%
+Pro Tempore,Sweden,"Professional, Scientific & Technical Ser",30,63.3,right 50-89%
+So Fast So Good,France,Food & Beverages,30,63.3,right 50-89%
+Tsunami Axis,UK,"Professional, Scientific & Technical Ser",30,63.3,right 50-89%
+Delville Management,France,"Professional, Scientific & Technical Ser",30,66.7,right 50-89%
+Enico,Finland,Energy & Utilities,30,66.7,right 50-89%
+Innpro,Poland,Wholesale,30,66.7,right 50-89%
+Tedee,Poland,IT & Software,30,66.7,right 50-89%
+Hostinger,Lithuania,IT & Software,30,70.0,right 50-89%
+Undress Code,Poland,Apparel & Fashion,30,70.0,right 50-89%
+Indigo Independent Governance,UK,"Professional, Scientific & Technical Ser",30,73.3,right 50-89%
+Mediatech,Lithuania,Media & Telecommunications,30,73.3,right 50-89%
+My Pension Expert,UK,"Fintech, Financial Services & Insurance",30,73.3,right 50-89%
+Revolve Healthcare,Poland,IT & Software,30,73.3,right 50-89%
+Whalebone,Czech Republic,IT & Software,30,73.3,right 50-89%
+Climax Deutschland,Germany,Electrical Manufacturing,30,76.7,right 50-89%
+P3 Security,Germany,"Professional, Scientific & Technical Ser",30,76.7,right 50-89%
+Refinery89,Netherlands,Advertising & Marketing,30,76.7,right 50-89%
+Bikemax,Czech Republic,Retail,30,80.0,right 50-89%
+PSA Solutions,Norway,IT & Software,30,80.0,right 50-89%
+Revù Clinic,Lithuania,Health Care & Life Sciences,60,81.7,right 50-89%
+Merus Power,Finland,Electrical Manufacturing,30,83.3,right 50-89%
+Wire Salad,Estonia,IT & Software,30,83.3,right 50-89%
+Cabinet TLC,France,"Professional, Scientific & Technical Ser",30,86.7,right 50-89%
+Genius And Co,France,Advertising & Marketing,30,86.7,right 50-89%
+Hostersi,Poland,IT & Software,30,86.7,right 50-89%
+König Fitness und Gesundheitszentrum,Germany,Health Care & Life Sciences,30,86.7,right 50-89%
+Link Group,Poland,IT & Software,30,86.7,right 50-89%
+Skladon,Czech Republic,Logistics & Transportation,30,86.7,right 50-89%
+Wianco OTT Robotics,Germany,IT & Software,30,86.7,right 50-89%
+ElastIQ-Connect,Netherlands,IT & Software,30,90.0,right >=90%
+Groupe Work4You,France,"Professional, Scientific & Technical Ser",30,90.0,right >=90%
+ITFS,Poland,IT & Software,30,90.0,right >=90%
+Rouvy,Czech Republic,IT & Software,30,90.0,right >=90%
+Thrive,UK,IT & Software,30,90.0,right >=90%
+Aonic,Sweden,IT & Software,30,93.3,right >=90%
+Knights Pharmacy,UK,Health Care & Life Sciences,30,93.3,right >=90%
+Publink,Poland,IT & Software,30,93.3,right >=90%
+Rail Unit,Germany,Logistics & Transportation,30,93.3,right >=90%
+Teach Up,France,IT & Software,30,93.3,right >=90%
+Zebra BI,Slovenia,IT & Software,30,93.3,right >=90%
+Automated Analytics,UK,IT & Software,30,96.7,right >=90%
+B2Digit,France,IT & Software,30,96.7,right >=90%
+Etienne Coffee & Shop,France,Food & Beverages,30,96.7,right >=90%
+Gambling.com Group,Ireland,Advertising & Marketing,30,96.7,right >=90%
+Golden Voice Academy,Germany,"Professional, Scientific & Technical Ser",30,96.7,right >=90%
+H2Air,France,Energy & Utilities,30,96.7,right >=90%
+Infrastructure Services,France,IT & Software,30,96.7,right >=90%
+Menlo Electric,Poland,Energy & Utilities,30,96.7,right >=90%
+Noah Maritime,Germany,Logistics & Transportation,30,96.7,right >=90%
+Qred,Sweden,"Fintech, Financial Services & Insurance",30,96.7,right >=90%
+Visage Technologies,Sweden,IT & Software,30,96.7,right >=90%
+Vizion Network,UK,IT & Software,30,96.7,right >=90%
+Widelab,Poland,IT & Software,30,96.7,right >=90%
+Interim Search,Sweden,"Professional, Scientific & Technical Ser",60,98.3,right >=90%
+4 Energy,Italy,Energy & Utilities,30,100.0,right >=90%
+500 Logistics,UK,Logistics & Transportation,30,100.0,right >=90%
+84codes.com,Sweden,IT & Software,30,100.0,right >=90%
+Aprila Bank,Norway,"Fintech, Financial Services & Insurance",30,100.0,right >=90%
+Autenti,Poland,IT & Software,30,100.0,right >=90%
+Billion Dollar Boy,UK,Advertising & Marketing,30,100.0,right >=90%
+Brightsun Travel,UK,Hospitality & Travel,30,100.0,right >=90%
+ClickLearn,Denmark,IT & Software,30,100.0,right >=90%
+Dynamicom Education,Italy,Education & Social Services,30,100.0,right >=90%
+ECOnnect Energy,Norway,Energy & Utilities,60,100.0,right >=90%
+Elinext,Poland,IT & Software,30,100.0,right >=90%
+Epidemic Sound,Sweden,IT & Software,60,100.0,right >=90%
+Equal Education,UK,Education & Social Services,30,100.0,right >=90%
+Evondos,Finland,Health Care & Life Sciences,30,100.0,right >=90%
+Flavia IT-Management,Germany,IT & Software,30,100.0,right >=90%
+Frameo,Denmark,IT & Software,30,100.0,right >=90%
+Froda,Sweden,"Fintech, Financial Services & Insurance",30,100.0,right >=90%
+Funnel,Sweden,Advertising & Marketing,30,100.0,right >=90%
+Globkurier,Poland,Logistics & Transportation,30,100.0,right >=90%
+Golf Travel Group,UK,Hospitality & Travel,30,100.0,right >=90%
+Green Creative,France,Waste Management & Recycling,30,100.0,right >=90%
+Grid & Co.,Germany,Energy & Utilities,30,100.0,right >=90%
+Grid Finance,Ireland,"Fintech, Financial Services & Insurance",30,100.0,right >=90%
+Inex One,Sweden,IT & Software,30,100.0,right >=90%
+Innowise,Poland,IT & Software,30,100.0,right >=90%
+Integrata,Finland,"Professional, Scientific & Technical Ser",30,100.0,right >=90%
+Intermoma Food,Italy,Food & Beverages,30,100.0,right >=90%
+Iron Media,Germany,Advertising & Marketing,30,100.0,right >=90%
+Ison Travel,UK,Hospitality & Travel,30,100.0,right >=90%
+Lomana Logistics,Spain,Logistics & Transportation,30,100.0,right >=90%
+MRPeasy,Estonia,IT & Software,30,100.0,right >=90%
+Magic AI,UK,IT & Software,30,100.0,right >=90%
+Masthaven Finance,UK,"Fintech, Financial Services & Insurance",30,100.0,right >=90%
+Milk the Sun,Germany,Energy & Utilities,30,100.0,right >=90%
+Northmill Bank,Sweden,"Fintech, Financial Services & Insurance",30,100.0,right >=90%
+OBDeleven,Lithuania,Automotive,30,100.0,right >=90%
+Oxford Summer Courses,UK,Education & Social Services,30,100.0,right >=90%
+Paystrax,Lithuania,"Fintech, Financial Services & Insurance",30,100.0,right >=90%
+Penisola Gas & Power,Italy,Energy & Utilities,30,100.0,right >=90%
+PhotoAiD,Poland,IT & Software,30,100.0,right >=90%
+Phyron,Sweden,IT & Software,30,100.0,right >=90%
+Position Green,Sweden,IT & Software,30,100.0,right >=90%
+PragmaGO,Poland,"Fintech, Financial Services & Insurance",30,100.0,right >=90%
+Principia Energy,Greece,Energy & Utilities,30,100.0,right >=90%
+QHeat,Finland,Energy & Utilities,30,100.0,right >=90%
+Rocksteady Music School,UK,Education & Social Services,30,100.0,right >=90%
+SC Media House,Germany,Advertising & Marketing,30,100.0,right >=90%
+SME Bank,Lithuania,"Fintech, Financial Services & Insurance",30,100.0,right >=90%
+Sensoneo,Slovakia,Waste Management & Recycling,30,100.0,right >=90%
+Software Mind,Poland,IT & Software,60,100.0,right >=90%
+Solidstudio,Poland,IT & Software,30,100.0,right >=90%
+Sortter,Finland,"Fintech, Financial Services & Insurance",30,100.0,right >=90%
+Stravito,Sweden,IT & Software,30,100.0,right >=90%
+System Loco,UK,IT & Software,30,100.0,right >=90%
+The Orange Studio,Netherlands,Advertising & Marketing,30,100.0,right >=90%
+VFX Financial,UK,"Fintech, Financial Services & Insurance",30,100.0,right >=90%
+Virta Global,Finland,IT & Software,30,100.0,right >=90%
+Wallester,Estonia,"Fintech, Financial Services & Insurance",30,100.0,right >=90%
+Worksmile,Poland,IT & Software,30,100.0,right >=90%
+Yorkshire Gas and Power,UK,Energy & Utilities,30,100.0,right >=90%
+Younium,Sweden,IT & Software,30,100.0,right >=90%

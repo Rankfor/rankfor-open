@@ -1,0 +1,6 @@
+model,G_pred,G_emp,abs_diff,cell_verdict
+gpt-35-turbo,1.0,1.0,0.0,replicates
+gpt-4o,0.997,0.998,0.0,replicates
+llama3-70b,0.999,0.999,0.0,replicates
+llama3-8b,0.999,0.999,0.0,replicates
+mixtral-8x7b,0.997,0.997,0.0,replicates

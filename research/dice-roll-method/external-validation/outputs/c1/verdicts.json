@@ -1,0 +1,12 @@
+{
+  "EV1a": "replicates",
+  "EV1b": "fails",
+  "EV2": "replicates",
+  "EV3a": "fails",
+  "EV3b": "replicates",
+  "EV3c": "fails",
+  "EV4a": "replicates",
+  "EV4b": "replicates",
+  "EV5a": "fails",
+  "EV5b": "fails"
+}

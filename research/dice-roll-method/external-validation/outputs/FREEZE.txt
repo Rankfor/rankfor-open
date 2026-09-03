@@ -1,0 +1,3 @@
+Pre-registration frozen 2026-09-03
+commit c0bc686b5a03d1de03f83b2980e5f098833858f8 (rankfor-ops)
+No confirmatory statistic had been computed on any corpus before this commit.

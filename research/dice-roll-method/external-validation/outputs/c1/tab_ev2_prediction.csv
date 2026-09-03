@@ -1,0 +1,11 @@
+persona,n,G_pred,G_emp,abs_diff,cell_verdict
+chatGPT,20,0.983,0.979,0.004,replicates
+chatGPT,50,0.993,0.991,0.002,replicates
+democrats,20,0.982,0.951,0.031,replicates
+democrats,50,0.993,0.981,0.012,replicates
+radDemocrat,20,0.987,0.987,0.0,replicates
+radDemocrat,50,0.995,0.995,0.0,replicates
+radRepublican,20,0.963,0.955,0.008,replicates
+radRepublican,50,0.985,0.981,0.003,replicates
+republicans,20,0.914,0.876,0.038,replicates
+republicans,50,0.964,0.944,0.02,replicates

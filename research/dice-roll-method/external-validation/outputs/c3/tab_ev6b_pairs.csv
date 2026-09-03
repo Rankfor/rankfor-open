@@ -1,0 +1,5 @@
+model,unit,var_t0,var_t1
+gpt-35-turbo,college_mathematics|few,9.999999999999986e-06,6.736842105263133e-05
+gpt-35-turbo,professional_accounting|few,1.7325307803654e-05,0.0002102973216956664
+gpt-4o,college_mathematics|few,0.0012044444444444446,0.0010105263157894734
+gpt-4o,professional_accounting|few,7.558864130465141e-05,0.00015804563468426618

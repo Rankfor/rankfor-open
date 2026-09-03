@@ -1,18 +1,20 @@
 # Saturation results (computed 2026-09-04, plan frozen at d193c2b before computation)
 
-One sentence: repeating an identical buying question exhausts the set of brands a language
-model recommends within about ten runs, while the set of sources it cites is still growing at
-twenty-four.
+One sentence: under repeated identical buying questions, brand accumulation approaches a
+plateau (91-100% of the observed 24-run set by ten runs, after the extraction audit) while
+cited-domain accumulation is still rising at twenty-four.
 
 ## Brands: the list ends
 
-- Depth (4 cells, n = 24, UK supermarkets + Nordic care, GPT + Gemini): all four cells flat,
-  Q1 = 0, the 24th run adds nothing; plateaus of 5-9 brands reached by roughly run 10.
+- Depth (4 cells, n = 24, UK supermarkets + Nordic care, GPT + Gemini), corrected extraction:
+  Q1 = 0 in all four cells, repertoires of 11, 9, 9, 7; 91-100% of each observed 24-run set
+  revealed by run ten. Q1 = 0 means every observed brand occurred in at least two runs; it
+  does not certify that no unobserved brand exists.
 - Breadth (705 buying-question cells, n = 5, 250 queries x GPT/Gemini/Perplexity, 32 cells
   excluded at < 4 iterations): median repertoire 5 brands; median Chao2 share seen at n = 5 is
   100% (IQR 95-100%); one ask shows 80% of what five asks reveal (median A(1)/A(5), 684 n=5
-  cells); yet the fifth run still added a never-seen brand in 339 of 705 cells (48%), so the
-  tail is thin but real. Case-insensitive dedup sensitivity: unchanged.
+  cells); yet in 332 of 684 complete cells (49%; 339/705 retained) at least one brand occurred in
+  only one observed run (Q1 > 0), so the tail is thin but real. Case-insensitive dedup sensitivity: unchanged.
 - Cross-model (secondary): for one query in four, a single model's 5-run repertoire covers at
   most 83% of the three-model union.
 

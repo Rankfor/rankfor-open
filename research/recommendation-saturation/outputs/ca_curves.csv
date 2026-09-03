@@ -1,0 +1,706 @@
+query,model,A1,A2,A3,A4,A5
+ASOS vs Zalando for fashion in Europe,gemini,4.0,4.4,4.6,4.8,5.0
+ASOS vs Zalando for fashion in Europe,openai,2.8,3.5,4.1,4.6,5.0
+ASOS vs Zalando for fashion in Europe,perplexity,3.4,3.8,4.2,4.6,5.0
+Accenture vs Deloitte vs PwC for IT consulting,gemini,5.8,6.5,7.1,7.6,8.0
+Accenture vs Deloitte vs PwC for IT consulting,openai,5.25,5.833333333333333,6.0,6.0,
+Accenture vs Deloitte vs PwC for IT consulting,perplexity,6.6,7.6,8.4,9.2,10.0
+Adyen vs Stripe vs PayPal comparison,gemini,4.0,4.0,4.0,4.0,4.0
+Adyen vs Stripe vs PayPal comparison,perplexity,4.2,5.0,5.5,5.8,6.0
+Ahrefs vs Moz vs Semrush for backlink analysis,gemini,3.0,3.0,3.0,3.0,3.0
+Ahrefs vs Moz vs Semrush for backlink analysis,openai,3.0,3.0,3.0,3.0,3.0
+Ahrefs vs Moz vs Semrush for backlink analysis,perplexity,3.2,3.4,3.6,3.8,4.0
+Allegro vs Amazon in Eastern Europe,gemini,2.8,3.0,3.0,3.0,3.0
+Allegro vs Amazon in Eastern Europe,openai,2.6,3.1,3.5,3.8,4.0
+Allegro vs Amazon in Eastern Europe,perplexity,3.8,4.4,4.6,4.8,5.0
+Amazon vs Shopify for selling online,gemini,3.6,3.9,4.0,4.0,4.0
+Amazon vs Shopify for selling online,perplexity,3.2,3.4,3.6,3.8,4.0
+Best CRM for real estate agents,gemini,1.5,2.0,2.0,2.0,
+Best CRM for real estate agents,openai,2.6,3.0,3.0,3.0,3.0
+Best CRM for real estate agents,perplexity,2.8,3.5,4.1,4.6,5.0
+Best EHR for small medical practices,gemini,1.2,1.7,1.9,2.0,2.0
+Best EHR for small medical practices,openai,1.8,2.0,2.0,2.0,2.0
+Best EHR for small medical practices,perplexity,1.2,1.4,1.6,1.8,2.0
+Best all-in-one marketing platform,gemini,2.4,2.7,2.9,3.0,3.0
+Best all-in-one marketing platform,openai,4.0,5.1,5.6,5.8,6.0
+Best all-in-one marketing platform,perplexity,2.8,3.5,4.1,4.6,5.0
+Best business banking app,gemini,1.6,2.1,2.5,2.8,3.0
+Best business banking app,openai,2.5999999999999996,4.0,4.8,5.4,6.0
+Best business banking app,perplexity,2.25,3.0,3.0,3.0,
+Best buy now pay later service,gemini,2.4,2.8,3.2,3.6,4.0
+Best buy now pay later service,openai,2.5999999999999996,3.3,3.6,3.8,4.0
+Best buy now pay later service,perplexity,4.0,4.7,5.2,5.6,6.0
+Best clinical trial management software,gemini,2.2,2.4,2.6,2.8,3.0
+Best clinical trial management software,openai,2.8,3.7,4.2,4.6,5.0
+Best clinical trial management software,perplexity,3.4,3.9,4.0,4.0,4.0
+Best consulting firm for digital transformation,gemini,8.6,9.3,9.6,9.8,10.0
+Best consulting firm for digital transformation,openai,9.0,9.9,10.0,10.0,10.0
+Best consulting firm for digital transformation,perplexity,7.8,9.7,10.9,12.0,13.0
+Best consulting firm for financial advisory,gemini,7.8,8.0,8.0,8.0,8.0
+Best consulting firm for financial advisory,openai,6.0,7.5,8.5,9.0,9.0
+Best consulting firm for financial advisory,perplexity,5.8,6.6,6.9,7.0,7.0
+Best consulting firm for mergers and acquisitions,gemini,5.2,6.1,6.7,7.0,7.0
+Best consulting firm for mergers and acquisitions,openai,7.0,7.0,7.0,7.0,7.0
+Best consulting firm for mergers and acquisitions,perplexity,6.6,7.0,7.0,7.0,7.0
+Best consulting firm for private equity due diligence,gemini,6.0,6.8,7.0,7.0,7.0
+Best consulting firm for private equity due diligence,openai,7.2,7.4,7.6,7.8,8.0
+Best consulting firm for private equity due diligence,perplexity,5.4,6.0,6.0,6.0,6.0
+Best consulting firm for supply chain optimization,gemini,6.4,7.5,8.4,9.2,10.0
+Best consulting firm for supply chain optimization,openai,8.0,8.8,9.4,9.8,10.0
+Best consulting firm for supply chain optimization,perplexity,8.0,8.7,8.9,9.0,9.0
+Best consulting firm for sustainability strategy,gemini,5.8,6.6,6.9,7.0,7.0
+Best consulting firm for sustainability strategy,openai,8.6,8.9,9.0,9.0,9.0
+Best consulting firm for sustainability strategy,perplexity,8.2,9.5,9.9,10.0,10.0
+Best consulting firm for the public sector,gemini,6.6,7.7,8.4,8.8,9.0
+Best consulting firm for the public sector,openai,9.0,9.0,9.0,9.0,9.0
+Best consulting firm for the public sector,perplexity,5.3999999999999995,7.0,8.2,9.2,10.0
+Best dropshipping platform,gemini,1.6,2.1,2.5,2.8,3.0
+Best dropshipping platform,openai,2.0,2.4,2.6,2.8,3.0
+Best dropshipping platform,perplexity,2.8,3.4,3.6,3.8,4.0
+Best e-commerce platform for B2B,gemini,2.8,3.5,4.1,4.6,5.0
+Best e-commerce platform for B2B,openai,2.6,3.1,3.5,3.8,4.0
+Best e-commerce platform for B2B,perplexity,2.6,2.9,3.0,3.0,3.0
+Best e-commerce platform for headless commerce,gemini,1.8,2.0,2.0,2.0,2.0
+Best e-commerce platform for headless commerce,openai,2.8,3.6,3.9,4.0,4.0
+Best e-commerce platform for headless commerce,perplexity,3.8,4.0,4.0,4.0,4.0
+Best enterprise CRM platform,gemini,3.0,3.6,3.9,4.0,4.0
+Best enterprise CRM platform,openai,3.8,4.4,4.8,5.0,5.0
+Best enterprise CRM platform,perplexity,3.0,4.1,4.6,4.8,5.0
+Best health tech for pharmaceutical companies,gemini,2.2,3.4,3.9,4.0,4.0
+Best health tech for pharmaceutical companies,perplexity,2.0,2.4,2.6,2.8,3.0
+Best health technology for life sciences,gemini,2.0,3.3,4.1,4.6,5.0
+Best health technology for life sciences,perplexity,1.2,1.4,1.6,1.8,2.0
+Best marketing automation platform for B2B,gemini,2.6,2.9,3.0,3.0,3.0
+Best marketing automation platform for B2B,openai,3.6,4.0,4.0,4.0,4.0
+Best marketing automation platform for B2B,perplexity,3.4,3.7,3.9,4.0,4.0
+Best medical imaging technology company,gemini,3.2,3.4,3.6,3.8,4.0
+Best medical imaging technology company,openai,2.2,2.4,2.6,2.8,3.0
+Best medical imaging technology company,perplexity,2.2,3.1,3.5,3.8,4.0
+Best money transfer service for international payments,gemini,2.6,2.9,3.0,3.0,3.0
+Best money transfer service for international payments,openai,3.0,3.0,3.0,3.0,3.0
+Best money transfer service for international payments,perplexity,3.4,3.9,4.0,4.0,4.0
+Best online fashion retailer,gemini,2.0,2.0,2.0,2.0,2.0
+Best online fashion retailer,openai,4.0,4.4,4.6,4.8,5.0
+Best online fashion retailer,perplexity,1.0,1.0,1.0,1.0,
+Best online marketplace for fashion,gemini,2.2,2.8,3.2,3.6,4.0
+Best online marketplace for fashion,openai,4.0,4.4,4.6,4.8,5.0
+Best online marketplace for fashion,perplexity,3.2,3.4,3.6,3.8,4.0
+Best payment infrastructure provider,gemini,4.6,5.3,5.6,5.8,6.0
+Best payment infrastructure provider,openai,5.0,6.0,6.5,6.8,7.0
+Best payment infrastructure provider,perplexity,4.0,5.3,5.8,6.0,6.0
+Best payment processor for SaaS companies,gemini,2.0,2.0,2.0,2.0,2.0
+Best payment processor for SaaS companies,openai,4.4,4.9,5.0,5.0,5.0
+Best payment processor for SaaS companies,perplexity,4.0,5.4,5.9,6.0,6.0
+Best payment solution for marketplaces,gemini,4.8,5.8,6.4,6.8,7.0
+Best payment solution for marketplaces,openai,4.2,4.8,5.2,5.6,6.0
+Best payment solution for marketplaces,perplexity,4.8,5.8,6.0,6.0,6.0
+Best payment solution for small businesses in Europe,gemini,2.8,3.6,4.4,5.2,6.0
+Best payment solution for small businesses in Europe,openai,5.0,6.0,6.5,6.8,7.0
+Best payment solution for small businesses in Europe,perplexity,5.6,6.3,6.6,6.8,7.0
+Best project management tool for remote teams,gemini,3.4,4.6,5.6,6.4,7.0
+Best project management tool for remote teams,openai,3.8,4.4,4.8,5.0,5.0
+Best project management tool for remote teams,perplexity,3.8,4.0,4.0,4.0,4.0
+Best quick commerce delivery app,gemini,1.0,1.0,1.0,1.0,1.0
+Best quick commerce delivery app,openai,1.4,1.7,1.9,2.0,2.0
+Best quick commerce delivery app,perplexity,2.0,2.0,2.0,2.0,2.0
+Best remote patient monitoring platform,gemini,3.2,4.1,4.5,4.8,5.0
+Best remote patient monitoring platform,openai,4.8,5.8,6.4,6.8,7.0
+Best remote patient monitoring platform,perplexity,2.0,2.6,2.9,3.0,3.0
+Best sales pipeline management software,gemini,4.2,4.7,4.9,5.0,5.0
+Best sales pipeline management software,openai,6.6,7.7,8.2,8.6,9.0
+Best sales pipeline management software,perplexity,4.6,4.9,5.0,5.0,5.0
+Best secondhand marketplace in Europe,gemini,2.4,2.7,2.9,3.0,3.0
+Best secondhand marketplace in Europe,openai,1.6,1.9,2.0,2.0,2.0
+Best secondhand marketplace in Europe,perplexity,4.2,5.7,6.4,6.8,7.0
+Best task management app for teams,gemini,4.0,4.0,4.0,4.0,4.0
+Best task management app for teams,openai,4.2,4.7,4.9,5.0,5.0
+Best task management app for teams,perplexity,4.2,4.7,4.9,5.0,5.0
+Best telehealth platform in 2026,gemini,3.2,3.8,4.2,4.6,5.0
+Best telehealth platform in 2026,openai,3.6,4.1,4.5,4.8,5.0
+Best telehealth platform in 2026,perplexity,2.4,2.9,3.0,3.0,3.0
+Big 4 vs MBB for strategy consulting,gemini,8.0,8.0,8.0,8.0,8.0
+Big 4 vs MBB for strategy consulting,openai,8.0,8.0,8.0,8.0,8.0
+Big 4 vs MBB for strategy consulting,perplexity,7.8,8.0,8.0,8.0,8.0
+Bolt Market vs Wolt for grocery delivery,gemini,2.0,2.0,2.0,2.0,2.0
+Bolt Market vs Wolt for grocery delivery,openai,2.2,2.7,2.9,3.0,3.0
+Bolt Market vs Wolt for grocery delivery,perplexity,2.0,2.0,2.0,2.0,2.0
+ClickUp vs Monday.com vs Asana comparison,gemini,4.0,4.0,4.0,4.0,4.0
+ClickUp vs Monday.com vs Asana comparison,perplexity,4.6,5.6,6.4,7.2,8.0
+CompuGroup Medical vs MEDITECH for EHR,gemini,3.4,3.8,4.2,4.6,5.0
+CompuGroup Medical vs MEDITECH for EHR,perplexity,5.2,5.7,5.9,6.0,6.0
+Deloitte vs Accenture for technology consulting,gemini,4.0,4.4,4.6,4.8,5.0
+Deloitte vs Accenture for technology consulting,openai,4.0,4.4,4.6,4.8,5.0
+Deloitte vs Accenture for technology consulting,perplexity,5.4,5.7,5.9,6.0,6.0
+Doctolib vs Kry for doctor appointments,gemini,3.0,3.0,3.0,3.0,3.0
+Doctolib vs Kry for doctor appointments,openai,3.0,3.0,3.0,3.0,3.0
+Doctolib vs Kry for doctor appointments,perplexity,3.0,3.0,3.0,3.0,3.0
+EY vs KPMG for financial services consulting,gemini,2.5999999999999996,3.2,3.8,4.4,5.0
+EY vs KPMG for financial services consulting,perplexity,4.199999999999999,5.2,5.8,6.4,7.0
+Epic vs Cerner for hospital EHR,gemini,3.8,4.0,4.0,4.0,4.0
+Epic vs Cerner for hospital EHR,perplexity,4.0,4.0,4.0,4.0,4.0
+Epic vs MEDITECH for community hospitals,gemini,3.2,3.4,3.6,3.8,4.0
+Epic vs MEDITECH for community hospitals,perplexity,3.6,3.9,4.0,4.0,4.0
+GE HealthCare vs Philips for medical imaging,gemini,3.4,3.7,3.9,4.0,4.0
+GE HealthCare vs Philips for medical imaging,perplexity,2.8,3.0,3.0,3.0,3.0
+H&M vs ASOS for affordable fashion,gemini,3.0,3.0,3.0,3.0,3.0
+H&M vs ASOS for affordable fashion,openai,2.8,3.3,3.6,3.8,4.0
+H&M vs ASOS for affordable fashion,perplexity,2.8,3.0,3.0,3.0,3.0
+HubSpot vs Semrush for content marketing,gemini,3.0,3.0,3.0,3.0,3.0
+HubSpot vs Semrush for content marketing,openai,3.75,4.333333333333333,4.75,5.0,
+HubSpot vs Semrush for content marketing,perplexity,3.0,3.0,3.0,3.0,3.0
+I need a business account with low fees. What neobank should I choose?,gemini,3.4,3.9,4.0,4.0,4.0
+I need a business account with low fees. What neobank should I choose?,openai,3.0,3.8,4.0,4.0,4.0
+I need a business account with low fees. What neobank should I choose?,perplexity,1.0,1.0,1.0,1.0,1.0
+I need a data analytics strategy. Which firm should I consult?,gemini,9.0,9.0,9.0,9.0,9.0
+I need a data analytics strategy. Which firm should I consult?,openai,9.0,9.0,9.0,9.0,9.0
+I need a data analytics strategy. Which firm should I consult?,perplexity,7.0,7.4,7.6,7.8,8.0
+I need a healthcare CRM for pharmaceutical sales. What should I use?,gemini,3.5999999999999996,4.2,4.8,5.4,6.0
+I need a healthcare CRM for pharmaceutical sales. What should I use?,openai,4.8,5.3,5.6,5.8,6.0
+I need a healthcare CRM for pharmaceutical sales. What should I use?,perplexity,4.2,4.4,4.6,4.8,5.0
+I need a marketplace that ships to the Baltics. What should I use?,gemini,3.2,3.7,3.9,4.0,4.0
+I need a marketplace that ships to the Baltics. What should I use?,openai,2.8,3.6,3.9,4.0,4.0
+I need a tool to manage customer relationships. What CRM should I pick?,gemini,4.4,4.8,5.2,5.6,6.0
+I need a tool to manage customer relationships. What CRM should I pick?,openai,4.8,5.5,6.1,6.6,7.0
+I need a tool to manage customer relationships. What CRM should I pick?,perplexity,4.4,5.0,5.0,5.0,5.0
+I need cybersecurity consulting. Which firm is best?,gemini,5.2,6.1,6.5,6.8,7.0
+I need cybersecurity consulting. Which firm is best?,openai,6.0,6.4,6.6,6.8,7.0
+I need cybersecurity consulting. Which firm is best?,perplexity,4.0,5.6,6.2,6.6,7.0
+I need fast grocery delivery. What app should I use?,gemini,1.8,2.0,2.0,2.0,2.0
+I need fast grocery delivery. What app should I use?,openai,1.6,1.9,2.0,2.0,2.0
+I need fast grocery delivery. What app should I use?,perplexity,2.0,2.0,2.0,2.0,2.0
+I need help with post-merger integration. What firm specializes in this?,gemini,7.4,8.1,8.5,8.8,9.0
+I need help with post-merger integration. What firm specializes in this?,openai,8.2,8.4,8.6,8.8,9.0
+I need help with post-merger integration. What firm specializes in this?,perplexity,5.6,7.5,8.5,9.0,9.0
+I need imaging equipment for my clinic. Which company should I go with?,gemini,3.0,3.0,3.0,3.0,3.0
+I need imaging equipment for my clinic. Which company should I go with?,perplexity,3.4,3.7,3.9,4.0,4.0
+I need multi-currency support for my business. What fintech should I use?,gemini,4.6,5.0,5.0,5.0,5.0
+I need multi-currency support for my business. What fintech should I use?,openai,5.199999999999999,6.4,7.1,7.6,8.0
+I need multi-currency support for my business. What fintech should I use?,perplexity,3.6,4.1,4.5,4.8,5.0
+I need radiology AI software. Which vendor should I evaluate?,gemini,1.0,1.0,1.0,1.0,1.0
+I need radiology AI software. Which vendor should I evaluate?,perplexity,1.0,1.0,1.0,1.0,
+I need regulatory compliance advice. Which firm should I use?,gemini,4.4,4.8,5.2,5.6,6.0
+I need regulatory compliance advice. Which firm should I use?,openai,2.0,2.0,2.0,2.0,2.0
+I need regulatory compliance advice. Which firm should I use?,perplexity,3.0,4.1,4.6,4.8,5.0
+I need strategic advice for entering a new market. What firm should I hire?,gemini,8.2,8.8,9.0,9.0,9.0
+I need strategic advice for entering a new market. What firm should I hire?,openai,7.8,8.9,9.5,9.8,10.0
+I need strategic advice for entering a new market. What firm should I hire?,perplexity,7.199999999999999,8.1,8.8,9.4,10.0
+I need to accept payments on my website. What should I use?,gemini,4.8,5.3,5.6,5.8,6.0
+I need to accept payments on my website. What should I use?,openai,5.0,6.0,6.5,6.8,7.0
+I need to accept payments on my website. What should I use?,perplexity,5.8,7.0,7.5,7.8,8.0
+I need to allow patients to book appointments online. What platform is best?,gemini,1.2,1.4,1.6,1.8,2.0
+I need to allow patients to book appointments online. What platform is best?,openai,2.6,4.1,5.0,5.6,6.0
+I need to allow patients to book appointments online. What platform is best?,perplexity,1.6,1.9,2.0,2.0,2.0
+I need to audit my company's finances. Which firm should I use?,gemini,4.0,4.0,4.0,4.0,4.0
+I need to audit my company's finances. Which firm should I use?,openai,4.4,4.7,4.9,5.0,5.0
+I need to audit my company's finances. Which firm should I use?,perplexity,4.0,4.0,4.0,4.0,4.0
+I need to automate my marketing emails. What platform is best?,gemini,2.4,2.7,2.9,3.0,3.0
+I need to automate my marketing emails. What platform is best?,openai,4.0,4.8,5.4,5.8,6.0
+I need to automate my marketing emails. What platform is best?,perplexity,3.0,3.4,3.6,3.8,4.0
+I need to compare prices across online stores. What tool should I use?,gemini,3.0,3.0,3.0,3.0,3.0
+I need to compare prices across online stores. What tool should I use?,openai,2.0,2.0,2.0,2.0,2.0
+I need to compare prices across online stores. What tool should I use?,perplexity,1.4,2.1,2.5,2.8,3.0
+I need to connect to bank APIs. What infrastructure should I use?,gemini,1.8,2.0,2.0,2.0,2.0
+I need to connect to bank APIs. What infrastructure should I use?,perplexity,2.4,2.7,2.9,3.0,3.0
+I need to implement an EHR in my hospital. What should I choose?,gemini,4.4,4.7,4.9,5.0,5.0
+I need to implement an EHR in my hospital. What should I choose?,perplexity,4.8,5.4,5.6,5.8,6.0
+I need to improve my website's SEO rankings. What platform should I use?,gemini,3.0,3.0,3.0,3.0,3.0
+I need to improve my website's SEO rankings. What platform should I use?,openai,4.4,5.2,5.6,5.8,6.0
+I need to improve my website's SEO rankings. What platform should I use?,perplexity,3.4,3.7,3.9,4.0,4.0
+I need to manage subscriptions and billing. What platform is best?,gemini,3.0,3.4,3.6,3.8,4.0
+I need to manage subscriptions and billing. What platform is best?,openai,2.8,3.9,4.7,5.4,6.0
+I need to manage subscriptions and billing. What platform is best?,perplexity,1.6,1.9,2.0,2.0,2.0
+I need to onboard new team members efficiently. What tool helps with this?,gemini,3.0,3.8,4.0,4.0,4.0
+I need to onboard new team members efficiently. What tool helps with this?,openai,1.6,1.9,2.0,2.0,2.0
+I need to onboard new team members efficiently. What tool helps with this?,perplexity,1.0,1.0,1.0,1.0,1.0
+I need to set up an e-commerce store quickly. What should I use?,gemini,2.8,3.3,3.6,3.8,4.0
+I need to set up an e-commerce store quickly. What should I use?,openai,2.8,3.0,3.0,3.0,3.0
+I need to set up an e-commerce store quickly. What should I use?,perplexity,3.0,4.0,4.5,4.8,5.0
+I need to track my sales pipeline. What should I use?,gemini,3.6,4.7,5.4,5.8,6.0
+I need to track my sales pipeline. What should I use?,openai,4.0,4.4,4.6,4.8,5.0
+I need to track my sales pipeline. What should I use?,perplexity,4.8,5.4,5.6,5.8,6.0
+I want to accept local payment methods in the Baltics. What provider should I use?,gemini,3.2,3.4,3.6,3.8,4.0
+I want to accept local payment methods in the Baltics. What provider should I use?,openai,4.0,4.4,4.6,4.8,5.0
+I want to accept local payment methods in the Baltics. What provider should I use?,perplexity,4.3999999999999995,6.8,8.0,8.6,9.0
+I want to build a payments product. What infrastructure should I use?,gemini,3.5999999999999996,4.3,4.6,4.8,5.0
+I want to build a payments product. What infrastructure should I use?,perplexity,2.0,2.0,2.0,2.0,
+I want to build landing pages without a developer. What platform should I use?,gemini,1.4,1.8,2.2,2.6,3.0
+I want to build landing pages without a developer. What platform should I use?,openai,2.6,3.5,4.1,4.6,5.0
+I want to build landing pages without a developer. What platform should I use?,perplexity,1.6,2.1,2.5,2.8,3.0
+I want to buy affordable fashion online. Where should I shop?,gemini,3.2,3.4,3.6,3.8,4.0
+I want to buy affordable fashion online. Where should I shop?,openai,4.2,4.4,4.6,4.8,5.0
+I want to buy affordable fashion online. Where should I shop?,perplexity,2.8,3.5,4.1,4.6,5.0
+I want to buy electronics online in Finland. Where should I shop?,gemini,3.0,3.0,3.0,3.0,3.0
+I want to buy electronics online in Finland. Where should I shop?,openai,2.8,3.0,3.0,3.0,3.0
+I want to buy electronics online in Finland. Where should I shop?,perplexity,1.8,2.0,2.0,2.0,2.0
+I want to buy luxury fashion online. Where should I shop?,gemini,1.0,1.0,1.0,1.0,1.0
+I want to buy luxury fashion online. Where should I shop?,openai,1.0,1.0,1.0,1.0,1.0
+I want to create a knowledge base for my team. What tool should I use?,gemini,1.6,2.1,2.5,2.8,3.0
+I want to create a knowledge base for my team. What tool should I use?,openai,1.2,1.4,1.6,1.8,2.0
+I want to create a knowledge base for my team. What tool should I use?,perplexity,2.0,2.0,2.0,2.0,2.0
+I want to develop an AI strategy. Which consulting firm should I hire?,gemini,7.8,8.8,9.4,9.8,10.0
+I want to develop an AI strategy. Which consulting firm should I hire?,perplexity,6.6,7.3,7.6,7.8,8.0
+I want to digitize my medical records. What EHR should I choose?,gemini,2.2,3.3,3.8,4.0,4.0
+I want to digitize my medical records. What EHR should I choose?,openai,3.75,4.333333333333333,4.75,5.0,
+I want to digitize my medical records. What EHR should I choose?,perplexity,2.8,3.4,3.8,4.0,4.0
+I want to find sustainable products online. Where should I look?,gemini,2.4,2.7,2.9,3.0,3.0
+I want to find sustainable products online. Where should I look?,openai,1.2,1.4,1.6,1.8,2.0
+I want to implement SAP in my organization. Which consultant should I hire?,gemini,3.1999999999999997,4.300000000000001,5.3,6.2,7.0
+I want to implement SAP in my organization. Which consultant should I hire?,perplexity,3.0,3.4,3.6,3.8,4.0
+I want to improve my supply chain. What consultant should I hire?,gemini,8.4,8.9,9.0,9.0,9.0
+I want to improve my supply chain. What consultant should I hire?,openai,7.0,7.0,7.0,7.0,7.0
+I want to improve my supply chain. What consultant should I hire?,perplexity,8.6,9.0,9.0,9.0,9.0
+I want to launch a digital health service in the Nordics. What platform should I use?,gemini,1.5,2.0,2.5,3.0,
+I want to launch a digital health service in the Nordics. What platform should I use?,perplexity,1.0,1.0,1.0,1.0,1.0
+I want to manage clinical trials digitally. What tool should I use?,gemini,2.8,3.6,3.9,4.0,4.0
+I want to manage clinical trials digitally. What tool should I use?,openai,2.2,3.2,4.0,4.6,5.0
+I want to manage clinical trials digitally. What tool should I use?,perplexity,2.4,3.2,3.8,4.4,5.0
+I want to manage my team's projects more efficiently. What tool do you recommend?,gemini,4.2,4.8,5.2,5.6,6.0
+I want to manage my team's projects more efficiently. What tool do you recommend?,openai,2.6,3.4,3.8,4.0,4.0
+I want to manage my team's projects more efficiently. What tool do you recommend?,perplexity,4.4,4.9,5.0,5.0,5.0
+I want to monitor patients remotely. What technology should I use?,gemini,2.0,2.8,3.4,3.8,4.0
+I want to monitor patients remotely. What technology should I use?,perplexity,2.0,2.0,2.0,2.0,2.0
+I want to offer installment payments to my customers. What should I integrate?,gemini,6.2,6.8,7.2,7.6,8.0
+I want to offer installment payments to my customers. What should I integrate?,openai,6.6,7.1,7.5,7.8,8.0
+I want to offer installment payments to my customers. What should I integrate?,perplexity,5.4,6.3,6.8,7.0,7.0
+I want to offer telehealth to my patients. What platform should I use?,gemini,1.0,1.0,1.0,1.0,
+I want to offer telehealth to my patients. What platform should I use?,openai,1.25,2.166666666666667,2.75,3.0,
+I want to offer telehealth to my patients. What platform should I use?,perplexity,2.6,3.4,3.8,4.0,4.0
+I want to reduce operational costs. Which consulting firm can help?,gemini,8.6,8.9,9.0,9.0,9.0
+I want to reduce operational costs. Which consulting firm can help?,openai,9.0,9.0,9.0,9.0,9.0
+I want to reduce operational costs. Which consulting firm can help?,perplexity,4.8,6.3,7.1,7.6,8.0
+I want to sell products online. What platform should I use?,gemini,3.0,3.4,3.6,3.8,4.0
+I want to sell products online. What platform should I use?,openai,2.8,3.3,3.6,3.8,4.0
+I want to sell products online. What platform should I use?,perplexity,3.8,4.0,4.0,4.0,4.0
+I want to sell secondhand clothes. What platform should I use?,gemini,1.0,1.0,1.0,1.0,1.0
+I want to sell secondhand clothes. What platform should I use?,openai,2.0,2.7,3.2,3.6,4.0
+I want to sell secondhand clothes. What platform should I use?,perplexity,2.0,2.7,3.2,3.6,4.0
+I want to send money to another country cheaply. What service should I use?,gemini,3.0,3.0,3.0,3.0,3.0
+I want to send money to another country cheaply. What service should I use?,openai,3.5999999999999996,4.3,4.6,4.8,5.0
+I want to send money to another country cheaply. What service should I use?,perplexity,2.6,2.9,3.0,3.0,3.0
+I want to track competitor keywords. What SEO tool should I use?,gemini,3.0,3.0,3.0,3.0,3.0
+I want to track competitor keywords. What SEO tool should I use?,openai,3.0,3.0,3.0,3.0,3.0
+I want to track competitor keywords. What SEO tool should I use?,perplexity,3.0,3.0,3.0,3.0,3.0
+I want to verify customer identities for payments. What tool should I use?,gemini,3.6,4.7,5.4,5.8,6.0
+I want to verify customer identities for payments. What tool should I use?,openai,2.4,2.7,2.9,3.0,3.0
+I want to verify customer identities for payments. What tool should I use?,perplexity,2.2,2.7,2.9,3.0,3.0
+I want to visualize my ideas on a digital whiteboard. What do you suggest?,gemini,2.2,2.4,2.6,2.8,3.0
+I want to visualize my ideas on a digital whiteboard. What do you suggest?,openai,2.6,2.9,3.0,3.0,3.0
+I want to visualize my ideas on a digital whiteboard. What do you suggest?,perplexity,2.0,2.4,2.6,2.8,3.0
+KPMG vs Deloitte for tax consulting,gemini,3.0,3.0,3.0,3.0,3.0
+KPMG vs Deloitte for tax consulting,openai,3.0,3.6,3.9,4.0,4.0
+KPMG vs Deloitte for tax consulting,perplexity,3.8,4.0,4.0,4.0,4.0
+Klarna vs Afterpay for buy now pay later,gemini,2.0,2.0,2.0,2.0,2.0
+Klarna vs Afterpay for buy now pay later,openai,2.4,2.7,2.9,3.0,3.0
+Klarna vs Afterpay for buy now pay later,perplexity,3.1999999999999997,4.2,4.8,5.4,6.0
+Klarna vs Revolut for consumer finance,gemini,3.2,3.4,3.6,3.8,4.0
+Klarna vs Revolut for consumer finance,openai,3.0,3.0,3.0,3.0,
+Klarna vs Revolut for consumer finance,perplexity,3.0,3.4,3.6,3.8,4.0
+McKinsey vs Accenture for digital strategy,gemini,4.2,4.4,4.6,4.8,5.0
+McKinsey vs Accenture for digital strategy,openai,4.6,5.1,5.5,5.8,6.0
+McKinsey vs Accenture for digital strategy,perplexity,3.8,4.0,4.0,4.0,4.0
+McKinsey vs BCG vs Bain comparison,gemini,4.2,4.4,4.6,4.8,5.0
+McKinsey vs BCG vs Bain comparison,openai,5.0,5.0,5.0,5.0,5.0
+McKinsey vs BCG vs Bain comparison,perplexity,4.4,4.7,4.9,5.0,5.0
+McKinsey vs Roland Berger for manufacturing,gemini,3.8,4.5,5.1,5.6,6.0
+McKinsey vs Roland Berger for manufacturing,perplexity,4.6,5.5,5.9,6.0,6.0
+Miro vs Notion for team collaboration,gemini,3.8,4.0,4.0,4.0,4.0
+Miro vs Notion for team collaboration,openai,3.0,3.0,3.0,3.0,3.0
+Miro vs Notion for team collaboration,perplexity,4.0,4.4,4.6,4.8,5.0
+Monday.com vs Asana for project management,gemini,3.2,3.4,3.6,3.8,4.0
+Monday.com vs Asana for project management,perplexity,3.8,4.4,4.8,5.0,5.0
+Montonio vs Stripe for Baltic e-commerce,gemini,3.6,3.9,4.0,4.0,4.0
+Montonio vs Stripe for Baltic e-commerce,perplexity,3.8,4.0,4.0,4.0,4.0
+N26 vs Revolut as a digital bank,gemini,3.0,3.0,3.0,3.0,3.0
+N26 vs Revolut as a digital bank,openai,3.0,3.0,3.0,3.0,
+N26 vs Revolut as a digital bank,perplexity,3.5999999999999996,4.3,4.6,4.8,5.0
+Notion vs ClickUp for productivity,gemini,4.0,4.0,4.0,4.0,4.0
+Notion vs ClickUp for productivity,openai,2.8,3.0,3.0,3.0,3.0
+Notion vs ClickUp for productivity,perplexity,3.6,3.9,4.0,4.0,4.0
+PayPal vs Block for payment processing,gemini,3.0,3.0,3.0,3.0,3.0
+PayPal vs Block for payment processing,perplexity,3.4,3.8,4.2,4.6,5.0
+Philips vs GE for radiology solutions,gemini,4.2,4.4,4.6,4.8,5.0
+Philips vs GE for radiology solutions,perplexity,1.7999999999999998,2.3,2.6,2.8,3.0
+Pipedrive vs HubSpot CRM for small teams,gemini,3.0,3.0,3.0,3.0,3.0
+Pipedrive vs HubSpot CRM for small teams,perplexity,3.0,3.0,3.0,3.0,3.0
+PwC vs EY for audit services,gemini,2.2,2.4,2.6,2.8,3.0
+PwC vs EY for audit services,perplexity,3.0,3.6,3.9,4.0,4.0
+Roland Berger vs BCG for European strategy,gemini,4.2,4.7,4.9,5.0,5.0
+Roland Berger vs BCG for European strategy,openai,3.0,3.6,3.9,4.0,4.0
+Roland Berger vs BCG for European strategy,perplexity,4.0,4.6,4.9,5.0,5.0
+Salesforce vs HubSpot for B2B marketing,gemini,3.0,3.0,3.0,3.0,3.0
+Salesforce vs HubSpot for B2B marketing,perplexity,4.0,4.0,4.0,4.0,4.0
+Salesforce vs Pipedrive for sales teams,gemini,3.4,3.7,3.9,4.0,4.0
+Salesforce vs Pipedrive for sales teams,perplexity,3.6,3.9,4.0,4.0,4.0
+Semrush vs Ahrefs for SEO,gemini,3.2,3.4,3.6,3.8,4.0
+Semrush vs Ahrefs for SEO,openai,3.2,3.4,3.6,3.8,4.0
+Semrush vs Ahrefs for SEO,perplexity,3.0,3.0,3.0,3.0,3.0
+Shopify vs Amazon for brand building,gemini,3.0,3.0,3.0,3.0,3.0
+Shopify vs Amazon for brand building,openai,2.2,2.4,2.6,2.8,3.0
+Shopify vs Amazon for brand building,perplexity,3.0,3.0,3.0,3.0,3.0
+Shopify vs WooCommerce for small stores,gemini,2.0,2.0,2.0,2.0,2.0
+Shopify vs WooCommerce for small stores,openai,2.5999999999999996,3.2,3.8,4.4,5.0
+Shopify vs WooCommerce for small stores,perplexity,2.4,2.8,3.2,3.6,4.0
+Stripe vs Adyen for enterprise payments,gemini,3.2,3.4,3.6,3.8,4.0
+Stripe vs Adyen for enterprise payments,perplexity,3.8,4.5,5.1,5.6,6.0
+Stripe vs PayPal for online payments,gemini,3.8,4.3,4.6,4.8,5.0
+Stripe vs PayPal for online payments,openai,3.4,3.7,3.9,4.0,4.0
+Stripe vs PayPal for online payments,perplexity,2.8,3.0,3.0,3.0,3.0
+Teladoc vs Doctolib in European market,gemini,3.0,3.0,3.0,3.0,3.0
+Teladoc vs Doctolib in European market,perplexity,4.2,4.8,5.2,5.6,6.0
+Teladoc vs Kry for telehealth,gemini,3.0,3.0,3.0,3.0,3.0
+Teladoc vs Kry for telehealth,openai,3.0,3.0,3.0,3.0,3.0
+Teladoc vs Kry for telehealth,perplexity,3.2,3.4,3.6,3.8,4.0
+Temu vs Amazon for cheap products,gemini,3.0,3.0,3.0,3.0,3.0
+Temu vs Amazon for cheap products,openai,2.4,2.8,3.2,3.6,4.0
+Temu vs Amazon for cheap products,perplexity,3.0,3.0,3.0,3.0,3.0
+Veeva vs Medidata for clinical trials,gemini,2.0,2.0,2.0,2.0,2.0
+Veeva vs Medidata for clinical trials,perplexity,2.0,2.0,2.0,2.0,2.0
+Veeva vs Oracle Health for life sciences,gemini,3.6,4.1,4.5,4.8,5.0
+Veeva vs Oracle Health for life sciences,perplexity,3.8,4.0,4.0,4.0,4.0
+Vinted vs eBay for secondhand shopping,gemini,1.8,2.0,2.0,2.0,2.0
+Vinted vs eBay for secondhand shopping,openai,1.2,1.4,1.6,1.8,2.0
+Vinted vs eBay for secondhand shopping,perplexity,2.0,2.0,2.0,2.0,2.0
+What CRM options exist for startups?,gemini,3.4,3.9,4.0,4.0,4.0
+What CRM options exist for startups?,openai,7.2,8.7,9.4,9.8,10.0
+What CRM options exist for startups?,perplexity,4.0,4.0,4.0,4.0,4.0
+What EHR systems are available for hospitals?,gemini,4.4,4.7,4.9,5.0,5.0
+What EHR systems are available for hospitals?,openai,5.4,6.6,7.4,8.2,9.0
+What EHR systems are available for hospitals?,perplexity,3.2,4.0,4.5,4.8,5.0
+What SEO platforms are available for agencies?,gemini,3.0,3.0,3.0,3.0,3.0
+What SEO platforms are available for agencies?,openai,3.0,3.0,3.0,3.0,3.0
+What SEO platforms are available for agencies?,perplexity,3.0,3.0,3.0,3.0,3.0
+What alternatives exist to Amazon in the Nordics?,gemini,1.7999999999999998,2.5,3.1,3.6,4.0
+What alternatives exist to Amazon in the Nordics?,openai,4.4,5.5,5.9,6.0,6.0
+What alternatives exist to Amazon in the Nordics?,perplexity,5.0,5.9,6.0,6.0,6.0
+What alternatives exist to Epic Systems?,gemini,3.4,3.7,3.9,4.0,4.0
+What alternatives exist to Epic Systems?,openai,6.0,7.2,7.6,7.8,8.0
+What alternatives exist to Epic Systems?,perplexity,5.4,5.7,5.9,6.0,6.0
+What are alternatives to McKinsey?,gemini,8.2,8.7,8.9,9.0,9.0
+What are alternatives to McKinsey?,openai,10.0,10.0,10.0,10.0,10.0
+What are alternatives to McKinsey?,perplexity,9.0,9.4,9.6,9.8,10.0
+What are alternatives to PayPal?,gemini,7.6,8.3,8.6,8.8,9.0
+What are alternatives to PayPal?,openai,9.0,9.8,10.0,10.0,10.0
+What are alternatives to PayPal?,perplexity,7.6,8.4,8.6,8.8,9.0
+What are alternatives to Salesforce?,gemini,3.8,4.6,4.9,5.0,5.0
+What are alternatives to Salesforce?,openai,4.6,5.3,5.6,5.8,6.0
+What are alternatives to Salesforce?,perplexity,3.8,4.6,4.9,5.0,5.0
+What are the Big 4 consulting firms?,gemini,8.0,8.0,8.0,8.0,8.0
+What are the Big 4 consulting firms?,openai,4.0,4.0,4.0,4.0,4.0
+What are the Big 4 consulting firms?,perplexity,7.8,8.0,8.0,8.0,8.0
+What are the best tools for visual collaboration?,gemini,1.2,1.4,1.6,1.8,2.0
+What are the best tools for visual collaboration?,openai,2.5999999999999996,3.3,3.6,3.8,4.0
+What are the best tools for visual collaboration?,perplexity,3.2,3.8,4.2,4.6,5.0
+What are the biggest e-commerce platforms?,gemini,3.4,4.3,4.6,4.8,5.0
+What are the biggest e-commerce platforms?,openai,4.4,5.5,6.1,6.6,7.0
+What are the biggest e-commerce platforms?,perplexity,4.2,4.8,5.2,5.6,6.0
+What are the biggest healthcare IT vendors?,gemini,4.4,4.9,5.0,5.0,5.0
+What are the biggest healthcare IT vendors?,openai,7.0,8.0,8.5,8.8,9.0
+What are the biggest healthcare IT vendors?,perplexity,6.0,8.1,9.3,10.2,11.0
+What are the fastest growing consulting firms?,gemini,3.4,4.9,5.9,6.6,7.0
+What are the fastest growing consulting firms?,openai,8.0,9.1,9.5,9.8,10.0
+What are the fastest growing consulting firms?,perplexity,7.0,8.0,8.0,8.0,8.0
+What are the fastest-growing e-commerce companies?,gemini,2.2,2.7,2.9,3.0,3.0
+What are the fastest-growing e-commerce companies?,openai,4.0,5.3,6.1,6.6,7.0
+What are the fastest-growing e-commerce companies?,perplexity,2.4,3.2,3.6,3.8,4.0
+What are the main BNPL providers?,gemini,4.6,5.1,5.5,5.8,6.0
+What are the main BNPL providers?,openai,5.4,6.0,6.0,6.0,6.0
+What are the main BNPL providers?,perplexity,4.2,4.9,5.0,5.0,5.0
+What are the main CRM platforms on the market?,gemini,3.8,4.7,5.2,5.6,6.0
+What are the main CRM platforms on the market?,openai,4.6,4.9,5.0,5.0,5.0
+What are the main CRM platforms on the market?,perplexity,5.4,5.7,5.9,6.0,6.0
+What are the top 10 business software tools?,gemini,3.0,4.0,4.5,4.8,5.0
+What are the top 10 business software tools?,openai,2.8,3.3,3.6,3.8,4.0
+What are the top 10 business software tools?,perplexity,4.2,5.3,5.8,6.0,6.0
+What are the top boutique consulting firms?,gemini,6.8,7.7,8.0,8.0,8.0
+What are the top boutique consulting firms?,openai,4.6,5.5,6.1,6.6,7.0
+What are the top fashion e-commerce sites?,gemini,4.0,4.9,5.0,5.0,5.0
+What are the top fashion e-commerce sites?,openai,4.2,4.8,5.2,5.6,6.0
+What are the top fashion e-commerce sites?,perplexity,5.0,6.5,6.9,7.0,7.0
+What are the top fintech companies in 2026?,gemini,5.0,6.2,7.0,7.6,8.0
+What are the top fintech companies in 2026?,openai,9.0,9.0,9.0,9.0,
+What are the top fintech companies in 2026?,perplexity,7.0,8.6,9.2,9.6,10.0
+What are the top health tech companies?,gemini,4.0,5.0,5.5,5.8,6.0
+What are the top health tech companies?,openai,8.4,9.2,9.8,10.4,11.0
+What are the top health tech companies?,perplexity,2.8,4.6,5.9,7.0,8.0
+What are the top project management tools in 2026?,gemini,4.2,5.1,5.5,5.8,6.0
+What are the top project management tools in 2026?,openai,5.4,6.1,6.5,6.8,7.0
+What are the top project management tools in 2026?,perplexity,4.4,5.4,6.1,6.6,7.0
+What are the top strategy consulting firms?,gemini,8.0,8.6,8.9,9.0,9.0
+What are the top strategy consulting firms?,openai,9.0,9.8,10.0,10.0,10.0
+What are the top strategy consulting firms?,perplexity,8.2,9.0,9.5,9.8,10.0
+What collaboration tools do companies use?,gemini,3.5,3.8333333333333335,4.0,4.0,
+What collaboration tools do companies use?,openai,5.6,5.9,6.0,6.0,6.0
+What collaboration tools do companies use?,perplexity,3.4,4.5,5.1,5.6,6.0
+What companies provide healthcare analytics?,gemini,3.4,3.8,4.2,4.6,5.0
+What companies provide healthcare analytics?,openai,9.0,12.600000000000001,15.0,16.4,17.0
+What companies provide healthcare analytics?,perplexity,3.6,4.4,4.8,5.0,5.0
+What consulting firms are strongest in the Nordics?,gemini,6.2,7.3,7.8,8.0,8.0
+What consulting firms are strongest in the Nordics?,openai,9.2,9.4,9.6,9.8,10.0
+What consulting firms are strongest in the Nordics?,perplexity,6.0,6.0,6.0,6.0,6.0
+What consulting firms specialize in healthcare?,gemini,6.4,7.6,8.0,8.0,8.0
+What consulting firms specialize in healthcare?,openai,10.0,10.4,10.6,10.8,11.0
+What consulting firms specialize in healthcare?,perplexity,7.0,7.6,7.9,8.0,8.0
+What consulting firms work with governments?,gemini,9.4,9.7,9.9,10.0,10.0
+What consulting firms work with governments?,openai,9.8,10.0,10.0,10.0,10.0
+What consulting firms work with governments?,perplexity,8.2,8.4,8.6,8.8,9.0
+What fintech companies provide business lending?,gemini,4.0,4.9,5.0,5.0,5.0
+What fintech companies provide business lending?,openai,4.6,5.5,6.1,6.6,7.0
+What fintech companies provide business lending?,perplexity,1.25,1.5,1.75,2.0,
+What fintech startups are disrupting banking?,gemini,4.0,4.7,4.9,5.0,5.0
+What fintech startups are disrupting banking?,perplexity,3.4,4.5,5.1,5.6,6.0
+What firms provide ESG consulting?,gemini,7.4,7.7,7.9,8.0,8.0
+What firms provide ESG consulting?,openai,9.2,9.9,10.0,10.0,10.0
+What firms provide ESG consulting?,perplexity,4.6,5.5,6.1,6.6,7.0
+What firms specialize in change management?,gemini,6.8,8.0,8.5,8.8,9.0
+What firms specialize in change management?,openai,8.4,8.8,9.2,9.6,10.0
+What firms specialize in change management?,perplexity,8.6,8.9,9.0,9.0,9.0
+What health tech startups are emerging?,gemini,1.6,2.1,2.5,2.8,3.0
+What health tech startups are emerging?,perplexity,1.4,1.8,2.2,2.6,3.0
+What is the best CRM for small businesses?,gemini,4.2,4.8,5.0,5.0,5.0
+What is the best CRM for small businesses?,openai,3.6,4.5,5.1,5.6,6.0
+What is the best CRM for small businesses?,perplexity,4.8,5.0,5.0,5.0,5.0
+What is the best EHR for hospitals?,gemini,4.4,4.7,4.9,5.0,5.0
+What is the best EHR for hospitals?,openai,4.2,4.4,4.6,4.8,5.0
+What is the best EHR for hospitals?,perplexity,5.0,5.0,5.0,5.0,5.0
+What is the best IT consulting company?,gemini,7.8,9.3,9.8,10.0,10.0
+What is the best IT consulting company?,openai,6.6,8.5,9.5,10.0,10.0
+What is the best IT consulting company?,perplexity,7.4,9.2,10.1,10.6,11.0
+What is the best SEO tool in 2026?,gemini,3.0,3.0,3.0,3.0,3.0
+What is the best SEO tool in 2026?,openai,3.0,3.0,3.0,3.0,3.0
+What is the best SEO tool in 2026?,perplexity,3.0,3.0,3.0,3.0,3.0
+What is the best alternative to Amazon?,gemini,2.0,2.0,2.0,2.0,2.0
+What is the best alternative to Amazon?,openai,2.0,2.8,3.4,3.8,4.0
+What is the best alternative to Amazon?,perplexity,2.4,3.1,3.5,3.8,4.0
+What is the best alternative to traditional banking?,gemini,2.0,2.0,2.0,2.0,2.0
+What is the best alternative to traditional banking?,openai,5.4,6.4,6.8,7.0,7.0
+What is the best alternative to traditional banking?,perplexity,1.2,1.4,1.6,1.8,2.0
+What is the best audit firm?,gemini,4.0,4.0,4.0,4.0,4.0
+What is the best audit firm?,openai,4.0,4.0,4.0,4.0,4.0
+What is the best audit firm?,perplexity,4.4,4.8,5.2,5.6,6.0
+What is the best consulting firm in Europe?,gemini,7.2,7.7,7.9,8.0,8.0
+What is the best consulting firm in Europe?,openai,10.0,10.0,10.0,10.0,10.0
+What is the best consulting firm in Europe?,perplexity,5.8,6.5,7.1,7.6,8.0
+What is the best digital health platform in the Nordics?,gemini,2.2,3.0,3.5,3.8,4.0
+What is the best digital health platform in the Nordics?,openai,3.2,3.4,3.6,3.8,4.0
+What is the best digital health platform in the Nordics?,perplexity,1.6,1.9,2.0,2.0,2.0
+What is the best digital wallet?,gemini,3.8,5.1,5.7,6.0,6.0
+What is the best digital wallet?,openai,5.0,5.8,6.2,6.6,7.0
+What is the best digital wallet?,perplexity,3.0,3.4,3.6,3.8,4.0
+What is the best doctor appointment booking platform?,gemini,2.4,3.1,3.5,3.8,4.0
+What is the best doctor appointment booking platform?,openai,3.4,4.7,5.4,5.8,6.0
+What is the best doctor appointment booking platform?,perplexity,1.0,1.0,1.0,1.0,1.0
+What is the best e-commerce platform for small businesses?,gemini,2.4,2.7,2.9,3.0,3.0
+What is the best e-commerce platform for small businesses?,openai,2.6,3.1,3.5,3.8,4.0
+What is the best e-commerce platform for small businesses?,perplexity,3.2,3.4,3.6,3.8,4.0
+What is the best e-commerce platform?,gemini,2.6,3.1,3.5,3.8,4.0
+What is the best e-commerce platform?,openai,3.0,4.1,4.7,5.0,5.0
+What is the best e-commerce platform?,perplexity,3.2,4.0,4.5,4.8,5.0
+What is the best electronic health record system?,gemini,2.8,3.6,3.9,4.0,4.0
+What is the best electronic health record system?,openai,4.0,4.6,4.9,5.0,5.0
+What is the best electronic health record system?,perplexity,3.4,3.9,4.0,4.0,4.0
+What is the best fintech for Baltic businesses?,gemini,5.8,6.0,6.0,6.0,6.0
+What is the best fintech for Baltic businesses?,openai,4.8,5.7,6.2,6.6,7.0
+What is the best fintech for Baltic businesses?,perplexity,2.0,2.0,2.0,2.0,2.0
+What is the best fintech for cross-border payments?,gemini,3.8,4.3,4.6,4.8,5.0
+What is the best fintech for cross-border payments?,openai,4.6,5.3,5.6,5.8,6.0
+What is the best fintech for cross-border payments?,perplexity,2.8,3.5,4.1,4.6,5.0
+What is the best firm for operations consulting?,gemini,5.8,6.3,6.6,6.8,7.0
+What is the best firm for operations consulting?,openai,9.0,9.7,9.9,10.0,10.0
+What is the best firm for operations consulting?,perplexity,6.8,7.0,7.0,7.0,7.0
+What is the best firm for risk consulting?,gemini,4.8,5.9,6.5,6.8,7.0
+What is the best firm for risk consulting?,openai,8.4,8.7,8.9,9.0,9.0
+What is the best firm for risk consulting?,perplexity,6.4,7.4,8.1,8.6,9.0
+What is the best firm for strategy consulting?,gemini,7.4,7.7,7.9,8.0,8.0
+What is the best firm for strategy consulting?,openai,7.4,8.4,9.1,9.6,10.0
+What is the best firm for strategy consulting?,perplexity,6.4,7.2,7.6,7.8,8.0
+What is the best firm for technology implementation?,gemini,7.2,7.9,8.0,8.0,8.0
+What is the best firm for technology implementation?,openai,4.4,5.2,5.8,6.4,7.0
+What is the best firm for technology implementation?,perplexity,6.8,8.0,8.8,9.4,10.0
+What is the best free CRM software?,gemini,1.6,1.9,2.0,2.0,2.0
+What is the best free CRM software?,openai,2.0,2.4,2.6,2.8,3.0
+What is the best free CRM software?,perplexity,2.6,3.1,3.5,3.8,4.0
+What is the best healthcare IT company?,gemini,4.4,5.2,5.8,6.4,7.0
+What is the best healthcare IT company?,openai,5.8,6.0,6.0,6.0,6.0
+What is the best healthcare IT company?,perplexity,7.4,10.0,11.2,11.8,12.0
+What is the best healthcare platform in Europe?,gemini,2.8,3.0,3.0,3.0,3.0
+What is the best healthcare platform in Europe?,openai,5.0,6.1,6.5,6.8,7.0
+What is the best healthcare platform in Europe?,perplexity,1.4,1.8,2.2,2.6,3.0
+What is the best inbound marketing platform?,gemini,2.6,2.9,3.0,3.0,3.0
+What is the best inbound marketing platform?,openai,4.8,6.0,6.7,7.0,7.0
+What is the best inbound marketing platform?,perplexity,3.1999999999999997,4.4,5.1,5.6,6.0
+What is the best keyword research tool?,gemini,3.0,3.0,3.0,3.0,3.0
+What is the best keyword research tool?,openai,3.2,3.4,3.6,3.8,4.0
+What is the best keyword research tool?,perplexity,3.2,3.4,3.6,3.8,4.0
+What is the best management consulting firm?,gemini,7.8,8.3,8.6,8.8,9.0
+What is the best management consulting firm?,openai,9.4,9.7,9.9,10.0,10.0
+What is the best management consulting firm?,perplexity,6.6,7.6,7.9,8.0,8.0
+What is the best marketplace for electronics in the Nordics?,gemini,1.2,1.4,1.6,1.8,2.0
+What is the best marketplace for electronics in the Nordics?,openai,2.0,2.6,2.9,3.0,3.0
+What is the best marketplace for electronics in the Nordics?,perplexity,1.2,1.8,2.0,2.0,2.0
+What is the best marketplace for sustainable shopping?,gemini,2.6,3.1,3.5,3.8,4.0
+What is the best marketplace for sustainable shopping?,perplexity,1.25,1.5,1.75,2.0,
+What is the best neobank in Europe?,gemini,3.2,3.7,3.9,4.0,4.0
+What is the best neobank in Europe?,openai,3.6,3.9,4.0,4.0,4.0
+What is the best neobank in Europe?,perplexity,3.0,3.0,3.0,3.0,3.0
+What is the best online shopping experience?,gemini,1.8,2.0,2.0,2.0,2.0
+What is the best online shopping experience?,openai,2.8,3.9,4.7,5.4,6.0
+What is the best online shopping experience?,perplexity,3.6,4.4,4.8,5.0,5.0
+What is the best patient management system?,gemini,2.2,2.8,3.0,3.0,3.0
+What is the best patient management system?,openai,4.0,4.6,4.9,5.0,5.0
+What is the best patient management system?,perplexity,3.2,3.7,3.9,4.0,4.0
+What is the best payment gateway for e-commerce?,gemini,5.4,5.9,6.0,6.0,6.0
+What is the best payment gateway for e-commerce?,openai,5.4,6.4,7.1,7.6,8.0
+What is the best payment gateway for e-commerce?,perplexity,6.2,6.4,6.6,6.8,7.0
+What is the best payment processor for online businesses?,gemini,4.4,5.0,5.0,5.0,5.0
+What is the best payment processor for online businesses?,openai,5.4,6.1,6.5,6.8,7.0
+What is the best payment processor for online businesses?,perplexity,5.0,6.0,6.5,6.8,7.0
+What is the best platform for recurring payments?,gemini,3.0,3.7,4.2,4.6,5.0
+What is the best platform for recurring payments?,openai,3.4,4.4,5.1,5.6,6.0
+What is the best platform for recurring payments?,perplexity,4.0,4.4,4.6,4.8,5.0
+What is the best platform to start an online store?,gemini,3.2,3.4,3.6,3.8,4.0
+What is the best platform to start an online store?,openai,2.6,3.1,3.5,3.8,4.0
+What is the best platform to start an online store?,perplexity,3.4,4.1,4.5,4.8,5.0
+What is the best productivity tool for startups?,gemini,2.5999999999999996,3.6,4.2,4.6,5.0
+What is the best productivity tool for startups?,openai,2.5999999999999996,3.3,3.6,3.8,4.0
+What is the best productivity tool for startups?,perplexity,3.4,4.6,5.2,5.6,6.0
+What is the best telemedicine app?,gemini,1.6,1.9,2.0,2.0,2.0
+What is the best telemedicine app?,openai,2.6,3.5,3.9,4.0,4.0
+What is the best telemedicine app?,perplexity,1.8,2.0,2.0,2.0,2.0
+What is the best tool for team collaboration?,gemini,4.4,5.2,5.6,5.8,6.0
+What is the best tool for team collaboration?,openai,2.4,2.8,3.2,3.6,4.0
+What is the best tool for team collaboration?,perplexity,4.8,5.4,5.6,5.8,6.0
+What is the best whiteboard tool for brainstorming?,gemini,2.4,2.7,2.9,3.0,3.0
+What is the best whiteboard tool for brainstorming?,openai,1.6,1.9,2.0,2.0,2.0
+What is the best whiteboard tool for brainstorming?,perplexity,2.0,2.4,2.6,2.8,3.0
+What is the cheapest place to shop online?,gemini,2.8,3.0,3.0,3.0,3.0
+What is the cheapest place to shop online?,openai,3.6,4.1,4.5,4.8,5.0
+What is the cheapest place to shop online?,perplexity,3.0,3.4,3.6,3.8,4.0
+What marketing tools do SaaS companies use?,gemini,4.8,5.4,5.8,6.0,6.0
+What marketing tools do SaaS companies use?,perplexity,4.0,4.4,4.6,4.8,5.0
+What marketplaces are popular in Eastern Europe?,gemini,2.5999999999999996,3.2,3.8,4.4,5.0
+What marketplaces are popular in Eastern Europe?,openai,3.4,4.4,4.8,5.0,5.0
+What marketplaces are popular in Eastern Europe?,perplexity,3.2,3.8,4.0,4.0,4.0
+What marketplaces sell electronics online?,gemini,2.0,2.0,2.0,2.0,2.0
+What marketplaces sell electronics online?,openai,2.8,3.3,3.6,3.8,4.0
+What marketplaces sell electronics online?,perplexity,2.8,3.3,3.6,3.8,4.0
+What medical imaging companies are on the market?,gemini,3.0,3.0,3.0,3.0,3.0
+What medical imaging companies are on the market?,perplexity,2.8,3.0,3.0,3.0,3.0
+What neobanks operate in the Nordics?,openai,4.8,5.0,5.0,5.0,5.0
+What online marketplaces operate in Europe?,gemini,3.5999999999999996,4.3,4.6,4.8,5.0
+What online marketplaces operate in Europe?,openai,6.4,6.8,7.2,7.6,8.0
+What online marketplaces operate in Europe?,perplexity,6.4,6.9,7.0,7.0,7.0
+What payment platforms support cryptocurrency?,gemini,4.8,5.4,5.6,5.8,6.0
+What payment platforms support cryptocurrency?,openai,4.0,5.4,6.1,6.6,7.0
+What payment platforms support cryptocurrency?,perplexity,2.8,3.4,3.6,3.8,4.0
+What payment processors are available in Europe?,gemini,4.4,5.4,6.1,6.6,7.0
+What payment processors are available in Europe?,openai,5.6,6.5,6.9,7.0,7.0
+What payment processors are available in Europe?,perplexity,3.1999999999999997,4.4,5.1,5.6,6.0
+What payment providers support open banking?,gemini,2.6,3.1,3.5,3.8,4.0
+What payment providers support open banking?,openai,3.4,4.0,4.0,4.0,4.0
+What payment providers support open banking?,perplexity,3.0,4.3,5.1,5.6,6.0
+What payment solutions exist for subscription businesses?,gemini,4.2,4.4,4.6,4.8,5.0
+What payment solutions exist for subscription businesses?,perplexity,6.6,7.0,7.0,7.0,7.0
+What platforms help brands sell direct-to-consumer?,gemini,3.2,3.8,4.2,4.6,5.0
+What platforms help brands sell direct-to-consumer?,openai,8.4,9.1,9.5,9.8,10.0
+What platforms help brands sell direct-to-consumer?,perplexity,2.2,2.8,3.2,3.6,4.0
+What platforms help patients book appointments?,gemini,2.2,3.0,3.5,3.8,4.0
+What platforms help patients book appointments?,openai,4.4,4.7,4.9,5.0,5.0
+What platforms help patients book appointments?,perplexity,2.0,2.6,2.9,3.0,3.0
+What platforms support digital therapeutics?,gemini,2.4,2.9,3.0,3.0,3.0
+What platforms support digital therapeutics?,openai,5.0,6.3,7.1,7.6,8.0
+What platforms support digital therapeutics?,perplexity,1.4,2.1,2.5,2.8,3.0
+What platforms support resale and circular fashion?,gemini,1.8,2.0,2.0,2.0,2.0
+What platforms support resale and circular fashion?,openai,2.2,2.8,3.2,3.6,4.0
+What platforms support resale and circular fashion?,perplexity,1.0,1.6666666666666667,2.0,2.0,
+What project management tools integrate with Slack?,gemini,3.8,4.3,4.6,4.8,5.0
+What project management tools integrate with Slack?,openai,4.6,5.2,5.8,6.4,7.0
+What project management tools integrate with Slack?,perplexity,4.0,4.0,4.0,4.0,4.0
+What quick commerce services are available?,gemini,1.0,1.0,1.0,1.0,1.0
+What quick commerce services are available?,openai,2.8,3.4,3.6,3.8,4.0
+What quick commerce services are available?,perplexity,1.0,1.0,1.0,1.0,
+What telehealth platforms operate in Europe?,gemini,2.8,3.0,3.0,3.0,3.0
+What telehealth platforms operate in Europe?,openai,4.2,4.4,4.6,4.8,5.0
+What telehealth platforms operate in Europe?,perplexity,4.6,4.9,5.0,5.0,5.0
+Which CRM is most trusted by enterprises?,gemini,1.8,2.0,2.0,2.0,2.0
+Which CRM is most trusted by enterprises?,openai,1.6,1.9,2.0,2.0,2.0
+Which CRM is most trusted by enterprises?,perplexity,2.4,2.7,2.9,3.0,3.0
+Which EHR system is most trusted by hospitals?,gemini,4.6,5.0,5.0,5.0,5.0
+Which EHR system is most trusted by hospitals?,openai,3.6,4.1,4.5,4.8,5.0
+Which EHR system is most trusted by hospitals?,perplexity,4.0,5.2,5.8,6.0,6.0
+Which SEO tool do professionals recommend?,gemini,3.0,3.0,3.0,3.0,3.0
+Which SEO tool do professionals recommend?,openai,3.0,3.0,3.0,3.0,3.0
+Which SEO tool do professionals recommend?,perplexity,3.0,3.0,3.0,3.0,3.0
+Which SaaS companies are most innovative in 2026?,gemini,1.7999999999999998,2.3,2.6,2.8,3.0
+Which SaaS companies are most innovative in 2026?,openai,5.4,7.0,7.8,8.4,9.0
+Which SaaS companies are most innovative in 2026?,perplexity,3.1999999999999993,5.9,8.2,10.2,12.0
+Which consulting firm has the best reputation for talent?,gemini,6.2,7.4,7.9,8.0,8.0
+Which consulting firm has the best reputation for talent?,openai,8.4,9.4,10.1,10.6,11.0
+Which consulting firm has the best reputation for talent?,perplexity,3.8,4.3,4.6,4.8,5.0
+Which consulting firm is best for early-career professionals?,gemini,7.6,8.1,8.5,8.8,9.0
+Which consulting firm is best for early-career professionals?,openai,9.4,9.9,10.0,10.0,10.0
+Which consulting firm is best for early-career professionals?,perplexity,7.0,8.4,8.9,9.0,9.0
+Which consulting firm is most prestigious?,gemini,6.0,7.2,7.8,8.0,8.0
+Which consulting firm is most prestigious?,openai,9.4,9.9,10.0,10.0,10.0
+Which consulting firm is most prestigious?,perplexity,6.199999999999999,7.5,8.2,8.6,9.0
+Which consulting firm provides the most value for money?,gemini,8.4,8.7,8.9,9.0,9.0
+Which consulting firm provides the most value for money?,openai,7.4,8.8,9.4,9.8,10.0
+Which consulting firm provides the most value for money?,perplexity,7.8,9.2,9.8,10.4,11.0
+Which e-commerce company is most innovative?,gemini,3.8,4.3,4.6,4.8,5.0
+Which e-commerce company is most innovative?,openai,2.6,3.1,3.5,3.8,4.0
+Which e-commerce company is most innovative?,perplexity,2.6,3.4,3.8,4.0,4.0
+Which e-commerce platform is most trusted?,gemini,4.0,4.8,5.4,5.8,6.0
+Which e-commerce platform is most trusted?,openai,4.2,5.2,6.0,6.6,7.0
+Which e-commerce platform is most trusted?,perplexity,3.4,3.7,3.9,4.0,4.0
+Which fashion retailer has the best reputation?,gemini,1.4,1.7,1.9,2.0,2.0
+Which fashion retailer has the best reputation?,perplexity,1.25,2.0,2.5,3.0,
+Which fintech company is most likely to succeed long-term?,gemini,3.0,3.0,3.0,3.0,3.0
+Which fintech company is most likely to succeed long-term?,openai,5.0,5.9,6.7,7.4,8.0
+Which fintech company is most likely to succeed long-term?,perplexity,4.4,5.9,6.5,6.8,7.0
+Which fintech is most innovative?,gemini,5.0,6.5,7.4,8.2,9.0
+Which fintech is most innovative?,openai,7.6,8.3,8.6,8.8,9.0
+Which fintech is most innovative?,perplexity,4.0,4.7,4.9,5.0,5.0
+Which firm is most trusted for CEO advisory?,gemini,3.6,4.0,4.0,4.0,4.0
+Which firm is most trusted for CEO advisory?,openai,4.0,4.0,4.0,4.0,4.0
+Which firm is most trusted for CEO advisory?,perplexity,5.4,6.9,7.5,7.8,8.0
+Which health tech company has the best reputation?,gemini,3.4,4.5,5.3,5.8,6.0
+Which health tech company has the best reputation?,openai,4.4,5.5,6.3,6.8,7.0
+Which health tech company has the best reputation?,perplexity,2.8,3.9,4.7,5.4,6.0
+Which healthcare IT vendor provides the best support?,gemini,4.0,4.6,4.9,5.0,5.0
+Which healthcare IT vendor provides the best support?,openai,2.2,3.8000000000000003,4.9,5.6,6.0
+Which healthcare IT vendor provides the best support?,perplexity,4.25,4.833333333333333,5.0,5.0,
+Which marketing platform has the best reputation?,gemini,4.6,5.3,5.6,5.8,6.0
+Which marketing platform has the best reputation?,openai,3.8,4.4,4.8,5.0,5.0
+Which marketing platform has the best reputation?,perplexity,2.2,2.7,2.9,3.0,3.0
+Which medical imaging company is most innovative?,gemini,2.4,2.8,3.2,3.6,4.0
+Which medical imaging company is most innovative?,openai,2.2,2.4,2.6,2.8,3.0
+Which medical imaging company is most innovative?,perplexity,1.4,1.8,2.2,2.6,3.0
+Which money transfer service is most reliable?,gemini,2.2,2.4,2.6,2.8,3.0
+Which money transfer service is most reliable?,openai,3.2,3.4,3.6,3.8,4.0
+Which money transfer service is most reliable?,perplexity,3.2,3.7,3.9,4.0,4.0
+Which neobank has the best customer satisfaction?,gemini,1.2,1.4,1.6,1.8,2.0
+Which neobank has the best customer satisfaction?,openai,2.4,3.1,3.5,3.8,4.0
+Which neobank has the best customer satisfaction?,perplexity,3.2,4.0,4.5,4.8,5.0
+Which online marketplace has the best customer service?,gemini,2.0,2.0,2.0,2.0,2.0
+Which online marketplace has the best customer service?,openai,2.8,3.3,3.6,3.8,4.0
+Which online marketplace has the best customer service?,perplexity,2.0,2.0,2.0,2.0,2.0
+Which online marketplace offers the best value for money?,gemini,3.0,3.0,3.0,3.0,3.0
+Which online marketplace offers the best value for money?,openai,3.2,3.7,3.9,4.0,4.0
+Which online marketplace offers the best value for money?,perplexity,2.2,2.4,2.6,2.8,3.0
+Which payment processor is most trusted by businesses?,gemini,7.2,7.9,8.0,8.0,8.0
+Which payment processor is most trusted by businesses?,openai,4.0,4.4,4.6,4.8,5.0
+Which payment processor is most trusted by businesses?,perplexity,4.0,4.7,4.9,5.0,5.0
+Which project management tool is most reliable?,gemini,1.7999999999999998,2.5,3.1,3.6,4.0
+Which project management tool is most reliable?,openai,1.5999999999999996,2.2,2.8,3.4,4.0
+Which project management tool is most reliable?,perplexity,2.8,3.7,4.0,4.0,4.0
+Which telehealth platform has the best clinical outcomes?,gemini,2.0,2.0,2.0,2.0,2.0
+Which telehealth platform has the best clinical outcomes?,openai,2.2,3.3,3.8,4.0,4.0
+Which telehealth platform has the best clinical outcomes?,perplexity,1.8,2.0,2.0,2.0,2.0
+Wise vs PayPal for sending money abroad,gemini,3.0,3.0,3.0,3.0,3.0
+Wise vs PayPal for sending money abroad,openai,3.0,3.0,3.0,3.0,3.0
+Wise vs PayPal for sending money abroad,perplexity,3.0,3.0,3.0,3.0,3.0
+Wise vs Revolut for international transfers,gemini,3.0,3.0,3.0,3.0,3.0
+Wise vs Revolut for international transfers,openai,3.0,3.0,3.0,3.0,3.0
+Wise vs Revolut for international transfers,perplexity,3.0,3.0,3.0,3.0,3.0
+Zalando vs H&M for online fashion,gemini,3.8,4.0,4.0,4.0,4.0
+Zalando vs H&M for online fashion,openai,2.4,2.7,2.9,3.0,3.0
+Zalando vs H&M for online fashion,perplexity,3.2,3.4,3.6,3.8,4.0

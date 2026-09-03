@@ -1,0 +1,706 @@
+n,S_obs,Q1,Q2,final_run_yield,chao2,share_seen,still_rising,query,model,industry
+5,5,1,0,0.2,5.0,1.0,True,ASOS vs Zalando for fashion in Europe,gemini,ecommerce
+5,5,2,1,0.4,6.6,0.7575757575757576,True,ASOS vs Zalando for fashion in Europe,openai,ecommerce
+5,5,2,0,0.4,5.8,0.8620689655172414,True,ASOS vs Zalando for fashion in Europe,perplexity,ecommerce
+5,8,2,1,0.4,9.6,0.8333333333333334,True,Accenture vs Deloitte vs PwC for IT consulting,gemini,consulting
+4,6,0,1,0.0,6.0,1.0,False,Accenture vs Deloitte vs PwC for IT consulting,openai,consulting
+5,10,4,0,0.8,14.8,0.6756756756756757,True,Accenture vs Deloitte vs PwC for IT consulting,perplexity,consulting
+5,4,0,0,0.0,4.0,1.0,False,Adyen vs Stripe vs PayPal comparison,gemini,fintech
+5,6,1,1,0.2,6.4,0.9375,True,Adyen vs Stripe vs PayPal comparison,perplexity,fintech
+5,3,0,0,0.0,3.0,1.0,False,Ahrefs vs Moz vs Semrush for backlink analysis,gemini,saas
+5,3,0,0,0.0,3.0,1.0,False,Ahrefs vs Moz vs Semrush for backlink analysis,openai,saas
+5,4,1,0,0.2,4.0,1.0,True,Ahrefs vs Moz vs Semrush for backlink analysis,perplexity,saas
+5,3,0,0,0.0,3.0,1.0,False,Allegro vs Amazon in Eastern Europe,gemini,ecommerce
+5,4,1,1,0.2,4.4,0.9090909090909091,True,Allegro vs Amazon in Eastern Europe,openai,ecommerce
+5,5,1,0,0.2,5.0,1.0,True,Allegro vs Amazon in Eastern Europe,perplexity,ecommerce
+5,4,0,0,0.0,4.0,1.0,False,Amazon vs Shopify for selling online,gemini,ecommerce
+5,4,1,0,0.2,4.0,1.0,True,Amazon vs Shopify for selling online,perplexity,ecommerce
+4,2,0,0,0.0,2.0,1.0,False,Best CRM for real estate agents,gemini,saas
+5,3,0,0,0.0,3.0,1.0,False,Best CRM for real estate agents,openai,saas
+5,5,2,1,0.4,6.6,0.7575757575757576,True,Best CRM for real estate agents,perplexity,saas
+5,2,0,1,0.0,2.0,1.0,False,Best EHR for small medical practices,gemini,healthtech
+5,2,0,0,0.0,2.0,1.0,False,Best EHR for small medical practices,openai,healthtech
+5,2,1,0,0.2,2.0,1.0,True,Best EHR for small medical practices,perplexity,healthtech
+5,3,0,1,0.0,3.0,1.0,False,Best all-in-one marketing platform,gemini,saas
+5,6,1,0,0.2,6.0,1.0,True,Best all-in-one marketing platform,openai,saas
+5,5,2,1,0.4,6.6,0.7575757575757576,True,Best all-in-one marketing platform,perplexity,saas
+5,3,1,1,0.2,3.4,0.8823529411764706,True,Best business banking app,gemini,fintech
+5,6,3,0,0.6,8.4,0.7142857142857143,True,Best business banking app,openai,fintech
+4,3,0,0,0.0,3.0,1.0,False,Best business banking app,perplexity,fintech
+5,4,2,0,0.4,4.8,0.8333333333333334,True,Best buy now pay later service,gemini,fintech
+5,4,1,0,0.2,4.0,1.0,True,Best buy now pay later service,openai,fintech
+5,6,2,0,0.4,6.8,0.8823529411764706,True,Best buy now pay later service,perplexity,fintech
+5,3,1,0,0.2,3.0,1.0,True,Best clinical trial management software,gemini,healthtech
+5,5,2,0,0.4,5.8,0.8620689655172414,True,Best clinical trial management software,openai,healthtech
+5,4,0,0,0.0,4.0,1.0,False,Best clinical trial management software,perplexity,healthtech
+5,10,1,0,0.2,10.0,1.0,True,Best consulting firm for digital transformation,gemini,consulting
+5,10,0,0,0.0,10.0,1.0,False,Best consulting firm for digital transformation,openai,consulting
+5,13,5,1,1.0,23.0,0.5652173913043478,True,Best consulting firm for digital transformation,perplexity,consulting
+5,8,0,0,0.0,8.0,1.0,False,Best consulting firm for financial advisory,gemini,consulting
+5,9,0,5,0.0,9.0,1.0,False,Best consulting firm for financial advisory,openai,consulting
+5,7,0,1,0.0,7.0,1.0,False,Best consulting firm for financial advisory,perplexity,consulting
+5,7,0,3,0.0,7.0,1.0,False,Best consulting firm for mergers and acquisitions,gemini,consulting
+5,7,0,0,0.0,7.0,1.0,False,Best consulting firm for mergers and acquisitions,openai,consulting
+5,7,0,0,0.0,7.0,1.0,False,Best consulting firm for mergers and acquisitions,perplexity,consulting
+5,7,0,0,0.0,7.0,1.0,False,Best consulting firm for private equity due diligence,gemini,consulting
+5,8,1,0,0.2,8.0,1.0,True,Best consulting firm for private equity due diligence,openai,consulting
+5,6,0,0,0.0,6.0,1.0,False,Best consulting firm for private equity due diligence,perplexity,consulting
+5,10,4,0,0.8,14.8,0.6756756756756757,True,Best consulting firm for supply chain optimization,gemini,consulting
+5,10,1,2,0.2,10.2,0.9803921568627452,True,Best consulting firm for supply chain optimization,openai,consulting
+5,9,0,1,0.0,9.0,1.0,False,Best consulting firm for supply chain optimization,perplexity,consulting
+5,7,0,1,0.0,7.0,1.0,False,Best consulting firm for sustainability strategy,gemini,consulting
+5,9,0,0,0.0,9.0,1.0,False,Best consulting firm for sustainability strategy,openai,consulting
+5,10,0,1,0.0,10.0,1.0,False,Best consulting firm for sustainability strategy,perplexity,consulting
+5,9,1,2,0.2,9.2,0.9782608695652175,True,Best consulting firm for the public sector,gemini,consulting
+5,9,0,0,0.0,9.0,1.0,False,Best consulting firm for the public sector,openai,consulting
+5,10,4,2,0.8,13.2,0.7575757575757576,True,Best consulting firm for the public sector,perplexity,consulting
+5,3,1,1,0.2,3.4,0.8823529411764706,True,Best dropshipping platform,gemini,ecommerce
+5,3,1,0,0.2,3.0,1.0,True,Best dropshipping platform,openai,ecommerce
+5,4,1,0,0.2,4.0,1.0,True,Best dropshipping platform,perplexity,ecommerce
+5,5,2,1,0.4,6.6,0.7575757575757576,True,Best e-commerce platform for B2B,gemini,ecommerce
+5,4,1,1,0.2,4.4,0.9090909090909091,True,Best e-commerce platform for B2B,openai,ecommerce
+5,3,0,0,0.0,3.0,1.0,False,Best e-commerce platform for B2B,perplexity,ecommerce
+5,2,0,0,0.0,2.0,1.0,False,Best e-commerce platform for headless commerce,gemini,ecommerce
+5,4,0,1,0.0,4.0,1.0,False,Best e-commerce platform for headless commerce,openai,ecommerce
+5,4,0,0,0.0,4.0,1.0,False,Best e-commerce platform for headless commerce,perplexity,ecommerce
+5,4,0,1,0.0,4.0,1.0,False,Best enterprise CRM platform,gemini,saas
+5,5,0,2,0.0,5.0,1.0,False,Best enterprise CRM platform,openai,saas
+5,5,1,0,0.2,5.0,1.0,True,Best enterprise CRM platform,perplexity,saas
+5,4,0,1,0.0,4.0,1.0,False,Best health tech for pharmaceutical companies,gemini,healthtech
+5,3,1,0,0.2,3.0,1.0,True,Best health tech for pharmaceutical companies,perplexity,healthtech
+5,5,2,1,0.4,6.6,0.7575757575757576,True,Best health technology for life sciences,gemini,healthtech
+5,2,1,0,0.2,2.0,1.0,True,Best health technology for life sciences,perplexity,healthtech
+5,3,0,0,0.0,3.0,1.0,False,Best marketing automation platform for B2B,gemini,saas
+5,4,0,0,0.0,4.0,1.0,False,Best marketing automation platform for B2B,openai,saas
+5,4,0,1,0.0,4.0,1.0,False,Best marketing automation platform for B2B,perplexity,saas
+5,4,1,0,0.2,4.0,1.0,True,Best medical imaging technology company,gemini,healthtech
+5,3,1,0,0.2,3.0,1.0,True,Best medical imaging technology company,openai,healthtech
+5,4,1,1,0.2,4.4,0.9090909090909091,True,Best medical imaging technology company,perplexity,healthtech
+5,3,0,0,0.0,3.0,1.0,False,Best money transfer service for international payments,gemini,fintech
+5,3,0,0,0.0,3.0,1.0,False,Best money transfer service for international payments,openai,fintech
+5,4,0,0,0.0,4.0,1.0,False,Best money transfer service for international payments,perplexity,fintech
+5,2,0,0,0.0,2.0,1.0,False,Best online fashion retailer,gemini,ecommerce
+5,5,1,0,0.2,5.0,1.0,True,Best online fashion retailer,openai,ecommerce
+4,1,0,0,0.0,1.0,1.0,False,Best online fashion retailer,perplexity,ecommerce
+5,4,2,0,0.4,4.8,0.8333333333333334,True,Best online marketplace for fashion,gemini,ecommerce
+5,5,1,0,0.2,5.0,1.0,True,Best online marketplace for fashion,openai,ecommerce
+5,4,1,0,0.2,4.0,1.0,True,Best online marketplace for fashion,perplexity,ecommerce
+5,6,1,0,0.2,6.0,1.0,True,Best payment infrastructure provider,gemini,fintech
+5,7,1,1,0.2,7.4,0.9459459459459459,True,Best payment infrastructure provider,openai,fintech
+5,6,0,2,0.0,6.0,1.0,False,Best payment infrastructure provider,perplexity,fintech
+5,2,0,0,0.0,2.0,1.0,False,Best payment processor for SaaS companies,gemini,fintech
+5,5,0,0,0.0,5.0,1.0,False,Best payment processor for SaaS companies,openai,fintech
+5,6,0,1,0.0,6.0,1.0,False,Best payment processor for SaaS companies,perplexity,fintech
+5,7,1,2,0.2,7.2,0.9722222222222222,True,Best payment solution for marketplaces,gemini,fintech
+5,6,2,0,0.4,6.8,0.8823529411764706,True,Best payment solution for marketplaces,openai,fintech
+5,6,0,0,0.0,6.0,1.0,False,Best payment solution for marketplaces,perplexity,fintech
+5,6,4,0,0.8,10.8,0.5555555555555555,True,Best payment solution for small businesses in Europe,gemini,fintech
+5,7,1,1,0.2,7.4,0.9459459459459459,True,Best payment solution for small businesses in Europe,openai,fintech
+5,7,1,0,0.2,7.0,1.0,True,Best payment solution for small businesses in Europe,perplexity,fintech
+5,7,3,2,0.6,8.8,0.7954545454545454,True,Best project management tool for remote teams,gemini,saas
+5,5,0,2,0.0,5.0,1.0,False,Best project management tool for remote teams,openai,saas
+5,4,0,0,0.0,4.0,1.0,False,Best project management tool for remote teams,perplexity,saas
+5,1,0,0,0.0,1.0,1.0,False,Best quick commerce delivery app,gemini,ecommerce
+5,2,0,1,0.0,2.0,1.0,False,Best quick commerce delivery app,openai,ecommerce
+5,2,0,0,0.0,2.0,1.0,False,Best quick commerce delivery app,perplexity,ecommerce
+5,5,1,1,0.2,5.4,0.9259259259259258,True,Best remote patient monitoring platform,gemini,healthtech
+5,7,1,2,0.2,7.2,0.9722222222222222,True,Best remote patient monitoring platform,openai,healthtech
+5,3,0,1,0.0,3.0,1.0,False,Best remote patient monitoring platform,perplexity,healthtech
+5,5,0,1,0.0,5.0,1.0,False,Best sales pipeline management software,gemini,saas
+5,9,2,0,0.4,9.8,0.9183673469387754,True,Best sales pipeline management software,openai,saas
+5,5,0,0,0.0,5.0,1.0,False,Best sales pipeline management software,perplexity,saas
+5,3,0,1,0.0,3.0,1.0,False,Best secondhand marketplace in Europe,gemini,ecommerce
+5,2,0,0,0.0,2.0,1.0,False,Best secondhand marketplace in Europe,openai,ecommerce
+5,7,1,2,0.2,7.2,0.9722222222222222,True,Best secondhand marketplace in Europe,perplexity,ecommerce
+5,4,0,0,0.0,4.0,1.0,False,Best task management app for teams,gemini,saas
+5,5,0,1,0.0,5.0,1.0,False,Best task management app for teams,openai,saas
+5,5,0,1,0.0,5.0,1.0,False,Best task management app for teams,perplexity,saas
+5,5,2,0,0.4,5.8,0.8620689655172414,True,Best telehealth platform in 2026,gemini,healthtech
+5,5,1,1,0.2,5.4,0.9259259259259258,True,Best telehealth platform in 2026,openai,healthtech
+5,3,0,0,0.0,3.0,1.0,False,Best telehealth platform in 2026,perplexity,healthtech
+5,8,0,0,0.0,8.0,1.0,False,Big 4 vs MBB for strategy consulting,gemini,consulting
+5,8,0,0,0.0,8.0,1.0,False,Big 4 vs MBB for strategy consulting,openai,consulting
+5,8,0,0,0.0,8.0,1.0,False,Big 4 vs MBB for strategy consulting,perplexity,consulting
+5,2,0,0,0.0,2.0,1.0,False,Bolt Market vs Wolt for grocery delivery,gemini,ecommerce
+5,3,0,1,0.0,3.0,1.0,False,Bolt Market vs Wolt for grocery delivery,openai,ecommerce
+5,2,0,0,0.0,2.0,1.0,False,Bolt Market vs Wolt for grocery delivery,perplexity,ecommerce
+5,4,0,0,0.0,4.0,1.0,False,ClickUp vs Monday.com vs Asana comparison,gemini,saas
+5,8,4,0,0.8,12.8,0.625,True,ClickUp vs Monday.com vs Asana comparison,perplexity,saas
+5,5,2,0,0.4,5.8,0.8620689655172414,True,CompuGroup Medical vs MEDITECH for EHR,gemini,healthtech
+5,6,0,1,0.0,6.0,1.0,False,CompuGroup Medical vs MEDITECH for EHR,perplexity,healthtech
+5,5,1,0,0.2,5.0,1.0,True,Deloitte vs Accenture for technology consulting,gemini,consulting
+5,5,1,0,0.2,5.0,1.0,True,Deloitte vs Accenture for technology consulting,openai,consulting
+5,6,0,1,0.0,6.0,1.0,False,Deloitte vs Accenture for technology consulting,perplexity,consulting
+5,3,0,0,0.0,3.0,1.0,False,Doctolib vs Kry for doctor appointments,gemini,healthtech
+5,3,0,0,0.0,3.0,1.0,False,Doctolib vs Kry for doctor appointments,openai,healthtech
+5,3,0,0,0.0,3.0,1.0,False,Doctolib vs Kry for doctor appointments,perplexity,healthtech
+5,5,3,0,0.6,7.4,0.6756756756756757,True,EY vs KPMG for financial services consulting,gemini,consulting
+5,7,3,0,0.6,9.4,0.7446808510638298,True,EY vs KPMG for financial services consulting,perplexity,consulting
+5,4,0,0,0.0,4.0,1.0,False,Epic vs Cerner for hospital EHR,gemini,healthtech
+5,4,0,0,0.0,4.0,1.0,False,Epic vs Cerner for hospital EHR,perplexity,healthtech
+5,4,1,0,0.2,4.0,1.0,True,Epic vs MEDITECH for community hospitals,gemini,healthtech
+5,4,0,0,0.0,4.0,1.0,False,Epic vs MEDITECH for community hospitals,perplexity,healthtech
+5,4,0,1,0.0,4.0,1.0,False,GE HealthCare vs Philips for medical imaging,gemini,healthtech
+5,3,0,0,0.0,3.0,1.0,False,GE HealthCare vs Philips for medical imaging,perplexity,healthtech
+5,3,0,0,0.0,3.0,1.0,False,H&M vs ASOS for affordable fashion,gemini,ecommerce
+5,4,1,0,0.2,4.0,1.0,True,H&M vs ASOS for affordable fashion,openai,ecommerce
+5,3,0,0,0.0,3.0,1.0,False,H&M vs ASOS for affordable fashion,perplexity,ecommerce
+5,3,0,0,0.0,3.0,1.0,False,HubSpot vs Semrush for content marketing,gemini,saas
+4,5,1,1,0.25,5.375,0.9302325581395349,True,HubSpot vs Semrush for content marketing,openai,saas
+5,3,0,0,0.0,3.0,1.0,False,HubSpot vs Semrush for content marketing,perplexity,saas
+5,4,0,0,0.0,4.0,1.0,False,I need a business account with low fees. What neobank should I choose?,gemini,fintech
+5,4,0,0,0.0,4.0,1.0,False,I need a business account with low fees. What neobank should I choose?,openai,fintech
+5,1,0,0,0.0,1.0,1.0,False,I need a business account with low fees. What neobank should I choose?,perplexity,fintech
+5,9,0,0,0.0,9.0,1.0,False,I need a data analytics strategy. Which firm should I consult?,gemini,consulting
+5,9,0,0,0.0,9.0,1.0,False,I need a data analytics strategy. Which firm should I consult?,openai,consulting
+5,8,1,0,0.2,8.0,1.0,True,I need a data analytics strategy. Which firm should I consult?,perplexity,consulting
+5,6,3,0,0.6,8.4,0.7142857142857143,True,I need a healthcare CRM for pharmaceutical sales. What should I use?,gemini,healthtech
+5,6,1,0,0.2,6.0,1.0,True,I need a healthcare CRM for pharmaceutical sales. What should I use?,openai,healthtech
+5,5,1,0,0.2,5.0,1.0,True,I need a healthcare CRM for pharmaceutical sales. What should I use?,perplexity,healthtech
+5,4,0,1,0.0,4.0,1.0,False,I need a marketplace that ships to the Baltics. What should I use?,gemini,ecommerce
+5,4,0,1,0.0,4.0,1.0,False,I need a marketplace that ships to the Baltics. What should I use?,openai,ecommerce
+5,6,2,0,0.4,6.8,0.8823529411764706,True,I need a tool to manage customer relationships. What CRM should I pick?,gemini,saas
+5,7,2,1,0.4,8.6,0.813953488372093,True,I need a tool to manage customer relationships. What CRM should I pick?,openai,saas
+5,5,0,0,0.0,5.0,1.0,False,I need a tool to manage customer relationships. What CRM should I pick?,perplexity,saas
+5,7,1,1,0.2,7.4,0.9459459459459459,True,I need cybersecurity consulting. Which firm is best?,gemini,consulting
+5,7,1,0,0.2,7.0,1.0,True,I need cybersecurity consulting. Which firm is best?,openai,consulting
+5,7,2,0,0.4,7.8,0.8974358974358975,True,I need cybersecurity consulting. Which firm is best?,perplexity,consulting
+5,2,0,0,0.0,2.0,1.0,False,I need fast grocery delivery. What app should I use?,gemini,ecommerce
+5,2,0,0,0.0,2.0,1.0,False,I need fast grocery delivery. What app should I use?,openai,ecommerce
+5,2,0,0,0.0,2.0,1.0,False,I need fast grocery delivery. What app should I use?,perplexity,ecommerce
+5,9,1,1,0.2,9.4,0.9574468085106382,True,I need help with post-merger integration. What firm specializes in this?,gemini,consulting
+5,9,1,0,0.2,9.0,1.0,True,I need help with post-merger integration. What firm specializes in this?,openai,consulting
+5,9,0,5,0.0,9.0,1.0,False,I need help with post-merger integration. What firm specializes in this?,perplexity,consulting
+5,3,0,0,0.0,3.0,1.0,False,I need imaging equipment for my clinic. Which company should I go with?,gemini,healthtech
+5,4,0,1,0.0,4.0,1.0,False,I need imaging equipment for my clinic. Which company should I go with?,perplexity,healthtech
+5,5,0,0,0.0,5.0,1.0,False,I need multi-currency support for my business. What fintech should I use?,gemini,fintech
+5,8,2,1,0.4,9.6,0.8333333333333334,True,I need multi-currency support for my business. What fintech should I use?,openai,fintech
+5,5,1,1,0.2,5.4,0.9259259259259258,True,I need multi-currency support for my business. What fintech should I use?,perplexity,fintech
+5,1,0,0,0.0,1.0,1.0,False,I need radiology AI software. Which vendor should I evaluate?,gemini,healthtech
+4,1,0,0,0.0,1.0,1.0,False,I need radiology AI software. Which vendor should I evaluate?,perplexity,healthtech
+5,6,2,0,0.4,6.8,0.8823529411764706,True,I need regulatory compliance advice. Which firm should I use?,gemini,consulting
+5,2,0,0,0.0,2.0,1.0,False,I need regulatory compliance advice. Which firm should I use?,openai,consulting
+5,5,1,0,0.2,5.0,1.0,True,I need regulatory compliance advice. Which firm should I use?,perplexity,consulting
+5,9,0,0,0.0,9.0,1.0,False,I need strategic advice for entering a new market. What firm should I hire?,gemini,consulting
+5,10,1,1,0.2,10.4,0.9615384615384615,True,I need strategic advice for entering a new market. What firm should I hire?,openai,consulting
+5,10,3,0,0.6,12.4,0.8064516129032258,True,I need strategic advice for entering a new market. What firm should I hire?,perplexity,consulting
+5,6,1,0,0.2,6.0,1.0,True,I need to accept payments on my website. What should I use?,gemini,fintech
+5,7,1,1,0.2,7.4,0.9459459459459459,True,I need to accept payments on my website. What should I use?,openai,fintech
+5,8,1,1,0.2,8.4,0.9523809523809523,True,I need to accept payments on my website. What should I use?,perplexity,fintech
+5,2,1,0,0.2,2.0,1.0,True,I need to allow patients to book appointments online. What platform is best?,gemini,healthtech
+5,6,2,2,0.4,6.8,0.8823529411764706,True,I need to allow patients to book appointments online. What platform is best?,openai,healthtech
+5,2,0,0,0.0,2.0,1.0,False,I need to allow patients to book appointments online. What platform is best?,perplexity,healthtech
+5,4,0,0,0.0,4.0,1.0,False,I need to audit my company's finances. Which firm should I use?,gemini,consulting
+5,5,0,1,0.0,5.0,1.0,False,I need to audit my company's finances. Which firm should I use?,openai,consulting
+5,4,0,0,0.0,4.0,1.0,False,I need to audit my company's finances. Which firm should I use?,perplexity,consulting
+5,3,0,1,0.0,3.0,1.0,False,I need to automate my marketing emails. What platform is best?,gemini,saas
+5,6,1,2,0.2,6.2,0.9677419354838709,True,I need to automate my marketing emails. What platform is best?,openai,saas
+5,4,1,0,0.2,4.0,1.0,True,I need to automate my marketing emails. What platform is best?,perplexity,saas
+5,3,0,0,0.0,3.0,1.0,False,I need to compare prices across online stores. What tool should I use?,gemini,ecommerce
+5,2,0,0,0.0,2.0,1.0,False,I need to compare prices across online stores. What tool should I use?,openai,ecommerce
+5,3,1,1,0.2,3.4,0.8823529411764706,True,I need to compare prices across online stores. What tool should I use?,perplexity,ecommerce
+5,2,0,0,0.0,2.0,1.0,False,I need to connect to bank APIs. What infrastructure should I use?,gemini,fintech
+5,3,0,1,0.0,3.0,1.0,False,I need to connect to bank APIs. What infrastructure should I use?,perplexity,fintech
+5,5,0,1,0.0,5.0,1.0,False,I need to implement an EHR in my hospital. What should I choose?,gemini,healthtech
+5,6,1,0,0.2,6.0,1.0,True,I need to implement an EHR in my hospital. What should I choose?,perplexity,healthtech
+5,3,0,0,0.0,3.0,1.0,False,I need to improve my website's SEO rankings. What platform should I use?,gemini,saas
+5,6,1,0,0.2,6.0,1.0,True,I need to improve my website's SEO rankings. What platform should I use?,openai,saas
+5,4,0,1,0.0,4.0,1.0,False,I need to improve my website's SEO rankings. What platform should I use?,perplexity,saas
+5,4,1,0,0.2,4.0,1.0,True,I need to manage subscriptions and billing. What platform is best?,gemini,fintech
+5,6,3,1,0.6,9.600000000000001,0.6249999999999999,True,I need to manage subscriptions and billing. What platform is best?,openai,fintech
+5,2,0,0,0.0,2.0,1.0,False,I need to manage subscriptions and billing. What platform is best?,perplexity,fintech
+5,4,0,0,0.0,4.0,1.0,False,I need to onboard new team members efficiently. What tool helps with this?,gemini,saas
+5,2,0,0,0.0,2.0,1.0,False,I need to onboard new team members efficiently. What tool helps with this?,openai,saas
+5,1,0,0,0.0,1.0,1.0,False,I need to onboard new team members efficiently. What tool helps with this?,perplexity,saas
+5,4,1,0,0.2,4.0,1.0,True,I need to set up an e-commerce store quickly. What should I use?,gemini,ecommerce
+5,3,0,0,0.0,3.0,1.0,False,I need to set up an e-commerce store quickly. What should I use?,openai,ecommerce
+5,5,1,1,0.2,5.4,0.9259259259259258,True,I need to set up an e-commerce store quickly. What should I use?,perplexity,ecommerce
+5,6,1,2,0.2,6.2,0.9677419354838709,True,I need to track my sales pipeline. What should I use?,gemini,saas
+5,5,1,0,0.2,5.0,1.0,True,I need to track my sales pipeline. What should I use?,openai,saas
+5,6,1,0,0.2,6.0,1.0,True,I need to track my sales pipeline. What should I use?,perplexity,saas
+5,4,1,0,0.2,4.0,1.0,True,I want to accept local payment methods in the Baltics. What provider should I use?,gemini,fintech
+5,5,1,0,0.2,5.0,1.0,True,I want to accept local payment methods in the Baltics. What provider should I use?,openai,fintech
+5,9,2,2,0.4,9.8,0.9183673469387754,True,I want to accept local payment methods in the Baltics. What provider should I use?,perplexity,fintech
+5,5,1,0,0.2,5.0,1.0,True,I want to build a payments product. What infrastructure should I use?,gemini,fintech
+4,2,0,0,0.0,2.0,1.0,False,I want to build a payments product. What infrastructure should I use?,perplexity,fintech
+5,3,2,0,0.4,3.8,0.7894736842105263,True,I want to build landing pages without a developer. What platform should I use?,gemini,saas
+5,5,2,1,0.4,6.6,0.7575757575757576,True,I want to build landing pages without a developer. What platform should I use?,openai,saas
+5,3,1,1,0.2,3.4,0.8823529411764706,True,I want to build landing pages without a developer. What platform should I use?,perplexity,saas
+5,4,1,0,0.2,4.0,1.0,True,I want to buy affordable fashion online. Where should I shop?,gemini,ecommerce
+5,5,1,0,0.2,5.0,1.0,True,I want to buy affordable fashion online. Where should I shop?,openai,ecommerce
+5,5,2,1,0.4,6.6,0.7575757575757576,True,I want to buy affordable fashion online. Where should I shop?,perplexity,ecommerce
+5,3,0,0,0.0,3.0,1.0,False,I want to buy electronics online in Finland. Where should I shop?,gemini,ecommerce
+5,3,0,0,0.0,3.0,1.0,False,I want to buy electronics online in Finland. Where should I shop?,openai,ecommerce
+5,2,0,0,0.0,2.0,1.0,False,I want to buy electronics online in Finland. Where should I shop?,perplexity,ecommerce
+5,1,0,0,0.0,1.0,1.0,False,I want to buy luxury fashion online. Where should I shop?,gemini,ecommerce
+5,1,0,0,0.0,1.0,1.0,False,I want to buy luxury fashion online. Where should I shop?,openai,ecommerce
+5,3,1,1,0.2,3.4,0.8823529411764706,True,I want to create a knowledge base for my team. What tool should I use?,gemini,saas
+5,2,1,0,0.2,2.0,1.0,True,I want to create a knowledge base for my team. What tool should I use?,openai,saas
+5,2,0,0,0.0,2.0,1.0,False,I want to create a knowledge base for my team. What tool should I use?,perplexity,saas
+5,10,1,2,0.2,10.2,0.9803921568627452,True,I want to develop an AI strategy. Which consulting firm should I hire?,gemini,consulting
+5,8,1,0,0.2,8.0,1.0,True,I want to develop an AI strategy. Which consulting firm should I hire?,perplexity,consulting
+5,4,0,2,0.0,4.0,1.0,False,I want to digitize my medical records. What EHR should I choose?,gemini,healthtech
+4,5,1,1,0.25,5.375,0.9302325581395349,True,I want to digitize my medical records. What EHR should I choose?,openai,healthtech
+5,4,0,2,0.0,4.0,1.0,False,I want to digitize my medical records. What EHR should I choose?,perplexity,healthtech
+5,3,0,1,0.0,3.0,1.0,False,I want to find sustainable products online. Where should I look?,gemini,ecommerce
+5,2,1,0,0.2,2.0,1.0,True,I want to find sustainable products online. Where should I look?,openai,ecommerce
+5,7,4,1,0.8,13.4,0.5223880597014925,True,I want to implement SAP in my organization. Which consultant should I hire?,gemini,consulting
+5,4,1,0,0.2,4.0,1.0,True,I want to implement SAP in my organization. Which consultant should I hire?,perplexity,consulting
+5,9,0,0,0.0,9.0,1.0,False,I want to improve my supply chain. What consultant should I hire?,gemini,consulting
+5,7,0,0,0.0,7.0,1.0,False,I want to improve my supply chain. What consultant should I hire?,openai,consulting
+5,9,0,0,0.0,9.0,1.0,False,I want to improve my supply chain. What consultant should I hire?,perplexity,consulting
+4,3,2,0,0.5,3.75,0.8,True,I want to launch a digital health service in the Nordics. What platform should I use?,gemini,healthtech
+5,1,0,0,0.0,1.0,1.0,False,I want to launch a digital health service in the Nordics. What platform should I use?,perplexity,healthtech
+5,4,0,1,0.0,4.0,1.0,False,I want to manage clinical trials digitally. What tool should I use?,gemini,healthtech
+5,5,2,2,0.4,5.8,0.8620689655172414,True,I want to manage clinical trials digitally. What tool should I use?,openai,healthtech
+5,5,3,0,0.6,7.4,0.6756756756756757,True,I want to manage clinical trials digitally. What tool should I use?,perplexity,healthtech
+5,6,2,0,0.4,6.8,0.8823529411764706,True,I want to manage my team's projects more efficiently. What tool do you recommend?,gemini,saas
+5,4,0,2,0.0,4.0,1.0,False,I want to manage my team's projects more efficiently. What tool do you recommend?,openai,saas
+5,5,0,0,0.0,5.0,1.0,False,I want to manage my team's projects more efficiently. What tool do you recommend?,perplexity,saas
+5,4,1,2,0.2,4.2,0.9523809523809523,True,I want to monitor patients remotely. What technology should I use?,gemini,healthtech
+5,2,0,0,0.0,2.0,1.0,False,I want to monitor patients remotely. What technology should I use?,perplexity,healthtech
+5,8,2,0,0.4,8.8,0.9090909090909091,True,I want to offer installment payments to my customers. What should I integrate?,gemini,fintech
+5,8,1,1,0.2,8.4,0.9523809523809523,True,I want to offer installment payments to my customers. What should I integrate?,openai,fintech
+5,7,0,2,0.0,7.0,1.0,False,I want to offer installment payments to my customers. What should I integrate?,perplexity,fintech
+4,1,0,0,0.0,1.0,1.0,False,I want to offer telehealth to my patients. What platform should I use?,gemini,healthtech
+4,3,1,2,0.25,3.1875,0.9411764705882353,True,I want to offer telehealth to my patients. What platform should I use?,openai,healthtech
+5,4,0,2,0.0,4.0,1.0,False,I want to offer telehealth to my patients. What platform should I use?,perplexity,healthtech
+5,9,0,0,0.0,9.0,1.0,False,I want to reduce operational costs. Which consulting firm can help?,gemini,consulting
+5,9,0,0,0.0,9.0,1.0,False,I want to reduce operational costs. Which consulting firm can help?,openai,consulting
+5,8,2,1,0.4,9.6,0.8333333333333334,True,I want to reduce operational costs. Which consulting firm can help?,perplexity,consulting
+5,4,1,0,0.2,4.0,1.0,True,I want to sell products online. What platform should I use?,gemini,ecommerce
+5,4,1,0,0.2,4.0,1.0,True,I want to sell products online. What platform should I use?,openai,ecommerce
+5,4,0,0,0.0,4.0,1.0,False,I want to sell products online. What platform should I use?,perplexity,ecommerce
+5,1,0,0,0.0,1.0,1.0,False,I want to sell secondhand clothes. What platform should I use?,gemini,ecommerce
+5,4,2,0,0.4,4.8,0.8333333333333334,True,I want to sell secondhand clothes. What platform should I use?,openai,ecommerce
+5,4,2,0,0.4,4.8,0.8333333333333334,True,I want to sell secondhand clothes. What platform should I use?,perplexity,ecommerce
+5,3,0,0,0.0,3.0,1.0,False,I want to send money to another country cheaply. What service should I use?,gemini,fintech
+5,5,1,0,0.2,5.0,1.0,True,I want to send money to another country cheaply. What service should I use?,openai,fintech
+5,3,0,0,0.0,3.0,1.0,False,I want to send money to another country cheaply. What service should I use?,perplexity,fintech
+5,3,0,0,0.0,3.0,1.0,False,I want to track competitor keywords. What SEO tool should I use?,gemini,saas
+5,3,0,0,0.0,3.0,1.0,False,I want to track competitor keywords. What SEO tool should I use?,openai,saas
+5,3,0,0,0.0,3.0,1.0,False,I want to track competitor keywords. What SEO tool should I use?,perplexity,saas
+5,6,1,2,0.2,6.2,0.9677419354838709,True,I want to verify customer identities for payments. What tool should I use?,gemini,fintech
+5,3,0,1,0.0,3.0,1.0,False,I want to verify customer identities for payments. What tool should I use?,openai,fintech
+5,3,0,1,0.0,3.0,1.0,False,I want to verify customer identities for payments. What tool should I use?,perplexity,fintech
+5,3,1,0,0.2,3.0,1.0,True,I want to visualize my ideas on a digital whiteboard. What do you suggest?,gemini,saas
+5,3,0,0,0.0,3.0,1.0,False,I want to visualize my ideas on a digital whiteboard. What do you suggest?,openai,saas
+5,3,1,0,0.2,3.0,1.0,True,I want to visualize my ideas on a digital whiteboard. What do you suggest?,perplexity,saas
+5,3,0,0,0.0,3.0,1.0,False,KPMG vs Deloitte for tax consulting,gemini,consulting
+5,4,0,1,0.0,4.0,1.0,False,KPMG vs Deloitte for tax consulting,openai,consulting
+5,4,0,0,0.0,4.0,1.0,False,KPMG vs Deloitte for tax consulting,perplexity,consulting
+5,2,0,0,0.0,2.0,1.0,False,Klarna vs Afterpay for buy now pay later,gemini,fintech
+5,3,0,1,0.0,3.0,1.0,False,Klarna vs Afterpay for buy now pay later,openai,fintech
+5,6,3,0,0.6,8.4,0.7142857142857143,True,Klarna vs Afterpay for buy now pay later,perplexity,fintech
+5,4,1,0,0.2,4.0,1.0,True,Klarna vs Revolut for consumer finance,gemini,fintech
+4,3,0,0,0.0,3.0,1.0,False,Klarna vs Revolut for consumer finance,openai,fintech
+5,4,1,0,0.2,4.0,1.0,True,Klarna vs Revolut for consumer finance,perplexity,fintech
+5,5,1,0,0.2,5.0,1.0,True,McKinsey vs Accenture for digital strategy,gemini,consulting
+5,6,1,1,0.2,6.4,0.9375,True,McKinsey vs Accenture for digital strategy,openai,consulting
+5,4,0,0,0.0,4.0,1.0,False,McKinsey vs Accenture for digital strategy,perplexity,consulting
+5,5,1,0,0.2,5.0,1.0,True,McKinsey vs BCG vs Bain comparison,gemini,consulting
+5,5,0,0,0.0,5.0,1.0,False,McKinsey vs BCG vs Bain comparison,openai,consulting
+5,5,0,1,0.0,5.0,1.0,False,McKinsey vs BCG vs Bain comparison,perplexity,consulting
+5,6,2,1,0.4,7.6,0.7894736842105263,True,McKinsey vs Roland Berger for manufacturing,gemini,consulting
+5,6,0,1,0.0,6.0,1.0,False,McKinsey vs Roland Berger for manufacturing,perplexity,consulting
+5,4,0,0,0.0,4.0,1.0,False,Miro vs Notion for team collaboration,gemini,saas
+5,3,0,0,0.0,3.0,1.0,False,Miro vs Notion for team collaboration,openai,saas
+5,5,1,0,0.2,5.0,1.0,True,Miro vs Notion for team collaboration,perplexity,saas
+5,4,1,0,0.2,4.0,1.0,True,Monday.com vs Asana for project management,gemini,saas
+5,5,0,2,0.0,5.0,1.0,False,Monday.com vs Asana for project management,perplexity,saas
+5,4,0,0,0.0,4.0,1.0,False,Montonio vs Stripe for Baltic e-commerce,gemini,fintech
+5,4,0,0,0.0,4.0,1.0,False,Montonio vs Stripe for Baltic e-commerce,perplexity,fintech
+5,3,0,0,0.0,3.0,1.0,False,N26 vs Revolut as a digital bank,gemini,fintech
+4,3,0,0,0.0,3.0,1.0,False,N26 vs Revolut as a digital bank,openai,fintech
+5,5,1,0,0.2,5.0,1.0,True,N26 vs Revolut as a digital bank,perplexity,fintech
+5,4,0,0,0.0,4.0,1.0,False,Notion vs ClickUp for productivity,gemini,saas
+5,3,0,0,0.0,3.0,1.0,False,Notion vs ClickUp for productivity,openai,saas
+5,4,0,0,0.0,4.0,1.0,False,Notion vs ClickUp for productivity,perplexity,saas
+5,3,0,0,0.0,3.0,1.0,False,PayPal vs Block for payment processing,gemini,fintech
+5,5,2,0,0.4,5.8,0.8620689655172414,True,PayPal vs Block for payment processing,perplexity,fintech
+5,5,1,0,0.2,5.0,1.0,True,Philips vs GE for radiology solutions,gemini,healthtech
+5,3,1,0,0.2,3.0,1.0,True,Philips vs GE for radiology solutions,perplexity,healthtech
+5,3,0,0,0.0,3.0,1.0,False,Pipedrive vs HubSpot CRM for small teams,gemini,saas
+5,3,0,0,0.0,3.0,1.0,False,Pipedrive vs HubSpot CRM for small teams,perplexity,saas
+5,3,1,0,0.2,3.0,1.0,True,PwC vs EY for audit services,gemini,consulting
+5,4,0,1,0.0,4.0,1.0,False,PwC vs EY for audit services,perplexity,consulting
+5,5,0,1,0.0,5.0,1.0,False,Roland Berger vs BCG for European strategy,gemini,consulting
+5,4,0,1,0.0,4.0,1.0,False,Roland Berger vs BCG for European strategy,openai,consulting
+5,5,0,1,0.0,5.0,1.0,False,Roland Berger vs BCG for European strategy,perplexity,consulting
+5,3,0,0,0.0,3.0,1.0,False,Salesforce vs HubSpot for B2B marketing,gemini,saas
+5,4,0,0,0.0,4.0,1.0,False,Salesforce vs HubSpot for B2B marketing,perplexity,saas
+5,4,0,1,0.0,4.0,1.0,False,Salesforce vs Pipedrive for sales teams,gemini,saas
+5,4,0,0,0.0,4.0,1.0,False,Salesforce vs Pipedrive for sales teams,perplexity,saas
+5,4,1,0,0.2,4.0,1.0,True,Semrush vs Ahrefs for SEO,gemini,saas
+5,4,1,0,0.2,4.0,1.0,True,Semrush vs Ahrefs for SEO,openai,saas
+5,3,0,0,0.0,3.0,1.0,False,Semrush vs Ahrefs for SEO,perplexity,saas
+5,3,0,0,0.0,3.0,1.0,False,Shopify vs Amazon for brand building,gemini,ecommerce
+5,3,1,0,0.2,3.0,1.0,True,Shopify vs Amazon for brand building,openai,ecommerce
+5,3,0,0,0.0,3.0,1.0,False,Shopify vs Amazon for brand building,perplexity,ecommerce
+5,2,0,0,0.0,2.0,1.0,False,Shopify vs WooCommerce for small stores,gemini,ecommerce
+5,5,3,0,0.6,7.4,0.6756756756756757,True,Shopify vs WooCommerce for small stores,openai,ecommerce
+5,4,2,0,0.4,4.8,0.8333333333333334,True,Shopify vs WooCommerce for small stores,perplexity,ecommerce
+5,4,1,0,0.2,4.0,1.0,True,Stripe vs Adyen for enterprise payments,gemini,fintech
+5,6,2,1,0.4,7.6,0.7894736842105263,True,Stripe vs Adyen for enterprise payments,perplexity,fintech
+5,5,1,0,0.2,5.0,1.0,True,Stripe vs PayPal for online payments,gemini,fintech
+5,4,0,1,0.0,4.0,1.0,False,Stripe vs PayPal for online payments,openai,fintech
+5,3,0,0,0.0,3.0,1.0,False,Stripe vs PayPal for online payments,perplexity,fintech
+5,3,0,0,0.0,3.0,1.0,False,Teladoc vs Doctolib in European market,gemini,healthtech
+5,6,2,0,0.4,6.8,0.8823529411764706,True,Teladoc vs Doctolib in European market,perplexity,healthtech
+5,3,0,0,0.0,3.0,1.0,False,Teladoc vs Kry for telehealth,gemini,healthtech
+5,3,0,0,0.0,3.0,1.0,False,Teladoc vs Kry for telehealth,openai,healthtech
+5,4,1,0,0.2,4.0,1.0,True,Teladoc vs Kry for telehealth,perplexity,healthtech
+5,3,0,0,0.0,3.0,1.0,False,Temu vs Amazon for cheap products,gemini,ecommerce
+5,4,2,0,0.4,4.8,0.8333333333333334,True,Temu vs Amazon for cheap products,openai,ecommerce
+5,3,0,0,0.0,3.0,1.0,False,Temu vs Amazon for cheap products,perplexity,ecommerce
+5,2,0,0,0.0,2.0,1.0,False,Veeva vs Medidata for clinical trials,gemini,healthtech
+5,2,0,0,0.0,2.0,1.0,False,Veeva vs Medidata for clinical trials,perplexity,healthtech
+5,5,1,1,0.2,5.4,0.9259259259259258,True,Veeva vs Oracle Health for life sciences,gemini,healthtech
+5,4,0,0,0.0,4.0,1.0,False,Veeva vs Oracle Health for life sciences,perplexity,healthtech
+5,2,0,0,0.0,2.0,1.0,False,Vinted vs eBay for secondhand shopping,gemini,ecommerce
+5,2,1,0,0.2,2.0,1.0,True,Vinted vs eBay for secondhand shopping,openai,ecommerce
+5,2,0,0,0.0,2.0,1.0,False,Vinted vs eBay for secondhand shopping,perplexity,ecommerce
+5,4,0,0,0.0,4.0,1.0,False,What CRM options exist for startups?,gemini,saas
+5,10,1,2,0.2,10.2,0.9803921568627452,True,What CRM options exist for startups?,openai,saas
+5,4,0,0,0.0,4.0,1.0,False,What CRM options exist for startups?,perplexity,saas
+5,5,0,1,0.0,5.0,1.0,False,What EHR systems are available for hospitals?,gemini,healthtech
+5,9,4,0,0.8,13.8,0.6521739130434783,True,What EHR systems are available for hospitals?,openai,healthtech
+5,5,1,1,0.2,5.4,0.9259259259259258,True,What EHR systems are available for hospitals?,perplexity,healthtech
+5,3,0,0,0.0,3.0,1.0,False,What SEO platforms are available for agencies?,gemini,saas
+5,3,0,0,0.0,3.0,1.0,False,What SEO platforms are available for agencies?,openai,saas
+5,3,0,0,0.0,3.0,1.0,False,What SEO platforms are available for agencies?,perplexity,saas
+5,4,2,1,0.4,5.6,0.7142857142857143,True,What alternatives exist to Amazon in the Nordics?,gemini,ecommerce
+5,6,0,1,0.0,6.0,1.0,False,What alternatives exist to Amazon in the Nordics?,openai,ecommerce
+5,6,0,0,0.0,6.0,1.0,False,What alternatives exist to Amazon in the Nordics?,perplexity,ecommerce
+5,4,0,1,0.0,4.0,1.0,False,What alternatives exist to Epic Systems?,gemini,healthtech
+5,8,1,0,0.2,8.0,1.0,True,What alternatives exist to Epic Systems?,openai,healthtech
+5,6,0,1,0.0,6.0,1.0,False,What alternatives exist to Epic Systems?,perplexity,healthtech
+5,9,0,1,0.0,9.0,1.0,False,What are alternatives to McKinsey?,gemini,consulting
+5,10,0,0,0.0,10.0,1.0,False,What are alternatives to McKinsey?,openai,consulting
+5,10,1,0,0.2,10.0,1.0,True,What are alternatives to McKinsey?,perplexity,consulting
+5,9,1,0,0.2,9.0,1.0,True,What are alternatives to PayPal?,gemini,fintech
+5,10,0,0,0.0,10.0,1.0,False,What are alternatives to PayPal?,openai,fintech
+5,9,1,0,0.2,9.0,1.0,True,What are alternatives to PayPal?,perplexity,fintech
+5,5,0,1,0.0,5.0,1.0,False,What are alternatives to Salesforce?,gemini,saas
+5,6,1,0,0.2,6.0,1.0,True,What are alternatives to Salesforce?,openai,saas
+5,5,0,1,0.0,5.0,1.0,False,What are alternatives to Salesforce?,perplexity,saas
+5,8,0,0,0.0,8.0,1.0,False,What are the Big 4 consulting firms?,gemini,consulting
+5,4,0,0,0.0,4.0,1.0,False,What are the Big 4 consulting firms?,openai,consulting
+5,8,0,0,0.0,8.0,1.0,False,What are the Big 4 consulting firms?,perplexity,consulting
+5,2,1,0,0.2,2.0,1.0,True,What are the best tools for visual collaboration?,gemini,saas
+5,4,1,0,0.2,4.0,1.0,True,What are the best tools for visual collaboration?,openai,saas
+5,5,2,0,0.4,5.8,0.8620689655172414,True,What are the best tools for visual collaboration?,perplexity,saas
+5,5,1,0,0.2,5.0,1.0,True,What are the biggest e-commerce platforms?,gemini,ecommerce
+5,7,2,1,0.4,8.6,0.813953488372093,True,What are the biggest e-commerce platforms?,openai,ecommerce
+5,6,2,0,0.4,6.8,0.8823529411764706,True,What are the biggest e-commerce platforms?,perplexity,ecommerce
+5,5,0,0,0.0,5.0,1.0,False,What are the biggest healthcare IT vendors?,gemini,healthtech
+5,9,1,1,0.2,9.4,0.9574468085106382,True,What are the biggest healthcare IT vendors?,openai,healthtech
+5,11,4,1,0.8,17.4,0.632183908045977,True,What are the biggest healthcare IT vendors?,perplexity,healthtech
+5,7,2,3,0.4,7.533333333333333,0.9292035398230089,True,What are the fastest growing consulting firms?,gemini,consulting
+5,10,1,1,0.2,10.4,0.9615384615384615,True,What are the fastest growing consulting firms?,openai,consulting
+5,8,0,0,0.0,8.0,1.0,False,What are the fastest growing consulting firms?,perplexity,consulting
+5,3,0,1,0.0,3.0,1.0,False,What are the fastest-growing e-commerce companies?,gemini,ecommerce
+5,7,2,1,0.4,8.6,0.813953488372093,True,What are the fastest-growing e-commerce companies?,openai,ecommerce
+5,4,1,0,0.2,4.0,1.0,True,What are the fastest-growing e-commerce companies?,perplexity,ecommerce
+5,6,1,1,0.2,6.4,0.9375,True,What are the main BNPL providers?,gemini,fintech
+5,6,0,0,0.0,6.0,1.0,False,What are the main BNPL providers?,openai,fintech
+5,5,0,0,0.0,5.0,1.0,False,What are the main BNPL providers?,perplexity,fintech
+5,6,2,0,0.4,6.8,0.8823529411764706,True,What are the main CRM platforms on the market?,gemini,saas
+5,5,0,0,0.0,5.0,1.0,False,What are the main CRM platforms on the market?,openai,saas
+5,6,0,1,0.0,6.0,1.0,False,What are the main CRM platforms on the market?,perplexity,saas
+5,5,1,1,0.2,5.4,0.9259259259259258,True,What are the top 10 business software tools?,gemini,saas
+5,4,1,0,0.2,4.0,1.0,True,What are the top 10 business software tools?,openai,saas
+5,6,0,2,0.0,6.0,1.0,False,What are the top 10 business software tools?,perplexity,saas
+5,8,0,0,0.0,8.0,1.0,False,What are the top boutique consulting firms?,gemini,consulting
+5,7,2,1,0.4,8.6,0.813953488372093,True,What are the top boutique consulting firms?,openai,consulting
+5,5,0,0,0.0,5.0,1.0,False,What are the top fashion e-commerce sites?,gemini,ecommerce
+5,6,2,0,0.4,6.8,0.8823529411764706,True,What are the top fashion e-commerce sites?,openai,ecommerce
+5,7,0,1,0.0,7.0,1.0,False,What are the top fashion e-commerce sites?,perplexity,ecommerce
+5,8,2,2,0.4,8.8,0.9090909090909091,True,What are the top fintech companies in 2026?,gemini,fintech
+4,9,0,0,0.0,9.0,1.0,False,What are the top fintech companies in 2026?,openai,fintech
+5,10,2,0,0.4,10.8,0.9259259259259258,True,What are the top fintech companies in 2026?,perplexity,fintech
+5,6,1,1,0.2,6.4,0.9375,True,What are the top health tech companies?,gemini,healthtech
+5,11,3,0,0.6,13.4,0.8208955223880596,True,What are the top health tech companies?,openai,healthtech
+5,8,5,1,1.0,18.0,0.4444444444444444,True,What are the top health tech companies?,perplexity,healthtech
+5,6,1,1,0.2,6.4,0.9375,True,What are the top project management tools in 2026?,gemini,saas
+5,7,1,1,0.2,7.4,0.9459459459459459,True,What are the top project management tools in 2026?,openai,saas
+5,7,2,1,0.4,8.6,0.813953488372093,True,What are the top project management tools in 2026?,perplexity,saas
+5,9,0,1,0.0,9.0,1.0,False,What are the top strategy consulting firms?,gemini,consulting
+5,10,0,0,0.0,10.0,1.0,False,What are the top strategy consulting firms?,openai,consulting
+5,10,1,1,0.2,10.4,0.9615384615384615,True,What are the top strategy consulting firms?,perplexity,consulting
+4,4,0,1,0.0,4.0,1.0,False,What collaboration tools do companies use?,gemini,saas
+5,6,0,0,0.0,6.0,1.0,False,What collaboration tools do companies use?,openai,saas
+5,6,2,1,0.4,7.6,0.7894736842105263,True,What collaboration tools do companies use?,perplexity,saas
+5,5,2,0,0.4,5.8,0.8620689655172414,True,What companies provide healthcare analytics?,gemini,healthtech
+5,17,3,8,0.6,17.45,0.9742120343839542,True,What companies provide healthcare analytics?,openai,healthtech
+5,5,0,2,0.0,5.0,1.0,False,What companies provide healthcare analytics?,perplexity,healthtech
+5,8,0,2,0.0,8.0,1.0,False,What consulting firms are strongest in the Nordics?,gemini,consulting
+5,10,1,0,0.2,10.0,1.0,True,What consulting firms are strongest in the Nordics?,openai,consulting
+5,6,0,0,0.0,6.0,1.0,False,What consulting firms are strongest in the Nordics?,perplexity,consulting
+5,8,0,0,0.0,8.0,1.0,False,What consulting firms specialize in healthcare?,gemini,consulting
+5,11,1,0,0.2,11.0,1.0,True,What consulting firms specialize in healthcare?,openai,consulting
+5,8,0,1,0.0,8.0,1.0,False,What consulting firms specialize in healthcare?,perplexity,consulting
+5,10,0,1,0.0,10.0,1.0,False,What consulting firms work with governments?,gemini,consulting
+5,10,0,0,0.0,10.0,1.0,False,What consulting firms work with governments?,openai,consulting
+5,9,1,0,0.2,9.0,1.0,True,What consulting firms work with governments?,perplexity,consulting
+5,5,0,0,0.0,5.0,1.0,False,What fintech companies provide business lending?,gemini,fintech
+5,7,2,1,0.4,8.6,0.813953488372093,True,What fintech companies provide business lending?,openai,fintech
+4,2,1,0,0.25,2.0,1.0,True,What fintech companies provide business lending?,perplexity,fintech
+5,5,0,1,0.0,5.0,1.0,False,What fintech startups are disrupting banking?,gemini,fintech
+5,6,2,1,0.4,7.6,0.7894736842105263,True,What fintech startups are disrupting banking?,perplexity,fintech
+5,8,0,1,0.0,8.0,1.0,False,What firms provide ESG consulting?,gemini,consulting
+5,10,0,0,0.0,10.0,1.0,False,What firms provide ESG consulting?,openai,consulting
+5,7,2,1,0.4,8.6,0.813953488372093,True,What firms provide ESG consulting?,perplexity,consulting
+5,9,1,1,0.2,9.4,0.9574468085106382,True,What firms specialize in change management?,gemini,consulting
+5,10,2,0,0.4,10.8,0.9259259259259258,True,What firms specialize in change management?,openai,consulting
+5,9,0,0,0.0,9.0,1.0,False,What firms specialize in change management?,perplexity,consulting
+5,3,1,1,0.2,3.4,0.8823529411764706,True,What health tech startups are emerging?,gemini,healthtech
+5,3,2,0,0.4,3.8,0.7894736842105263,True,What health tech startups are emerging?,perplexity,healthtech
+5,5,0,0,0.0,5.0,1.0,False,What is the best CRM for small businesses?,gemini,saas
+5,6,2,1,0.4,7.6,0.7894736842105263,True,What is the best CRM for small businesses?,openai,saas
+5,5,0,0,0.0,5.0,1.0,False,What is the best CRM for small businesses?,perplexity,saas
+5,5,0,1,0.0,5.0,1.0,False,What is the best EHR for hospitals?,gemini,healthtech
+5,5,1,0,0.2,5.0,1.0,True,What is the best EHR for hospitals?,openai,healthtech
+5,5,0,0,0.0,5.0,1.0,False,What is the best EHR for hospitals?,perplexity,healthtech
+5,10,0,2,0.0,10.0,1.0,False,What is the best IT consulting company?,gemini,consulting
+5,10,0,5,0.0,10.0,1.0,False,What is the best IT consulting company?,openai,consulting
+5,11,2,1,0.4,12.6,0.873015873015873,True,What is the best IT consulting company?,perplexity,consulting
+5,3,0,0,0.0,3.0,1.0,False,What is the best SEO tool in 2026?,gemini,saas
+5,3,0,0,0.0,3.0,1.0,False,What is the best SEO tool in 2026?,openai,saas
+5,3,0,0,0.0,3.0,1.0,False,What is the best SEO tool in 2026?,perplexity,saas
+5,2,0,0,0.0,2.0,1.0,False,What is the best alternative to Amazon?,gemini,ecommerce
+5,4,1,2,0.2,4.2,0.9523809523809523,True,What is the best alternative to Amazon?,openai,ecommerce
+5,4,1,1,0.2,4.4,0.9090909090909091,True,What is the best alternative to Amazon?,perplexity,ecommerce
+5,2,0,0,0.0,2.0,1.0,False,What is the best alternative to traditional banking?,gemini,fintech
+5,7,0,2,0.0,7.0,1.0,False,What is the best alternative to traditional banking?,openai,fintech
+5,2,1,0,0.2,2.0,1.0,True,What is the best alternative to traditional banking?,perplexity,fintech
+5,4,0,0,0.0,4.0,1.0,False,What is the best audit firm?,gemini,consulting
+5,4,0,0,0.0,4.0,1.0,False,What is the best audit firm?,openai,consulting
+5,6,2,0,0.4,6.8,0.8823529411764706,True,What is the best audit firm?,perplexity,consulting
+5,8,0,1,0.0,8.0,1.0,False,What is the best consulting firm in Europe?,gemini,consulting
+5,10,0,0,0.0,10.0,1.0,False,What is the best consulting firm in Europe?,openai,consulting
+5,8,2,1,0.4,9.6,0.8333333333333334,True,What is the best consulting firm in Europe?,perplexity,consulting
+5,4,1,1,0.2,4.4,0.9090909090909091,True,What is the best digital health platform in the Nordics?,gemini,healthtech
+5,4,1,0,0.2,4.0,1.0,True,What is the best digital health platform in the Nordics?,openai,healthtech
+5,2,0,0,0.0,2.0,1.0,False,What is the best digital health platform in the Nordics?,perplexity,healthtech
+5,6,0,3,0.0,6.0,1.0,False,What is the best digital wallet?,gemini,fintech
+5,7,2,0,0.4,7.8,0.8974358974358975,True,What is the best digital wallet?,openai,fintech
+5,4,1,0,0.2,4.0,1.0,True,What is the best digital wallet?,perplexity,fintech
+5,4,1,1,0.2,4.4,0.9090909090909091,True,What is the best doctor appointment booking platform?,gemini,healthtech
+5,6,1,2,0.2,6.2,0.9677419354838709,True,What is the best doctor appointment booking platform?,openai,healthtech
+5,1,0,0,0.0,1.0,1.0,False,What is the best doctor appointment booking platform?,perplexity,healthtech
+5,3,0,1,0.0,3.0,1.0,False,What is the best e-commerce platform for small businesses?,gemini,ecommerce
+5,4,1,1,0.2,4.4,0.9090909090909091,True,What is the best e-commerce platform for small businesses?,openai,ecommerce
+5,4,1,0,0.2,4.0,1.0,True,What is the best e-commerce platform for small businesses?,perplexity,ecommerce
+5,4,1,1,0.2,4.4,0.9090909090909091,True,What is the best e-commerce platform?,gemini,ecommerce
+5,5,0,3,0.0,5.0,1.0,False,What is the best e-commerce platform?,openai,ecommerce
+5,5,1,1,0.2,5.4,0.9259259259259258,True,What is the best e-commerce platform?,perplexity,ecommerce
+5,4,0,1,0.0,4.0,1.0,False,What is the best electronic health record system?,gemini,healthtech
+5,5,0,1,0.0,5.0,1.0,False,What is the best electronic health record system?,openai,healthtech
+5,4,0,0,0.0,4.0,1.0,False,What is the best electronic health record system?,perplexity,healthtech
+5,6,0,0,0.0,6.0,1.0,False,What is the best fintech for Baltic businesses?,gemini,fintech
+5,7,2,0,0.4,7.8,0.8974358974358975,True,What is the best fintech for Baltic businesses?,openai,fintech
+5,2,0,0,0.0,2.0,1.0,False,What is the best fintech for Baltic businesses?,perplexity,fintech
+5,5,1,0,0.2,5.0,1.0,True,What is the best fintech for cross-border payments?,gemini,fintech
+5,6,1,0,0.2,6.0,1.0,True,What is the best fintech for cross-border payments?,openai,fintech
+5,5,2,1,0.4,6.6,0.7575757575757576,True,What is the best fintech for cross-border payments?,perplexity,fintech
+5,7,1,0,0.2,7.0,1.0,True,What is the best firm for operations consulting?,gemini,consulting
+5,10,0,1,0.0,10.0,1.0,False,What is the best firm for operations consulting?,openai,consulting
+5,7,0,0,0.0,7.0,1.0,False,What is the best firm for operations consulting?,perplexity,consulting
+5,7,1,1,0.2,7.4,0.9459459459459459,True,What is the best firm for risk consulting?,gemini,consulting
+5,9,0,1,0.0,9.0,1.0,False,What is the best firm for risk consulting?,openai,consulting
+5,9,2,1,0.4,10.6,0.8490566037735849,True,What is the best firm for risk consulting?,perplexity,consulting
+5,8,0,1,0.0,8.0,1.0,False,What is the best firm for strategy consulting?,gemini,consulting
+5,10,2,1,0.4,11.6,0.8620689655172414,True,What is the best firm for strategy consulting?,openai,consulting
+5,8,1,0,0.2,8.0,1.0,True,What is the best firm for strategy consulting?,perplexity,consulting
+5,8,0,0,0.0,8.0,1.0,False,What is the best firm for technology implementation?,gemini,consulting
+5,7,3,0,0.6,9.4,0.7446808510638298,True,What is the best firm for technology implementation?,openai,consulting
+5,10,3,0,0.6,12.4,0.8064516129032258,True,What is the best firm for technology implementation?,perplexity,consulting
+5,2,0,0,0.0,2.0,1.0,False,What is the best free CRM software?,gemini,saas
+5,3,1,0,0.2,3.0,1.0,True,What is the best free CRM software?,openai,saas
+5,4,1,1,0.2,4.4,0.9090909090909091,True,What is the best free CRM software?,perplexity,saas
+5,7,3,0,0.6,9.4,0.7446808510638298,True,What is the best healthcare IT company?,gemini,healthtech
+5,6,0,0,0.0,6.0,1.0,False,What is the best healthcare IT company?,openai,healthtech
+5,12,1,4,0.2,12.1,0.9917355371900827,True,What is the best healthcare IT company?,perplexity,healthtech
+5,3,0,0,0.0,3.0,1.0,False,What is the best healthcare platform in Europe?,gemini,healthtech
+5,7,1,1,0.2,7.4,0.9459459459459459,True,What is the best healthcare platform in Europe?,openai,healthtech
+5,3,2,0,0.4,3.8,0.7894736842105263,True,What is the best healthcare platform in Europe?,perplexity,healthtech
+5,3,0,0,0.0,3.0,1.0,False,What is the best inbound marketing platform?,gemini,saas
+5,7,0,3,0.0,7.0,1.0,False,What is the best inbound marketing platform?,openai,saas
+5,6,2,1,0.4,7.6,0.7894736842105263,True,What is the best inbound marketing platform?,perplexity,saas
+5,3,0,0,0.0,3.0,1.0,False,What is the best keyword research tool?,gemini,saas
+5,4,1,0,0.2,4.0,1.0,True,What is the best keyword research tool?,openai,saas
+5,4,1,0,0.2,4.0,1.0,True,What is the best keyword research tool?,perplexity,saas
+5,9,1,0,0.2,9.0,1.0,True,What is the best management consulting firm?,gemini,consulting
+5,10,0,1,0.0,10.0,1.0,False,What is the best management consulting firm?,openai,consulting
+5,8,0,1,0.0,8.0,1.0,False,What is the best management consulting firm?,perplexity,consulting
+5,2,1,0,0.2,2.0,1.0,True,What is the best marketplace for electronics in the Nordics?,gemini,ecommerce
+5,3,0,1,0.0,3.0,1.0,False,What is the best marketplace for electronics in the Nordics?,openai,ecommerce
+5,2,0,0,0.0,2.0,1.0,False,What is the best marketplace for electronics in the Nordics?,perplexity,ecommerce
+5,4,1,1,0.2,4.4,0.9090909090909091,True,What is the best marketplace for sustainable shopping?,gemini,ecommerce
+4,2,1,0,0.25,2.0,1.0,True,What is the best marketplace for sustainable shopping?,perplexity,ecommerce
+5,4,0,1,0.0,4.0,1.0,False,What is the best neobank in Europe?,gemini,fintech
+5,4,0,0,0.0,4.0,1.0,False,What is the best neobank in Europe?,openai,fintech
+5,3,0,0,0.0,3.0,1.0,False,What is the best neobank in Europe?,perplexity,fintech
+5,2,0,0,0.0,2.0,1.0,False,What is the best online shopping experience?,gemini,ecommerce
+5,6,3,1,0.6,9.600000000000001,0.6249999999999999,True,What is the best online shopping experience?,openai,ecommerce
+5,5,0,2,0.0,5.0,1.0,False,What is the best online shopping experience?,perplexity,ecommerce
+5,3,0,0,0.0,3.0,1.0,False,What is the best patient management system?,gemini,healthtech
+5,5,0,1,0.0,5.0,1.0,False,What is the best patient management system?,openai,healthtech
+5,4,0,1,0.0,4.0,1.0,False,What is the best patient management system?,perplexity,healthtech
+5,6,0,0,0.0,6.0,1.0,False,What is the best payment gateway for e-commerce?,gemini,fintech
+5,8,2,1,0.4,9.6,0.8333333333333334,True,What is the best payment gateway for e-commerce?,openai,fintech
+5,7,1,0,0.2,7.0,1.0,True,What is the best payment gateway for e-commerce?,perplexity,fintech
+5,5,0,0,0.0,5.0,1.0,False,What is the best payment processor for online businesses?,gemini,fintech
+5,7,1,1,0.2,7.4,0.9459459459459459,True,What is the best payment processor for online businesses?,openai,fintech
+5,7,1,1,0.2,7.4,0.9459459459459459,True,What is the best payment processor for online businesses?,perplexity,fintech
+5,5,2,0,0.4,5.8,0.8620689655172414,True,What is the best platform for recurring payments?,gemini,fintech
+5,6,2,1,0.4,7.6,0.7894736842105263,True,What is the best platform for recurring payments?,openai,fintech
+5,5,1,0,0.2,5.0,1.0,True,What is the best platform for recurring payments?,perplexity,fintech
+5,4,1,0,0.2,4.0,1.0,True,What is the best platform to start an online store?,gemini,ecommerce
+5,4,1,1,0.2,4.4,0.9090909090909091,True,What is the best platform to start an online store?,openai,ecommerce
+5,5,1,1,0.2,5.4,0.9259259259259258,True,What is the best platform to start an online store?,perplexity,ecommerce
+5,5,2,0,0.4,5.8,0.8620689655172414,True,What is the best productivity tool for startups?,gemini,saas
+5,4,1,0,0.2,4.0,1.0,True,What is the best productivity tool for startups?,openai,saas
+5,6,2,0,0.4,6.8,0.8823529411764706,True,What is the best productivity tool for startups?,perplexity,saas
+5,2,0,0,0.0,2.0,1.0,False,What is the best telemedicine app?,gemini,healthtech
+5,4,0,1,0.0,4.0,1.0,False,What is the best telemedicine app?,openai,healthtech
+5,2,0,0,0.0,2.0,1.0,False,What is the best telemedicine app?,perplexity,healthtech
+5,6,1,0,0.2,6.0,1.0,True,What is the best tool for team collaboration?,gemini,saas
+5,4,2,0,0.4,4.8,0.8333333333333334,True,What is the best tool for team collaboration?,openai,saas
+5,6,1,0,0.2,6.0,1.0,True,What is the best tool for team collaboration?,perplexity,saas
+5,3,0,1,0.0,3.0,1.0,False,What is the best whiteboard tool for brainstorming?,gemini,saas
+5,2,0,0,0.0,2.0,1.0,False,What is the best whiteboard tool for brainstorming?,openai,saas
+5,3,1,0,0.2,3.0,1.0,True,What is the best whiteboard tool for brainstorming?,perplexity,saas
+5,3,0,0,0.0,3.0,1.0,False,What is the cheapest place to shop online?,gemini,ecommerce
+5,5,1,1,0.2,5.4,0.9259259259259258,True,What is the cheapest place to shop online?,openai,ecommerce
+5,4,1,0,0.2,4.0,1.0,True,What is the cheapest place to shop online?,perplexity,ecommerce
+5,6,0,2,0.0,6.0,1.0,False,What marketing tools do SaaS companies use?,gemini,saas
+5,5,1,0,0.2,5.0,1.0,True,What marketing tools do SaaS companies use?,perplexity,saas
+5,5,3,0,0.6,7.4,0.6756756756756757,True,What marketplaces are popular in Eastern Europe?,gemini,ecommerce
+5,5,0,2,0.0,5.0,1.0,False,What marketplaces are popular in Eastern Europe?,openai,ecommerce
+5,4,0,0,0.0,4.0,1.0,False,What marketplaces are popular in Eastern Europe?,perplexity,ecommerce
+5,2,0,0,0.0,2.0,1.0,False,What marketplaces sell electronics online?,gemini,ecommerce
+5,4,1,0,0.2,4.0,1.0,True,What marketplaces sell electronics online?,openai,ecommerce
+5,4,1,0,0.2,4.0,1.0,True,What marketplaces sell electronics online?,perplexity,ecommerce
+5,3,0,0,0.0,3.0,1.0,False,What medical imaging companies are on the market?,gemini,healthtech
+5,3,0,0,0.0,3.0,1.0,False,What medical imaging companies are on the market?,perplexity,healthtech
+5,5,0,0,0.0,5.0,1.0,False,What neobanks operate in the Nordics?,openai,fintech
+5,5,1,0,0.2,5.0,1.0,True,What online marketplaces operate in Europe?,gemini,ecommerce
+5,8,2,0,0.4,8.8,0.9090909090909091,True,What online marketplaces operate in Europe?,openai,ecommerce
+5,7,0,0,0.0,7.0,1.0,False,What online marketplaces operate in Europe?,perplexity,ecommerce
+5,6,1,0,0.2,6.0,1.0,True,What payment platforms support cryptocurrency?,gemini,fintech
+5,7,2,1,0.4,8.6,0.813953488372093,True,What payment platforms support cryptocurrency?,openai,fintech
+5,4,1,0,0.2,4.0,1.0,True,What payment platforms support cryptocurrency?,perplexity,fintech
+5,7,2,1,0.4,8.6,0.813953488372093,True,What payment processors are available in Europe?,gemini,fintech
+5,7,0,1,0.0,7.0,1.0,False,What payment processors are available in Europe?,openai,fintech
+5,6,2,1,0.4,7.6,0.7894736842105263,True,What payment processors are available in Europe?,perplexity,fintech
+5,4,1,1,0.2,4.4,0.9090909090909091,True,What payment providers support open banking?,gemini,fintech
+5,4,0,0,0.0,4.0,1.0,False,What payment providers support open banking?,openai,fintech
+5,6,2,1,0.4,7.6,0.7894736842105263,True,What payment providers support open banking?,perplexity,fintech
+5,5,1,0,0.2,5.0,1.0,True,What payment solutions exist for subscription businesses?,gemini,fintech
+5,7,0,0,0.0,7.0,1.0,False,What payment solutions exist for subscription businesses?,perplexity,fintech
+5,5,2,0,0.4,5.8,0.8620689655172414,True,What platforms help brands sell direct-to-consumer?,gemini,ecommerce
+5,10,1,1,0.2,10.4,0.9615384615384615,True,What platforms help brands sell direct-to-consumer?,openai,ecommerce
+5,4,2,0,0.4,4.8,0.8333333333333334,True,What platforms help brands sell direct-to-consumer?,perplexity,ecommerce
+5,4,1,1,0.2,4.4,0.9090909090909091,True,What platforms help patients book appointments?,gemini,healthtech
+5,5,0,1,0.0,5.0,1.0,False,What platforms help patients book appointments?,openai,healthtech
+5,3,0,1,0.0,3.0,1.0,False,What platforms help patients book appointments?,perplexity,healthtech
+5,3,0,0,0.0,3.0,1.0,False,What platforms support digital therapeutics?,gemini,healthtech
+5,8,2,1,0.4,9.6,0.8333333333333334,True,What platforms support digital therapeutics?,openai,healthtech
+5,3,1,1,0.2,3.4,0.8823529411764706,True,What platforms support digital therapeutics?,perplexity,healthtech
+5,2,0,0,0.0,2.0,1.0,False,What platforms support resale and circular fashion?,gemini,ecommerce
+5,4,2,0,0.4,4.8,0.8333333333333334,True,What platforms support resale and circular fashion?,openai,ecommerce
+4,2,0,2,0.0,2.0,1.0,False,What platforms support resale and circular fashion?,perplexity,ecommerce
+5,5,1,0,0.2,5.0,1.0,True,What project management tools integrate with Slack?,gemini,saas
+5,7,3,0,0.6,9.4,0.7446808510638298,True,What project management tools integrate with Slack?,openai,saas
+5,4,0,0,0.0,4.0,1.0,False,What project management tools integrate with Slack?,perplexity,saas
+5,1,0,0,0.0,1.0,1.0,False,What quick commerce services are available?,gemini,ecommerce
+5,4,1,0,0.2,4.0,1.0,True,What quick commerce services are available?,openai,ecommerce
+4,1,0,0,0.0,1.0,1.0,False,What quick commerce services are available?,perplexity,ecommerce
+5,3,0,0,0.0,3.0,1.0,False,What telehealth platforms operate in Europe?,gemini,healthtech
+5,5,1,0,0.2,5.0,1.0,True,What telehealth platforms operate in Europe?,openai,healthtech
+5,5,0,0,0.0,5.0,1.0,False,What telehealth platforms operate in Europe?,perplexity,healthtech
+5,2,0,0,0.0,2.0,1.0,False,Which CRM is most trusted by enterprises?,gemini,saas
+5,2,0,0,0.0,2.0,1.0,False,Which CRM is most trusted by enterprises?,openai,saas
+5,3,0,1,0.0,3.0,1.0,False,Which CRM is most trusted by enterprises?,perplexity,saas
+5,5,0,0,0.0,5.0,1.0,False,Which EHR system is most trusted by hospitals?,gemini,healthtech
+5,5,1,1,0.2,5.4,0.9259259259259258,True,Which EHR system is most trusted by hospitals?,openai,healthtech
+5,6,0,2,0.0,6.0,1.0,False,Which EHR system is most trusted by hospitals?,perplexity,healthtech
+5,3,0,0,0.0,3.0,1.0,False,Which SEO tool do professionals recommend?,gemini,saas
+5,3,0,0,0.0,3.0,1.0,False,Which SEO tool do professionals recommend?,openai,saas
+5,3,0,0,0.0,3.0,1.0,False,Which SEO tool do professionals recommend?,perplexity,saas
+5,3,1,0,0.2,3.0,1.0,True,Which SaaS companies are most innovative in 2026?,gemini,saas
+5,9,3,0,0.6,11.4,0.7894736842105263,True,Which SaaS companies are most innovative in 2026?,openai,saas
+5,12,9,2,1.8,28.2,0.425531914893617,True,Which SaaS companies are most innovative in 2026?,perplexity,saas
+5,8,0,1,0.0,8.0,1.0,False,Which consulting firm has the best reputation for talent?,gemini,consulting
+5,11,2,1,0.4,12.6,0.873015873015873,True,Which consulting firm has the best reputation for talent?,openai,consulting
+5,5,1,0,0.2,5.0,1.0,True,Which consulting firm has the best reputation for talent?,perplexity,consulting
+5,9,1,1,0.2,9.4,0.9574468085106382,True,Which consulting firm is best for early-career professionals?,gemini,consulting
+5,10,0,0,0.0,10.0,1.0,False,Which consulting firm is best for early-career professionals?,openai,consulting
+5,9,0,1,0.0,9.0,1.0,False,Which consulting firm is best for early-career professionals?,perplexity,consulting
+5,8,0,2,0.0,8.0,1.0,False,Which consulting firm is most prestigious?,gemini,consulting
+5,10,0,0,0.0,10.0,1.0,False,Which consulting firm is most prestigious?,openai,consulting
+5,9,2,0,0.4,9.8,0.9183673469387754,True,Which consulting firm is most prestigious?,perplexity,consulting
+5,9,0,1,0.0,9.0,1.0,False,Which consulting firm provides the most value for money?,gemini,consulting
+5,10,1,2,0.2,10.2,0.9803921568627452,True,Which consulting firm provides the most value for money?,openai,consulting
+5,11,3,0,0.6,13.4,0.8208955223880596,True,Which consulting firm provides the most value for money?,perplexity,consulting
+5,5,1,0,0.2,5.0,1.0,True,Which e-commerce company is most innovative?,gemini,ecommerce
+5,4,1,1,0.2,4.4,0.9090909090909091,True,Which e-commerce company is most innovative?,openai,ecommerce
+5,4,0,2,0.0,4.0,1.0,False,Which e-commerce company is most innovative?,perplexity,ecommerce
+5,6,1,2,0.2,6.2,0.9677419354838709,True,Which e-commerce platform is most trusted?,gemini,ecommerce
+5,7,2,2,0.4,7.8,0.8974358974358975,True,Which e-commerce platform is most trusted?,openai,ecommerce
+5,4,0,1,0.0,4.0,1.0,False,Which e-commerce platform is most trusted?,perplexity,ecommerce
+5,2,0,1,0.0,2.0,1.0,False,Which fashion retailer has the best reputation?,gemini,ecommerce
+4,3,2,0,0.5,3.75,0.8,True,Which fashion retailer has the best reputation?,perplexity,ecommerce
+5,3,0,0,0.0,3.0,1.0,False,Which fintech company is most likely to succeed long-term?,gemini,fintech
+5,8,3,1,0.6,11.600000000000001,0.689655172413793,True,Which fintech company is most likely to succeed long-term?,openai,fintech
+5,7,1,1,0.2,7.4,0.9459459459459459,True,Which fintech company is most likely to succeed long-term?,perplexity,fintech
+5,9,4,0,0.8,13.8,0.6521739130434783,True,Which fintech is most innovative?,gemini,fintech
+5,9,1,0,0.2,9.0,1.0,True,Which fintech is most innovative?,openai,fintech
+5,5,0,1,0.0,5.0,1.0,False,Which fintech is most innovative?,perplexity,fintech
+5,4,0,0,0.0,4.0,1.0,False,Which firm is most trusted for CEO advisory?,gemini,consulting
+5,4,0,0,0.0,4.0,1.0,False,Which firm is most trusted for CEO advisory?,openai,consulting
+5,8,1,1,0.2,8.4,0.9523809523809523,True,Which firm is most trusted for CEO advisory?,perplexity,consulting
+5,6,1,3,0.2,6.133333333333334,0.9782608695652173,True,Which health tech company has the best reputation?,gemini,healthtech
+5,7,1,3,0.2,7.133333333333334,0.9813084112149533,True,Which health tech company has the best reputation?,openai,healthtech
+5,6,3,1,0.6,9.600000000000001,0.6249999999999999,True,Which health tech company has the best reputation?,perplexity,healthtech
+5,5,0,1,0.0,5.0,1.0,False,Which healthcare IT vendor provides the best support?,gemini,healthtech
+5,6,2,3,0.4,6.533333333333333,0.9183673469387755,True,Which healthcare IT vendor provides the best support?,openai,healthtech
+4,5,0,1,0.0,5.0,1.0,False,Which healthcare IT vendor provides the best support?,perplexity,healthtech
+5,6,1,0,0.2,6.0,1.0,True,Which marketing platform has the best reputation?,gemini,saas
+5,5,0,2,0.0,5.0,1.0,False,Which marketing platform has the best reputation?,openai,saas
+5,3,0,1,0.0,3.0,1.0,False,Which marketing platform has the best reputation?,perplexity,saas
+5,4,2,0,0.4,4.8,0.8333333333333334,True,Which medical imaging company is most innovative?,gemini,healthtech
+5,3,1,0,0.2,3.0,1.0,True,Which medical imaging company is most innovative?,openai,healthtech
+5,3,2,0,0.4,3.8,0.7894736842105263,True,Which medical imaging company is most innovative?,perplexity,healthtech
+5,3,1,0,0.2,3.0,1.0,True,Which money transfer service is most reliable?,gemini,fintech
+5,4,1,0,0.2,4.0,1.0,True,Which money transfer service is most reliable?,openai,fintech
+5,4,0,1,0.0,4.0,1.0,False,Which money transfer service is most reliable?,perplexity,fintech
+5,2,1,0,0.2,2.0,1.0,True,Which neobank has the best customer satisfaction?,gemini,fintech
+5,4,1,1,0.2,4.4,0.9090909090909091,True,Which neobank has the best customer satisfaction?,openai,fintech
+5,5,1,1,0.2,5.4,0.9259259259259258,True,Which neobank has the best customer satisfaction?,perplexity,fintech
+5,2,0,0,0.0,2.0,1.0,False,Which online marketplace has the best customer service?,gemini,ecommerce
+5,4,1,0,0.2,4.0,1.0,True,Which online marketplace has the best customer service?,openai,ecommerce
+5,2,0,0,0.0,2.0,1.0,False,Which online marketplace has the best customer service?,perplexity,ecommerce
+5,3,0,0,0.0,3.0,1.0,False,Which online marketplace offers the best value for money?,gemini,ecommerce
+5,4,0,1,0.0,4.0,1.0,False,Which online marketplace offers the best value for money?,openai,ecommerce
+5,3,1,0,0.2,3.0,1.0,True,Which online marketplace offers the best value for money?,perplexity,ecommerce
+5,8,0,0,0.0,8.0,1.0,False,Which payment processor is most trusted by businesses?,gemini,fintech
+5,5,1,0,0.2,5.0,1.0,True,Which payment processor is most trusted by businesses?,openai,fintech
+5,5,0,1,0.0,5.0,1.0,False,Which payment processor is most trusted by businesses?,perplexity,fintech
+5,4,2,1,0.4,5.6,0.7142857142857143,True,Which project management tool is most reliable?,gemini,saas
+5,4,3,0,0.6,6.4,0.625,True,Which project management tool is most reliable?,openai,saas
+5,4,0,0,0.0,4.0,1.0,False,Which project management tool is most reliable?,perplexity,saas
+5,2,0,0,0.0,2.0,1.0,False,Which telehealth platform has the best clinical outcomes?,gemini,healthtech
+5,4,0,2,0.0,4.0,1.0,False,Which telehealth platform has the best clinical outcomes?,openai,healthtech
+5,2,0,0,0.0,2.0,1.0,False,Which telehealth platform has the best clinical outcomes?,perplexity,healthtech
+5,3,0,0,0.0,3.0,1.0,False,Wise vs PayPal for sending money abroad,gemini,fintech
+5,3,0,0,0.0,3.0,1.0,False,Wise vs PayPal for sending money abroad,openai,fintech
+5,3,0,0,0.0,3.0,1.0,False,Wise vs PayPal for sending money abroad,perplexity,fintech
+5,3,0,0,0.0,3.0,1.0,False,Wise vs Revolut for international transfers,gemini,fintech
+5,3,0,0,0.0,3.0,1.0,False,Wise vs Revolut for international transfers,openai,fintech
+5,3,0,0,0.0,3.0,1.0,False,Wise vs Revolut for international transfers,perplexity,fintech
+5,4,0,0,0.0,4.0,1.0,False,Zalando vs H&M for online fashion,gemini,ecommerce
+5,3,0,1,0.0,3.0,1.0,False,Zalando vs H&M for online fashion,openai,ecommerce
+5,4,1,0,0.2,4.0,1.0,True,Zalando vs H&M for online fashion,perplexity,ecommerce

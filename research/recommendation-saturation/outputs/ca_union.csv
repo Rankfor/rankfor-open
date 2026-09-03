@@ -1,0 +1,238 @@
+query,union,max_single
+ASOS vs Zalando for fashion in Europe,6,5
+Accenture vs Deloitte vs PwC for IT consulting,10,10
+Adyen vs Stripe vs PayPal comparison,6,6
+Ahrefs vs Moz vs Semrush for backlink analysis,4,4
+Allegro vs Amazon in Eastern Europe,5,5
+Amazon vs Shopify for selling online,5,4
+Best CRM for real estate agents,5,5
+Best EHR for small medical practices,3,2
+Best all-in-one marketing platform,6,6
+Best business banking app,6,6
+Best buy now pay later service,7,6
+Best clinical trial management software,5,5
+Best consulting firm for digital transformation,13,13
+Best consulting firm for financial advisory,9,9
+Best consulting firm for mergers and acquisitions,7,7
+Best consulting firm for private equity due diligence,8,8
+Best consulting firm for supply chain optimization,11,10
+Best consulting firm for sustainability strategy,10,10
+Best consulting firm for the public sector,10,10
+Best dropshipping platform,4,4
+Best e-commerce platform for B2B,5,5
+Best e-commerce platform for headless commerce,5,4
+Best enterprise CRM platform,6,5
+Best health tech for pharmaceutical companies,5,4
+Best health technology for life sciences,7,5
+Best marketing automation platform for B2B,4,4
+Best medical imaging technology company,4,4
+Best money transfer service for international payments,4,4
+Best online fashion retailer,6,5
+Best online marketplace for fashion,6,5
+Best payment infrastructure provider,9,7
+Best payment processor for SaaS companies,7,6
+Best payment solution for marketplaces,8,7
+Best payment solution for small businesses in Europe,7,7
+Best project management tool for remote teams,7,7
+Best quick commerce delivery app,3,2
+Best remote patient monitoring platform,9,7
+Best sales pipeline management software,9,9
+Best secondhand marketplace in Europe,7,7
+Best task management app for teams,6,5
+Best telehealth platform in 2026,6,5
+Big 4 vs MBB for strategy consulting,8,8
+Bolt Market vs Wolt for grocery delivery,3,3
+CompuGroup Medical vs MEDITECH for EHR,6,6
+Deloitte vs Accenture for technology consulting,6,6
+Doctolib vs Kry for doctor appointments,3,3
+EY vs KPMG for financial services consulting,8,7
+H&M vs ASOS for affordable fashion,4,4
+HubSpot vs Semrush for content marketing,5,5
+I need a business account with low fees. What neobank should I choose?,6,4
+I need a data analytics strategy. Which firm should I consult?,9,9
+I need a healthcare CRM for pharmaceutical sales. What should I use?,6,6
+I need a marketplace that ships to the Baltics. What should I use?,7,4
+I need a tool to manage customer relationships. What CRM should I pick?,8,7
+I need cybersecurity consulting. Which firm is best?,9,7
+I need fast grocery delivery. What app should I use?,3,2
+I need help with post-merger integration. What firm specializes in this?,10,9
+I need imaging equipment for my clinic. Which company should I go with?,4,4
+I need multi-currency support for my business. What fintech should I use?,8,8
+I need radiology AI software. Which vendor should I evaluate?,5,5
+I need regulatory compliance advice. Which firm should I use?,7,6
+I need strategic advice for entering a new market. What firm should I hire?,11,10
+I need to accept payments on my website. What should I use?,8,8
+I need to allow patients to book appointments online. What platform is best?,6,6
+I need to audit my company's finances. Which firm should I use?,5,5
+I need to automate my marketing emails. What platform is best?,6,6
+I need to compare prices across online stores. What tool should I use?,3,3
+I need to improve my website's SEO rankings. What platform should I use?,6,6
+I need to manage subscriptions and billing. What platform is best?,6,6
+I need to onboard new team members efficiently. What tool helps with this?,4,4
+I need to set up an e-commerce store quickly. What should I use?,6,5
+I need to track my sales pipeline. What should I use?,7,6
+I want to accept local payment methods in the Baltics. What provider should I use?,11,9
+I want to build landing pages without a developer. What platform should I use?,7,5
+I want to buy affordable fashion online. Where should I shop?,7,5
+I want to buy electronics online in Finland. Where should I shop?,3,3
+I want to buy luxury fashion online. Where should I shop?,2,2
+I want to create a knowledge base for my team. What tool should I use?,4,3
+I want to develop an AI strategy. Which consulting firm should I hire?,10,10
+I want to digitize my medical records. What EHR should I choose?,5,5
+I want to find sustainable products online. Where should I look?,3,3
+I want to implement SAP in my organization. Which consultant should I hire?,7,7
+I want to improve my supply chain. What consultant should I hire?,9,9
+I want to launch a digital health service in the Nordics. What platform should I use?,5,3
+I want to manage clinical trials digitally. What tool should I use?,7,5
+I want to manage my team's projects more efficiently. What tool do you recommend?,7,6
+I want to monitor patients remotely. What technology should I use?,6,5
+I want to offer installment payments to my customers. What should I integrate?,9,8
+I want to offer telehealth to my patients. What platform should I use?,5,4
+I want to reduce operational costs. Which consulting firm can help?,9,9
+I want to sell products online. What platform should I use?,4,4
+I want to sell secondhand clothes. What platform should I use?,6,4
+I want to send money to another country cheaply. What service should I use?,5,5
+I want to track competitor keywords. What SEO tool should I use?,3,3
+I want to verify customer identities for payments. What tool should I use?,6,6
+I want to visualize my ideas on a digital whiteboard. What do you suggest?,5,3
+KPMG vs Deloitte for tax consulting,5,4
+Klarna vs Afterpay for buy now pay later,6,6
+Klarna vs Revolut for consumer finance,5,4
+McKinsey vs Accenture for digital strategy,6,6
+McKinsey vs BCG vs Bain comparison,5,5
+McKinsey vs Roland Berger for manufacturing,6,6
+Miro vs Notion for team collaboration,5,5
+Monday.com vs Asana for project management,5,5
+Montonio vs Stripe for Baltic e-commerce,5,4
+N26 vs Revolut as a digital bank,5,5
+Notion vs ClickUp for productivity,4,4
+PayPal vs Block for payment processing,6,5
+Pipedrive vs HubSpot CRM for small teams,4,4
+PwC vs EY for audit services,5,4
+Roland Berger vs BCG for European strategy,6,5
+Semrush vs Ahrefs for SEO,5,4
+Shopify vs Amazon for brand building,3,3
+Shopify vs WooCommerce for small stores,5,5
+Stripe vs PayPal for online payments,5,5
+Teladoc vs Doctolib in European market,6,6
+Teladoc vs Kry for telehealth,4,4
+Temu vs Amazon for cheap products,4,4
+Veeva vs Oracle Health for life sciences,5,5
+Vinted vs eBay for secondhand shopping,2,2
+What CRM options exist for startups?,10,10
+What EHR systems are available for hospitals?,9,9
+What SEO platforms are available for agencies?,3,3
+What alternatives exist to Amazon in the Nordics?,8,6
+What alternatives exist to Epic Systems?,8,8
+What are alternatives to McKinsey?,10,10
+What are alternatives to PayPal?,10,10
+What are alternatives to Salesforce?,6,6
+What are the Big 4 consulting firms?,8,8
+What are the best tools for visual collaboration?,7,5
+What are the biggest e-commerce platforms?,9,7
+What are the biggest healthcare IT vendors?,13,11
+What are the fastest growing consulting firms?,11,10
+What are the fastest-growing e-commerce companies?,8,7
+What are the main BNPL providers?,6,6
+What are the main CRM platforms on the market?,7,6
+What are the top 10 business software tools?,9,6
+What are the top boutique consulting firms?,9,8
+What are the top fashion e-commerce sites?,7,7
+What are the top fintech companies in 2026?,12,10
+What are the top health tech companies?,12,11
+What are the top project management tools in 2026?,10,7
+What are the top strategy consulting firms?,11,10
+What collaboration tools do companies use?,7,6
+What companies provide healthcare analytics?,17,17
+What consulting firms are strongest in the Nordics?,10,10
+What consulting firms specialize in healthcare?,11,11
+What consulting firms work with governments?,11,10
+What fintech companies provide business lending?,7,7
+What fintech startups are disrupting banking?,9,8
+What firms provide ESG consulting?,10,10
+What firms specialize in change management?,10,10
+What is the best CRM for small businesses?,8,6
+What is the best EHR for hospitals?,5,5
+What is the best IT consulting company?,13,11
+What is the best SEO tool in 2026?,3,3
+What is the best alternative to Amazon?,5,4
+What is the best alternative to traditional banking?,7,7
+What is the best audit firm?,6,6
+What is the best consulting firm in Europe?,10,10
+What is the best digital health platform in the Nordics?,6,4
+What is the best digital wallet?,8,7
+What is the best doctor appointment booking platform?,6,6
+What is the best e-commerce platform for small businesses?,4,4
+What is the best e-commerce platform?,6,5
+What is the best electronic health record system?,5,5
+What is the best fintech for Baltic businesses?,7,7
+What is the best fintech for cross-border payments?,9,6
+What is the best firm for operations consulting?,10,10
+What is the best firm for risk consulting?,9,9
+What is the best firm for strategy consulting?,10,10
+What is the best firm for technology implementation?,11,10
+What is the best free CRM software?,5,4
+What is the best healthcare IT company?,14,12
+What is the best healthcare platform in Europe?,7,7
+What is the best inbound marketing platform?,7,7
+What is the best keyword research tool?,4,4
+What is the best management consulting firm?,10,10
+What is the best marketplace for electronics in the Nordics?,4,3
+What is the best marketplace for sustainable shopping?,5,4
+What is the best neobank in Europe?,5,4
+What is the best online shopping experience?,7,6
+What is the best patient management system?,5,5
+What is the best payment gateway for e-commerce?,8,8
+What is the best payment processor for online businesses?,8,7
+What is the best platform for recurring payments?,7,6
+What is the best platform to start an online store?,5,5
+What is the best productivity tool for startups?,9,6
+What is the best telemedicine app?,4,4
+What is the best tool for team collaboration?,6,6
+What is the best whiteboard tool for brainstorming?,4,3
+What is the cheapest place to shop online?,6,5
+What marketing tools do SaaS companies use?,12,11
+What marketplaces are popular in Eastern Europe?,6,5
+What marketplaces sell electronics online?,4,4
+What medical imaging companies are on the market?,5,4
+What neobanks operate in the Nordics?,6,5
+What online marketplaces operate in Europe?,8,8
+What payment platforms support cryptocurrency?,7,7
+What payment processors are available in Europe?,9,7
+What payment providers support open banking?,7,6
+What payment solutions exist for subscription businesses?,8,7
+What platforms help brands sell direct-to-consumer?,11,10
+What platforms help patients book appointments?,7,5
+What platforms support digital therapeutics?,10,8
+What platforms support resale and circular fashion?,4,4
+What project management tools integrate with Slack?,7,7
+What quick commerce services are available?,4,4
+What telehealth platforms operate in Europe?,6,5
+Which CRM is most trusted by enterprises?,3,3
+Which EHR system is most trusted by hospitals?,6,6
+Which SEO tool do professionals recommend?,3,3
+Which SaaS companies are most innovative in 2026?,13,12
+Which consulting firm has the best reputation for talent?,11,11
+Which consulting firm is best for early-career professionals?,12,10
+Which consulting firm is most prestigious?,10,10
+Which consulting firm provides the most value for money?,11,11
+Which e-commerce company is most innovative?,7,5
+Which e-commerce platform is most trusted?,8,7
+Which fashion retailer has the best reputation?,3,3
+Which fintech company is most likely to succeed long-term?,10,8
+Which fintech is most innovative?,10,9
+Which firm is most trusted for CEO advisory?,8,8
+Which health tech company has the best reputation?,11,7
+Which healthcare IT vendor provides the best support?,6,6
+Which marketing platform has the best reputation?,7,6
+Which medical imaging company is most innovative?,4,4
+Which money transfer service is most reliable?,5,4
+Which neobank has the best customer satisfaction?,5,5
+Which online marketplace has the best customer service?,4,4
+Which online marketplace offers the best value for money?,4,4
+Which payment processor is most trusted by businesses?,8,8
+Which project management tool is most reliable?,6,4
+Which telehealth platform has the best clinical outcomes?,4,4
+Wise vs PayPal for sending money abroad,3,3
+Wise vs Revolut for international transfers,3,3
+Zalando vs H&M for online fashion,4,4

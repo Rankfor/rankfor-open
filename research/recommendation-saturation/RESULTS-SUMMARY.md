@@ -36,3 +36,16 @@ Files: `outputs/ca_cells.csv`, `ca_curves.csv`, `ca_union.csv`, `cb_cells.csv`,
 `fig1_saturation.png`. Estimators: exact rarefaction, Q1/n final-run yield, Chao2. Data:
 Zenodo 10.5281/zenodo.20788142 (CC BY, this group's deposit) + two recall probes in
 `dev-specs/research/experiments/{uk-supermarkets,nordic-care}`.
+
+## Robustness check, post-freeze (2026-09-04, labeled)
+
+The deep probes' original extraction matched fixed rosters (10 UK, 6 Nordic) and both
+plateaus sat one brand below the ceiling, so the flat curves could have been dictionary
+artifacts. Open candidate mining over the raw responses (script
+`robustness_open_extraction.py`) surfaced one missed UK brand (M&S) and five missed Nordic
+providers (Ersta Diakoni, Blomsterfonden, Stora Skondal, Aleris, Bracke Diakoni). With the
+extended rosters the repertoires grow to 11, 9, 9, 7 and the verdict is unchanged: Q1 = 0 in
+all four cells, 91-100% of final size by run ten, run 24 adds nothing
+(`outputs/cb_cells_corrected.csv`). The note now carries this check; the breadth curves are
+described as roster-relative, which is the object a tracker monitors. Domains never had the
+ceiling (recorded from actual citations), so the right panel needed no correction.

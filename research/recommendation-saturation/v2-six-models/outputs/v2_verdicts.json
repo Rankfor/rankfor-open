@@ -1,0 +1,73 @@
+{
+ "open_per_engine": [
+  {
+   "engine": "claude-sonnet-5",
+   "cells": 50,
+   "rising": 0.9,
+   "med_S": 15.0,
+   "med_share5": 0.718,
+   "med_share10": 0.83,
+   "med_share15": 0.877,
+   "med_a1a5": 0.708
+  },
+  {
+   "engine": "gemini-3.7-flash",
+   "cells": 50,
+   "rising": 0.9,
+   "med_S": 16.5,
+   "med_share5": 0.776,
+   "med_share10": 0.866,
+   "med_share15": 0.924,
+   "med_a1a5": 0.724
+  },
+  {
+   "engine": "gpt-5.6-luna",
+   "cells": 50,
+   "rising": 0.92,
+   "med_S": 16.0,
+   "med_share5": 0.692,
+   "med_share10": 0.798,
+   "med_share15": 0.862,
+   "med_a1a5": 0.648
+  },
+  {
+   "engine": "grok-4.5",
+   "cells": 50,
+   "rising": 0.86,
+   "med_S": 19.0,
+   "med_share5": 0.758,
+   "med_share10": 0.858,
+   "med_share15": 0.914,
+   "med_a1a5": 0.672
+  },
+  {
+   "engine": "mistral-large",
+   "cells": 50,
+   "rising": 0.92,
+   "med_S": 31.0,
+   "med_share5": 0.758,
+   "med_share10": 0.884,
+   "med_share15": 0.94,
+   "med_a1a5": 0.622
+  },
+  {
+   "engine": "sonar",
+   "cells": 50,
+   "rising": 0.64,
+   "med_S": 8.0,
+   "med_share5": 0.872,
+   "med_share10": 0.952,
+   "med_share15": 1.0,
+   "med_a1a5": 0.768
+  }
+ ],
+ "sonar_domains": {
+  "cells": 50,
+  "rising": 22,
+  "med_share15": 1.0
+ },
+ "union": {
+  "med_best_share": 0.831,
+  "med_union": 38.5
+ }
+}

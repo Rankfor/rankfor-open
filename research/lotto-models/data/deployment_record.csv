@@ -1,0 +1,7 @@
+engine,requested_model_id,returned_model_id,endpoint_host,collection_utc,request_parameters,web_search
+claude-sonnet-5,claude-sonnet-5,claude-sonnet-5,api.anthropic.com,2026-09-01T09:05 to 2026-09-01T09:07,"max_tokens=128; no temperature, seed, or top_p sent",no search parameters sent; none observed
+gemini-3.7-flash,gemini-3.7-flash,gemini-3.7-flash,generativelanguage.googleapis.com,2026-09-01T09:05 to 2026-09-01T09:07,"none beyond defaults; no temperature, seed, or top_p sent",no search parameters sent; none observed
+gpt-5.6-luna,gpt-5.6-luna,gpt-5.6-luna,api.openai.com,2026-09-01T09:05 to 2026-09-01T09:07,"none beyond defaults; no temperature, seed, or top_p sent",no search parameters sent; none observed
+grok-4.5,grok-4.5,grok-4.5,api.x.ai,2026-09-01T09:05 to 2026-09-01T09:07,"none beyond defaults; no temperature, seed, or top_p sent",no search parameters sent; none observed
+mistral-large,mistral-large-latest,mistral-large-latest,api.mistral.ai,2026-09-01T09:05 to 2026-09-01T09:07,"none beyond defaults; no temperature, seed, or top_p sent",no search parameters sent; none observed
+sonar,sonar,sonar,api.perplexity.ai,2026-09-01T09:05 to 2026-09-01T09:07,"none beyond defaults; no temperature, seed, or top_p sent",retrieval-enabled by default

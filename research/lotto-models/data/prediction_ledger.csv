@@ -1,0 +1,12 @@
+item,predicted,observed,status
+claude-sonnet-5 N_eff,"20 to 30, below floor","13.5, below floor","direction supported, interval missed"
+gpt-5.6-luna N_eff,"25 to 35, below floor","12.4, below floor","direction supported, interval missed"
+gemini-3.6-flash N_eff (ran: gemini-3.7-flash),"25 to 35, below floor","9.9, below floor","direction supported, interval missed; model drifted 3.6 to 3.7"
+grok-4.5 N_eff,"25 to 35, below floor","18.0, below floor","direction supported, interval missed"
+mistral-large N_eff,not predicted,"13.2, below floor",engine added post-freeze
+sonar N_eff,not predicted,"10.5, below floor",engine added post-freeze
+7 and 42 top-5 in at least 3 engines,yes,"both top-5 in gemini-3.7-flash, grok-4.5, mistral-large",supported
+share of numbers 1-31,68 to 78%,63.8 to 68.0%,interval missed
+mean number below 25.0,yes,24.42 to 27.00; two engines below 25.0,not consistently observed
+ascending order in over half of answers,"yes, plausibly over 90%",87.0 to 100% in five engines; 27.7% in mistral-large,supported in five of six
+invalid rows under 5%,yes,"0 to 6.0% (mistral-large 6.0%, all HTTP 429)",supported in five of six
